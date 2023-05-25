@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Me</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+
+</head>
+<body>
+  <h1>Book Search</h1>
+  <form id="search-form">
+    <input type="text" name="title" placeholder="Title">
+    <input type="text" name="publisher" placeholder="Publisher">
+    <input type="number" name="rating" placeholder="Rating">
+    <button type="submit">Search</button>
+  </form>
+
+  <div id="results"></div>
+
+  <script>
+    const form = document.getElementById('search-form');
+    const resultsContainer = document.getElementById('results');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      // Get the form inputs
+      const title = form.title.value;
+      const publisher = form.publisher.value;
+      const rating = form.rating.value;
+
+      // Build the query string with search parameters
+      const queryParams = new URLSearchParams({
+        title,
+        publisher,
+        rating
+      });
+
+      try {
+        // Fetch the search results from the server
+        const response = await fetch(`/books?${queryParams}`);
+        const data = await response.json();
+
+        // Clear previous results
+        resultsContainer.innerHTML = '';
+
+        // Display the search results
+        for (const book of data) {
+          const bookElement = document.createElement('div');
+          bookElement.innerHTML = `
+            <h3>${book.Title}</h3>
+            <p>Publisher: ${book.Publisher}</p>
+            <p>Rating: ${book.Rating}</p>
+            <p>Summary: ${book.Summary}</p>
+            <hr>
+          `;
+          resultsContainer.appendChild(bookElement);
+        }
+      } catch (error) {
+        console.error(error);
+      }
+    });
+  </script>
+</body>
+</html>
