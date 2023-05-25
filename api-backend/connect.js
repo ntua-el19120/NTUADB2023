@@ -6,7 +6,7 @@ const connect = mysql_db.createPool({			//create a pool of connections to the da
 	host: "127.0.0.1",
 	user: "root",
 	password: "",
-	database: 'mydb',
+	database: 'libq',
 	port: '3306'
 });
 
