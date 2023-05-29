@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Search</title>
+  <style>
+    /* CSS for the table and scrolling */
+    #results-table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    #results-table th,
+    #results-table td {
+      padding: 8px;
+      border: 1px solid #ddd;
+    }
+
+    #results-container {
+      max-height: 300px;
+      overflow-y: scroll;
+    }
+  </style>
+</head>
+<body>
+  <h1>Book Search</h1>
+
+  <div id="results-container">
+    <table id="results-table">
+      <thead>
+        <tr>
+          <th>Category 1</th>
+          <th>Category 2</th>
+          <th>Total Borrowings</th>
+
+        </tr>
+      </thead>
+      <tbody id="results"></tbody>
+    </table>
+  </div>
+
+  <script>
+
+        const response = await fetch(`/libq/generaladmin/top3categories`);
+        const data = await response.json();
+
+        // Clear previous results
+        resultsContainer.innerHTML = '';
+
+        // Display the search results in the table
+        for (const book of data) {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td>${book.category1}</td>
+            <td>${book.category2}</td>
+            <td>${book.count}</td>
+          `;
+          resultsContainer.appendChild(row);
+        }
+
+  </script>
+  <h3><a href="http://localhost:9103/libq/generaladmin">Back to the homepage</a></h3></li>
+</body>
+</html>
