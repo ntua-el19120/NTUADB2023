@@ -24,17 +24,17 @@ router.post('/', (req, res) => {
       }
 
       if (results.length === 0) {
-        return res.send({ error: 'Username does not exist' });
+        return res.status(400).send('Username does not exist');
       }
 
       const user = results[0];
 
       if (user.Password !== password) {
-        return res.send({ error: 'Wrong password' });
+        return res.status(500).send('Wrong password');
       }
 
       if (!user.Approved) {
-        return res.send({ error: 'Account not yet approved' });
+        return res.status(500).send('Account not yet approved');
       }
 
       // Check user type

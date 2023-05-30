@@ -18,6 +18,8 @@
       padding: 40px;
       border-radius: 4px;
       width: 300px;
+      display: flex;
+      flex-direction: column;
     }
     
     h1 {
@@ -80,6 +82,25 @@
       margin: 0;
       color: red;
     }
+
+    .signup-link {
+      font-size: 14px;
+      text-decoration: underline;
+      text-align: center;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .signup-link:hover {
+      color: blue;
+    }
+
+    /* Added */
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
   </style>
 </head>
 <body>
@@ -90,35 +111,11 @@
       <input type="text" id="username" name="username" required>
       <label for="password">Password:</label>
       <input type="password" id="password" name="password" required>
-      <input type="submit" value="Login">
-    </form>
-    <form action="/libq/signup" method="post">
-      <!-- form fields -->
-      <input type="hidden" name="signup" value="true">
-      <button type="submit">Sign Up</button>
+      <div class="button-container"> <!-- Added -->
+        <input type="submit" value="Login">
+        <div class="signup-link" onclick="redirectToSignup()">Sign Up</div>
+      </div>
     </form>
   </div>
-
-  <div class="error-popup" id="errorPopup">
-    <p id="errorMessage"></p>
-  </div>
-
-  <script>
-    // Function to show the error message pop-up
-    function showError(message) {
-      const errorPopup = document.getElementById('errorPopup');
-      const errorMessage = document.getElementById('errorMessage');
-
-      errorMessage.textContent = message;
-      errorPopup.style.display = 'block';
-    }
-
-    // Retrieve error message from the server response and show the error pop-up if necessary
-    const response = '<%= response %>';
-    if (response) {
-      const jsonResponse = JSON.parse(response);
-      showError(jsonResponse.error);
-    }
-  </script>
 </body>
 </html>

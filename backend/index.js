@@ -26,7 +26,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 // Serve the login page
-app.get('/libq', function (req, res) {
+app.get('/libq/login', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/login.html'));
 });
 
