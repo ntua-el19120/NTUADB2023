@@ -324,7 +324,7 @@ CREATE TABLE IF NOT EXISTS `schoolunit` (
   CONSTRAINT `CK_Email_Format` CHECK (
   `Email` regexp '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$'
   )
-) ENGINE = InnoDB AUTO_INCREMENT = 12 DEFAULT CHARSET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 11 DEFAULT CHARSET = utf8 COLLATE = utf8_general_ci;
 
 # ------------------------------------------------------------
 # SCHEMA DUMP FOR TABLE: student
@@ -505,6 +505,4006 @@ from
 # DATA DUMP FOR TABLE: availability
 # ------------------------------------------------------------
 
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 1, '9786180320107');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 1, '9781071510032');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 1, '9786180320138');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 1, '9786180326550');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 1, '9789601646572');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9789601660073');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 1, '9781667432564');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9781329008045');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 1, '9789600363524');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 1, '9786180314694');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 1, '9781547510740');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 1, '9786180313321');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 1, '9789605722012');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 1, '9786180321005');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9786180319774');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9788873047681');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 1, '9781071523902');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 1, '9786180322798');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 1, '9789600367638');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9789601699837');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 1, '9781909550650');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 1, '9786180322330');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 1, '9786180322316');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 1, '9789601645858');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 1, '9789939004938');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 1, '9781909550513');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 1, '9786180313826');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 1, '9781005226350');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 1, '9789601647470');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 1, '9789600367843');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9781911352709');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 1, '9789605721213');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 1, '9781912322886');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 1, '9786180328981');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9789601655581');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9789600367782');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9786180330793');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 1, '9781632913234');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9789605724139');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 1, '9786180322323');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 1, '9786180325560');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 1, '9785043340351');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 1, '9789600367690');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 1, '9789601657844');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 1, '9789601647838');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9789605721336');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9786180322682');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 1, '9789606796616');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9789605722241');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 1, '9781547535682');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 1, '9781310259654');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9789600367645');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 1, '9781987904185');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 1, '9786180319750');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 1, '9786180317640');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 1, '9786180327090');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 1, '9789601657660');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 1, '9786180322385');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 1, '9789601647500');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9781667407227');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9786180328226');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 1, '9781909550032');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9781912322961');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 1, '9789600364187');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 1, '9789601666587');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 1, '9786180314687');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 1, '9789601667744');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 1, '9789605721794');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 1, '9786180337389');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 1, '9789605721138');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 1, '9781547523986');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9786180321012');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 1, '9789609527002');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 1, '9789600363661');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 1, '9786180322897');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 1, '9789600358896');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 1, '9786180317695');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 1, '9789601656052');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 1, '9789609527750');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 1, '9789605724382');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 1, '9789605720285');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 1, '9786180324129');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 1, '9789605724948');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 1, '9789600359831');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 1, '9786180317831');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 1, '9789600358100');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 1, '9781071532997');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 1, '9786180323887');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 1, '9789605723736');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 1, '9781909550544');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 1, '9786180400557');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 1, '9785041512521');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 1, '9786180317701');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 1, '9789605721466');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 1, '9789605722876');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 1, '9789600360226');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 1, '9786180319767');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 1, '9786180319934');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 1, '9789605722647');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 1, '9789601651750');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 2, '9789605666477');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 2, '9789605721336');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 2, '9789600368352');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 2, '9789600360455');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 2, '9786180320329');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 2, '9781071599594');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 2, '9786180317831');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 2, '9789601647371');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 2, '9789600358896');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 2, '9781547523986');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9789600367645');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 2, '9789601659541');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 2, '9786180324082');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9786180317848');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 2, '9781987904185');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 2, '9781547510740');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 2, '9789609527637');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9786180322651');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 2, '9786180322385');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 2, '9781387567997');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9789600353990');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 2, '9789605724948');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 2, '9789600357288');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 2, '9786180337389');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9789605724382');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9789600358834');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 2, '9786180319934');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9781005226350');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 2, '9781912322046');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 2, '9781547524365');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 2, '9783966103473');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 2, '9781909550018');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 2, '9786180328257');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 2, '9786180317589');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 2, '9789601667744');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9786180320138');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 2, '9789609527002');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 2, '9789605722012');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9789600360677');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 2, '9786180400557');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 2, '9789600354072');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 2, '9786180313321');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9781667432564');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 2, '9789600363661');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 2, '9789601648392');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9786180327090');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9788873047681');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 2, '9786180329087');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 2, '9781465549976');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 2, '9786180314694');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 2, '9786180400373');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 2, '9786180329278');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 2, '9789605722470');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 2, '9786180313826');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9789601666587');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9786180319750');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 2, '9789605723897');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 2, '9789600364187');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9789605723736');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9789605721664');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 2, '9789605722647');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 2, '9789600360639');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 2, '9786180319767');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 2, '9786180322644');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 2, '9789601673196');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 2, '9789600360226');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 2, '9786180321012');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 2, '9789601646572');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9786180313925');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 2, '9789601660073');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 2, '9786180324440');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 2, '9789605723699');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 2, '9789601686370');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 2, '9789605724139');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 2, '9786180329049');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 2, '9789605722579');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 2, '9789605724924');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 2, '9786180317794');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9786180322736');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 2, '9781909550360');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 2, '9789600367638');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 2, '9786180329667');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 2, '9789601647470');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 2, '9786180320787');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 2, '9789601698359');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 2, '9786180317701');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 2, '9786180328226');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 2, '9786180320794');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 2, '9781909550544');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 2, '9786180313819');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9781667407227');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 2, '9786180328981');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 2, '9789600367690');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 2, '9781912322961');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 2, '9789601647623');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9786180322682');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 2, '9786180326970');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 2, '9786180317602');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 2, '9785041512521');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 2, '9786180336108');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 3, '9786180317794');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 3, '9789601645704');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 3, '9781912322046');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 3, '9789605725556');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9788873047681');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 3, '9786180322897');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 3, '9789605722241');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 3, '9789605721695');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 3, '9785041658434');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 3, '9789601647500');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9789605723897');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 3, '9786180332421');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 3, '9789600354713');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 3, '9789601657844');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 3, '9786180328257');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 3, '9786180317602');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 3, '9789601673196');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 3, '9789601647470');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 3, '9781667429625');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 3, '9781909550780');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 3, '9786180324082');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 3, '9786180322675');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 3, '9789605720575');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 3, '9789600367645');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 3, '9781909550544');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9789605721466');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9786180321005');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 3, '9786180327717');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 3, '9786180320121');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9789605722579');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 3, '9789605724139');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 3, '9786180328981');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9789609412797');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 3, '9789600361223');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9786180329766');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 3, '9786180324440');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9789600322439');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 3, '9789601648392');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 3, '9781071523902');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 3, '9781909550018');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 3, '9781910714324');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9786180329094');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 3, '9781912322886');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 3, '9786180320794');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 3, '9789600358834');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 3, '9786180327007');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 3, '9786180313321');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9781071526521');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 3, '9786180330793');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 3, '9789601647883');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 3, '9781547574667');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9786180326550');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 3, '9786180326376');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9781912322015');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 3, '9789601647838');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 3, '9781547532742');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 3, '9789601645322');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 3, '9789601655581');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 3, '9786180317701');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 3, '9786180322330');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 3, '9789600368345');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 3, '9786180313826');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 3, '9785043797230');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 3, '9789605724924');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 3, '9789601646572');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 3, '9786180317831');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 3, '9786180329049');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 3, '9789605723736');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9786180320091');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 3, '9781667411767');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 3, '9781987904215');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 3, '9786180329001');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 3, '9789601699837');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 3, '9786180322668');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 3, '9789605722876');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 3, '9789609527750');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 3, '9786180322682');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9789601647371');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9789604007837');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9781387567997');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 3, '9789464447675');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9781909550513');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 3, '9785043340351');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 3, '9786180319750');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9786180317879');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 3, '9789605722470');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 3, '9781071526767');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 3, '9789600367782');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 3, '9786180322798');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 3, '9789601647623');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 3, '9789608869530');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 3, '9786180315110');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 3, '9781987904185');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9786180320107');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9786180324853');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 3, '9789606796616');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 3, '9786180322644');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 3, '9786180317589');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 3, '9786180314687');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 3, '9786180328226');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 4, '9789609527200');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 4, '9789464447675');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 4, '9786180326970');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 4, '9789601645032');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 4, '9786180332421');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 4, '9789601647623');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 4, '9789601646572');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 4, '9786180322668');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 4, '9781071523902');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 4, '9781632913234');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 4, '9789601681986');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9781912322961');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 4, '9789601698359');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 4, '9789605723897');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 4, '9789601660073');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 4, '9789605724139');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 4, '9786180317848');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 4, '9789608869530');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 4, '9786180322644');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 4, '9786180317770');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 4, '9786180317701');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 4, '9789601673196');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 4, '9789605722647');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 4, '9786180320329');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 4, '9789605724924');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9789600367867');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 4, '9786180328257');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 4, '9786180329001');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9786180327090');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 4, '9781547510740');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 4, '9789600360455');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 4, '9786180329278');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 4, '9781547524365');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 4, '9789609412797');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9789605724948');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 4, '9786180322316');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9789600361087');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9786180324143');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 4, '9789601647371');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 4, '9786180321012');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 4, '9789604007837');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 4, '9786180328394');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 4, '9786180322897');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 4, '9786180322385');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 4, '9781071510032');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 4, '9781909550544');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 4, '9789605723736');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 4, '9789600361223');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 4, '9789601647470');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 4, '9781910714324');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9789600360677');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9789600367843');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 4, '9781547574667');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 4, '9789601699837');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9786180328226');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 4, '9789605720575');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 4, '9786180324075');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 4, '9786180329094');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 4, '9786180317695');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 4, '9786180320107');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 4, '9785043797230');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 4, '9786180319767');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 4, '9781667432564');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9789605722012');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 4, '9786180313826');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 4, '9786180322309');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9789605720285');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 4, '9789605722470');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9789605722241');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 4, '9781912322886');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 4, '9789605665951');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 4, '9789600368345');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 4, '9786180325560');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 4, '9789600363524');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9789605724382');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9789601686370');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 4, '9789600367645');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 4, '9789601655581');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9786180328981');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 4, '9786180328356');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 4, '9786180319774');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9786180324082');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 4, '9789600354713');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 4, '9789605723316');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 4, '9786180329292');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9786180329087');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9789605723699');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 4, '9781310259654');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 4, '9789605722876');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 4, '9786180325539');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 4, '9785041658434');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 4, '9789601639406');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 4, '9789600363661');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 4, '9781909550780');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 4, '9789600358896');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 4, '9781987904215');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 4, '9781909550650');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 4, '9789605721695');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 4, '9785041512521');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 4, '9781329008045');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 5, '9786180328257');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 5, '9789608869530');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 5, '9789601645230');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 5, '9789605722470');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 5, '9781071526767');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 5, '9789601647838');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9789605721466');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 5, '9789600367638');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 5, '9781912322046');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9786180317794');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 5, '9786180329667');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 5, '9789601651736');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 5, '9789601657660');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 5, '9781909550032');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 5, '9789601651750');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 5, '9786180322385');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 5, '9789601686370');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 5, '9789605722579');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 5, '9781667432564');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9789600361407');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 5, '9789600367843');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 5, '9789601639406');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 5, '9786180323887');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 5, '9789600357288');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 5, '9781912322886');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 5, '9789605721695');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 5, '9781667429625');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 5, '9781329008045');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 5, '9789609527637');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 5, '9781547535682');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9786180329049');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 5, '9789600359831');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 5, '9789605721336');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 5, '9786180322736');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 5, '9781071599594');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 5, '9786180314694');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 5, '9781547523986');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 5, '9789600367782');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 5, '9781071510032');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9785043340351');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 5, '9781987904215');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 5, '9789605722012');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9789605724948');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 5, '9786180322644');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 5, '9789601656052');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 5, '9786180319774');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9786180320121');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 5, '9786180320329');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 5, '9786180320794');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 5, '9786180327717');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 5, '9789609527200');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 5, '9789605723897');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 5, '9789605724924');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 5, '9789600367867');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9789600367645');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 5, '9786180324075');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9786180317770');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 5, '9789601647883');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 5, '9786180317602');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 5, '9789600361087');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 5, '9789601645858');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 5, '9789600360639');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9783966103473');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9786180322682');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 5, '9786180336108');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 5, '9786180324129');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 5, '9786180322323');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 5, '9789609527002');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 5, '9789601667744');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 5, '9781547524365');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9789605721138');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 5, '9786180326550');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 5, '9781667405148');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9789605722876');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 5, '9786180313819');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 5, '9781547574667');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 5, '9786180328394');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 5, '9786180337389');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 5, '9781667411767');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9781911352709');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 5, '9786180332421');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9786180329766');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 5, '9789601685427');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 5, '9789605720285');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 5, '9789601659541');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9789600354713');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 5, '9781632913234');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9786180328226');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9786180330793');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9781071526521');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 5, '9789601666587');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 5, '9786180326956');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 5, '9786180324853');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 5, '9789601647623');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 5, '9789605723316');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 5, '9781910714324');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 5, '9789600368352');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 5, '9781465549976');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 5, '9789601660073');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 5, '9789601645322');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 6, '9783966103473');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 6, '9786180317701');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 6, '9781547524365');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 6, '9786180329094');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 6, '9786180333190');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 6, '9786180326550');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 6, '9789609412797');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 6, '9786180324143');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 6, '9786180332438');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 6, '9789609527002');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 6, '9789601657844');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 6, '9786180400557');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 6, '9786180317770');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 6, '9789601647500');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 6, '9781310259654');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 6, '9789600367645');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 6, '9785041512521');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 6, '9781547523986');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 6, '9786180313826');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 6, '9789608869530');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 6, '9781909550780');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 6, '9786180322736');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 6, '9786180319125');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 6, '9786180320787');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 6, '9786180327007');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 6, '9789605723699');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 6, '9786180326970');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 6, '9789601655666');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 6, '9781912322046');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 6, '9789600359831');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 6, '9781329008045');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 6, '9781465549976');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 6, '9786180324129');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 6, '9789609527200');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 6, '9786180313819');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 6, '9789601666587');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 6, '9781909550513');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 6, '9789601647883');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 6, '9786180702408');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 6, '9789601686370');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 6, '9789600364187');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 6, '9786180328257');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 6, '9789601646572');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 6, '9781071532997');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 6, '9786180320107');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 6, '9789600360226');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 6, '9789600361407');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 6, '9786180319767');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 6, '9786180320121');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 6, '9781909550544');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 6, '9785043340351');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 6, '9786180322293');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 6, '9781909550360');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 6, '9789601645858');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 6, '9786180322316');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 6, '9781987904215');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 6, '9786180320114');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 6, '9789605721466');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 6, '9789605724948');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 6, '9788873042204');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 6, '9789605721138');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 6, '9789600367638');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 6, '9789601660073');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 6, '9789604007837');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 6, '9786180324440');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 6, '9786180328356');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 6, '9789601639406');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 6, '9786180322682');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 6, '9781632913234');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 6, '9789605720285');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 6, '9781912322886');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 6, '9781912322015');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 6, '9789601647838');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 6, '9789606796616');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 6, '9785041658434');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 6, '9786180400373');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 6, '9786180317794');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 6, '9781547510740');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 6, '9789605722579');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 6, '9789600367843');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 6, '9789605724924');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 6, '9786180330793');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 6, '9786180329667');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 6, '9789609527637');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 6, '9789601668062');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 6, '9781667429625');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 6, '9781071599594');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 6, '9789605723897');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 6, '9786180327090');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 6, '9789601667744');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 6, '9789601651606');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 6, '9789600361087');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 6, '9789601667751');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 6, '9786180322330');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 6, '9789600354072');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 6, '9786180322385');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 6, '9789600367690');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 6, '9789605721336');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 6, '9789601673196');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 6, '9789600363661');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 7, '9789605723316');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 7, '9786180321005');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 7, '9789600367645');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 7, '9789601655666');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 7, '9789601699837');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 7, '9789600367843');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 7, '9789606796616');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 7, '9781909550018');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 7, '9786180324129');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 7, '9786180317794');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 7, '9781632913234');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 7, '9786180327007');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 7, '9786180322798');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 7, '9789601686370');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 7, '9789605721466');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 7, '9789600364187');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 7, '9786180320329');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 7, '9789600359831');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 7, '9785043340351');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 7, '9786180324853');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 7, '9786180329094');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 7, '9781667411767');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 7, '9786180328134');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 7, '9789600353990');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 7, '9788873047681');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 7, '9781910714324');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 7, '9786180702408');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 7, '9786180322316');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 7, '9781909550032');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 7, '9789601645322');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 7, '9789601651750');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 7, '9786180323887');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 7, '9781310259654');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 7, '9789605722876');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 7, '9789609527637');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 7, '9786180329278');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 7, '9786180319934');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 7, '9786180400373');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 7, '9789600367782');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 7, '9786180329292');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 7, '9786180317831');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 7, '9786180322323');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 7, '9786180329667');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 7, '9789605723231');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 7, '9781909550780');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 7, '9786180313925');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 7, '9786180324112');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 7, '9786180317640');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 7, '9781071532997');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 7, '9789600367867');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 7, '9789601647470');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 7, '9781547532742');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 7, '9789601667751');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 7, '9789605724924');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 7, '9789605720285');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 7, '9786180320138');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 7, '9789600354713');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 7, '9789600360455');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 7, '9786180322330');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 7, '9786180332438');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 7, '9781071599594');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 7, '9789601647623');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 7, '9789601647371');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 7, '9789939004938');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 7, '9789600360639');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 7, '9781912322886');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 7, '9789600367638');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 7, '9789601660073');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 7, '9789601651736');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 7, '9786180324440');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 7, '9781547535682');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 7, '9789600361223');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 7, '9789601698359');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 7, '9789601646572');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 7, '9789605723699');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 7, '9789601685427');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 7, '9786180313819');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 7, '9786180321012');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 7, '9781909550650');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 7, '9786180337389');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 7, '9786180324075');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 7, '9789605723736');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 7, '9789600363524');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 7, '9786180317848');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 7, '9785041512521');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 7, '9786180319774');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 7, '9781909550513');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 7, '9781987904185');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 7, '9786180322651');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 7, '9789600368338');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 7, '9781071510032');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 7, '9789601645032');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 7, '9786180329001');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 7, '9789600361407');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 7, '9786180324082');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 7, '9789601659541');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 7, '9786180326376');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 7, '9789601645858');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 7, '9789605665951');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 7, '9789601645209');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 8, '9781632913234');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 8, '9783966103473');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 8, '9789600367867');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 8, '9789605665951');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 8, '9786180326956');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 8, '9789600363524');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 8, '9781987904215');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 8, '9781909550032');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 8, '9786180322316');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 8, '9781667405148');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 8, '9786180329766');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 8, '9786180324112');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 8, '9786180321012');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 8, '9789604007837');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 8, '9786180332421');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 8, '9781909550650');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 8, '9786180322668');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 8, '9789601648392');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 8, '9781310259654');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 8, '9789601686370');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 8, '9786180317640');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 8, '9789600367782');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 8, '9786180322682');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 8, '9789601668062');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 8, '9786180322798');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 8, '9789464447675');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 8, '9786180320107');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 8, '9781912322886');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 8, '9781909550780');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 8, '9789939004938');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 8, '9789600354072');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 8, '9789600357288');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 8, '9786180324853');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 8, '9786180317794');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 8, '9789605723231');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 8, '9786180322644');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 8, '9789605721695');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 8, '9788873042204');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 8, '9786180313925');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 8, '9786180326970');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 8, '9786180317602');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 8, '9785043340351');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 8, '9789605722012');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 8, '9789605720285');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 8, '9786180400373');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 8, '9781547510740');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 8, '9788873047476');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 8, '9786180319774');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 8, '9789601673196');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 8, '9786180326376');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 8, '9789601645704');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 8, '9789600358100');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 8, '9786180320800');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 8, '9789605724382');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 8, '9789605725556');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 8, '9786180325539');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 8, '9786180328356');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 8, '9789600358896');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 8, '9785041512521');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 8, '9786180315110');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 8, '9786180326550');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 8, '9789600361087');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 8, '9781910714324');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 8, '9789601646572');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 8, '9789601667751');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 8, '9789605721336');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 8, '9781908362391');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 8, '9781547535682');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 8, '9789609412797');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 8, '9789605724924');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 8, '9786180320138');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 8, '9786180314694');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 8, '9789601657844');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 8, '9781912322015');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 8, '9789609527200');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 8, '9789605722647');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 8, '9789605722876');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 8, '9781005226350');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 8, '9789601645209');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 8, '9789600368345');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 8, '9786180313826');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 8, '9786180322897');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 8, '9781911352709');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 8, '9786180317701');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 8, '9781909550544');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 8, '9789609527637');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 8, '9786180322385');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 8, '9789609527750');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 8, '9786180329049');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 8, '9789601685427');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 8, '9789606796616');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 8, '9789601645230');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 8, '9786180322330');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 8, '9789605723897');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 8, '9786180319934');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 8, '9781071532997');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 8, '9786180322293');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 8, '9786180320114');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 8, '9789601651736');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 8, '9789601647500');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 9, '9781667407227');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 9, '9781310259654');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9786180322897');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 9, '9789600353990');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 9, '9789600368338');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 9, '9789600367645');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9786180329667');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 9, '9789600357288');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9786180327717');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 9, '9789608869530');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 9, '9789600367867');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 9, '9786180328226');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9786180317602');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 9, '9789600368345');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9786180325560');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 9, '9786180326376');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9789604007837');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 9, '9781387567997');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 9, '9789601666587');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 9, '9789606796616');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 9, '9789605721336');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 9, '9789601655666');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9786180400557');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 9, '9781005226350');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 9, '9789601651606');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 9, '9789600360639');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9786180320787');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 9, '9789605724948');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9786180319934');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 9, '9786180325539');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9789939004938');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 9, '9789601699837');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 9, '9789605723699');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 9, '9786180320091');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 9, '9789601646572');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 9, '9789605720285');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9789464447675');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9786180327007');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 9, '9789605723897');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 9, '9786180317589');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9789601639406');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 9, '9789600367782');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9781908362391');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 9, '9786180322644');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 9, '9789600368352');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9789600358896');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 9, '9781909550018');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 9, '9781912322046');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 9, '9789601651736');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 9, '9789605665951');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 9, '9789600354072');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 9, '9789605722012');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 9, '9781667429625');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 9, '9781465549976');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9786180320329');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9786180332421');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9781071526767');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 9, '9786180400373');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 9, '9786180317879');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 9, '9789605722647');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 9, '9789601647470');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 9, '9789600367843');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 9, '9789600363661');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 9, '9789600360226');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 9, '9789605722876');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 9, '9789600367690');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 9, '9788873047681');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 9, '9781547523986');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 9, '9781547535682');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 9, '9786180317770');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 9, '9789609527637');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 9, '9789605720575');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 9, '9786180336108');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 9, '9781667405148');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 9, '9789601667744');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9789601647838');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 9, '9789605721213');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 9, '9781329008045');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 9, '9781632913234');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9786180328134');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 9, '9786180328356');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9786180328394');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 9, '9786180313826');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 9, '9789601698359');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 9, '9786180317848');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 9, '9786180320138');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9786180327090');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 9, '9781911352709');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 9, '9786180326550');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9781909550780');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9781910714324');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 9, '9781909550650');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 9, '9786180333190');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 9, '9789601673196');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 9, '9786180324082');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 9, '9789609527200');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 9, '9786180322736');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 9, '9781547524365');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 9, '9786180313819');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 9, '9789600360455');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 10, '9786180320329');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 10, '9786180319774');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 4, 10, '9786180320787');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 10, '9781667411767');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 10, '9789601645322');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 10, '9786180324112');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9786180322675');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 10, '9789600368352');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9786180313321');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 10, '9788873047476');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 10, '9781911352709');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 10, '9781908362391');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 10, '9786180324143');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9789600360677');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9789605723316');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 10, '9786180323887');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 10, '9789605723736');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 10, '9786180319934');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 10, '9781507198025');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 10, '9786180329278');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 10, '9786180326376');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 10, '9786180324440');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 10, '9786180322736');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 10, '9786180317695');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 10, '9786180332421');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9781071526521');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 10, '9781071532997');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 10, '9789601657660');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 10, '9786180702408');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 10, '9789601659541');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 10, '9781071599594');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 10, '9786180326550');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 10, '9789600353990');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 10, '9789601651750');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9786180324129');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 10, '9781547510740');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 10, '9789605725556');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 10, '9789600368338');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 10, '9786180328134');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9786180317879');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 10, '9789601645032');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 10, '9789601655581');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9789601666587');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9785043797230');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 2, 10, '9789605721664');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 10, '9786180319750');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 10, '9786180314694');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9781547574667');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 10, '9789600359831');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 10, '9789601698359');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9786180325539');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 10, '9781987904215');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 10, '9786180317589');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 10, '9785041512521');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 0, 10, '9789601667744');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 10, '9786180326970');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 10, '9786180329094');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 10, '9789609527101');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 10, '9786180321005');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 10, '9786180317794');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9789600367843');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 10, '9786180314687');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 10, '9789605723699');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 10, '9786180329087');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9786180317831');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 10, '9786180325560');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 10, '9789600367645');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 10, '9786180317602');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 10, '9786180322293');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 10, '9789601647500');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9789605665951');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9789601647883');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 2, 10, '9788873042204');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 3, 10, '9785041658434');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 10, '9781912322961');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 10, '9789609412797');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 10, '9786180329667');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 10, '9786180317770');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9789600361223');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 10, '9789605720285');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 2, 10, '9789605721794');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 3, 10, '9789600354713');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (3, 1, 10, '9786180337389');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9786180322651');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 10, '9786180322668');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 10, '9786180324075');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 10, '9781632913234');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 10, '9786180336108');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 10, '9789601656052');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 1, 10, '9789605720575');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 10, '9789600368345');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 10, '9789600360226');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (5, 0, 10, '9781912322046');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 1, 10, '9786180328257');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 1, 10, '9786180320800');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (4, 0, 10, '9786180324082');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 10, '9789601657844');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9786180332438');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (1, 0, 10, '9789601685427');
+INSERT INTO
+  `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
+VALUES
+  (2, 0, 10, '9781667432564');
 INSERT INTO
   `availability` (`Copies`, `AvailableCopies`, `IdSchool`, `ISBN`)
 VALUES
@@ -10079,11 +14079,4061 @@ INSERT INTO
   `book_categories` (`Category`, `ISBN`)
 VALUES
   ('Ψυχολογία (Psychology)', '9786180320121');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Μαγικό Ρεαλισμό (Magical Realism)',
+    '9789605721213'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυθιστόρημα (Novel)', '9789601666587');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αθλητισμός (Sports)', '9789609527002');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ψυχολογία (Psychology)', '9789601651736');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τεχνολογία (Technology)', '9789601651736');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μουσική (Music)', '9786180400373');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ποίηση (Poetry)', '9786180400373');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Πολιτισμολογία (Cultural Studies)',
+    '9789601645230'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Πολιτική (Politics)', '9789601645230');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Περιπλανήσεις (Journeys)', '9786180329001');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ρομαντικό (Romance)', '9789601667744');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ποίηση (Poetry)', '9789601667744');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Οικονομία (Economics)', '9789601648392');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Ιστορικό Μυθιστόρημα (Historical Novel)',
+    '9789600358834'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τεχνολογία (Technology)', '9786180324082');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τεχνολογία (Technology)', '9786180313826');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Κοινωνιολογία (Sociology)', '9789601646572');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Οικονομία (Economics)', '9789601646572');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ταξίδια (Travel)', '9781912322015');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Πολιτική (Politics)', '9781912322015');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρίλερ (Thriller)', '9781912322015');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αυτοβιογραφία (Autobiography)', '9788873042204');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ρομαντικό (Romance)', '9788873042204');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Περιπέτεια (Adventure)', '9788873042204');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ταξίδια (Travel)', '9786180319774');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ποίηση (Poetry)', '9786180324440');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αθλητισμός (Sports)', '9786180324440');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φιλοσοφία (Philosophy)', '9789601645858');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μουσική (Music)', '9781909550018');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Κωμωδία (Comedy)', '9789601698359');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θέατρο (Theater)', '9789605720285');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φιλοσοφία (Philosophy)', '9789600359831');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Βιογραφίες (Biographies)', '9789600360677');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αθλητισμός (Sports)', '9789600360677');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρησκεία (Religion)', '9786180322644');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τεχνολογία (Technology)', '9781909550032');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Περιπλανήσεις (Journeys)', '9781909550032');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Μαγικό Ρεαλισμό (Magical Realism)',
+    '9781909550032'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Βιογραφίες (Biographies)', '9781908362391');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ταξίδια (Travel)', '9781908362391');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φιλοσοφία (Philosophy)', '9789605721466');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τέχνη (Art)', '9789605721466');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Διηγήματα (Short Stories)', '9789605721466');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστήμη της Υγείας (Health Science)',
+    '9786180322675'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Παραμύθια (Fairy Tales)', '9789600363524');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φαντασία (Fantasy)', '9786180317640');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Θρησκευτική Λογοτεχνία (Religious Literature)',
+    '9786180317640'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Πολιτική (Politics)', '9786180317640');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Πολιτισμολογία (Cultural Studies)',
+    '9789600367638'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυθιστόρημα (Novel)', '9789600367638');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Επιστημονικά (Science)', '9786180336108');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Διηγήματα (Short Stories)', '9786180336108');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Θρησκευτική Λογοτεχνία (Religious Literature)',
+    '9781310259654'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φιλοσοφία (Philosophy)', '9786180333190');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Πολιτισμολογία (Cultural Studies)',
+    '9786180333190'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φαντασία (Fantasy)', '9786180324112');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Βιογραφίες (Biographies)', '9786180324112');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ρομαντικό (Romance)', '9786180317602');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Επιστημονικά (Science)', '9789601647623');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τραγωδία (Tragedy)', '9789601647623');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ρομαντικό (Romance)', '9786180317879');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αρχιτεκτονική (Architecture)', '9781547523986');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Βιογραφίες (Biographies)', '9789601667751');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρησκεία (Religion)', '9786180319934');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Αστυνομική Λογοτεχνία (Crime Fiction)',
+    '9789605724924'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αθλητισμός (Sports)', '9789609412797');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυστήριο (Mystery)', '9781909550544');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Παραμύθια (Fairy Tales)', '9781547524365');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Εκπαίδευση (Education)', '9789601659541');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Διηγήματα (Short Stories)', '9785041658434');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Γλωσσολογία (Linguistics)', '9788873047476');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Οικονομία (Economics)', '9789600358896');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυθιστόρημα (Novel)', '9789601645322');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Επιστημονικά (Science)', '9789601647883');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Περιβάλλον (Environment)', '9781987904215');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυθιστόρημα (Novel)', '9781987904215');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Κοινωνιολογία (Sociology)', '9789605723316');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Εκπαίδευση (Education)', '9786180317695');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυστήριο (Mystery)', '9789600354713');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυθιστόρημα (Novel)', '9781909550650');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Παιδικά βιβλία (Childrens Books)',
+    '9789600360226'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Οικονομία (Economics)', '9789605721336');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τεχνολογία (Technology)', '9789605721336');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Αστυνομική Λογοτεχνία (Crime Fiction)',
+    '9789600367782'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυστήριο (Mystery)', '9789600367782');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αθλητισμός (Sports)', '9789600367782');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μαθηματικά (Mathematics)', '9789600357288');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φαντασία (Fantasy)', '9786180322293');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θέατρο (Theater)', '9786180322293');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστημονική Διαφήμιση (Science Non-Fiction)',
+    '9786180322293'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρησκεία (Religion)', '9789601647371');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Επιστημονικά (Science)', '9789601647371');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυθιστόρημα (Novel)', '9786180327090');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Παραμύθια (Fairy Tales)', '9786180327090');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Διηγήματα (Short Stories)', '9786180327090');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μαθηματικά (Mathematics)', '9786180324143');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Εκπαίδευση (Education)', '9786180320138');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τεχνολογία (Technology)', '9786180328226');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρησκεία (Religion)', '9786180328226');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Παιδικά βιβλία (Childrens Books)',
+    '9786180332421'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αθλητισμός (Sports)', '9786180320114');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θέατρο (Theater)', '9789600367843');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Παραμύθια (Fairy Tales)', '9789600367843');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αθλητισμός (Sports)', '9789601660073');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Επιστημονικά (Science)', '9789601660073');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Μαγικό Ρεαλισμό (Magical Realism)',
+    '9786180322897'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αθλητισμός (Sports)', '9789601686370');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Παιδικά βιβλία (Childrens Books)',
+    '9789601686370'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Επιστημονικά (Science)', '9786180327717');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρίλερ (Thriller)', '9789600360455');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τραγωδία (Tragedy)', '9786180320107');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φαντασία (Fantasy)', '9788873047681');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυστήριο (Mystery)', '9788873047681');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Δικαίωμα (Law)', '9788873047681');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τεχνολογία (Technology)', '9789600367867');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Αυτοβελτίωση (Self-Improvement)',
+    '9789600367867'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Γλωσσολογία (Linguistics)', '9789600368352');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φαντασία (Fantasy)', '9789600368352');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Παιδικά βιβλία (Childrens Books)',
+    '9789605722012'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Εκπαίδευση (Education)', '9789601657844');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αυτοβιογραφία (Autobiography)', '9789601657844');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Μαγικό Ρεαλισμό (Magical Realism)',
+    '9781912322886'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μουσική (Music)', '9786180329094');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστημονική Φαντασία (Science Fiction)',
+    '9786180329094'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Πολιτισμολογία (Cultural Studies)',
+    '9789606796616'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ποίηση (Poetry)', '9789606796616');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μαθηματικά (Mathematics)', '9789606796616');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Αστυνομική Λογοτεχνία (Crime Fiction)',
+    '9786180322798'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Φανταστική Νεανική Λογοτεχνία (Young Adult Fantasy)',
+    '9786180328394'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Ιστορικό Μυθιστόρημα (Historical Novel)',
+    '9786180328394'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Αυτοβελτίωση (Self-Improvement)',
+    '9786180328134'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αθλητισμός (Sports)', '9789605721794');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Μαγικό Ρεαλισμό (Magical Realism)',
+    '9781667429625'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τέχνη (Art)', '9789600363661');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Μαγικό Ρεαλισμό (Magical Realism)',
+    '9789600363661'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Γλωσσολογία (Linguistics)', '9786180324853');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Κωμωδία (Comedy)', '9786180320794');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Οικονομία (Economics)', '9786180320794');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Περιβάλλον (Environment)', '9786180320794');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Δικαίωμα (Law)', '9786180314694');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρίλερ (Thriller)', '9789601673196');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρησκεία (Religion)', '9781912322640');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ταξίδια (Travel)', '9781912322640');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Αυτοβελτίωση (Self-Improvement)',
+    '9781912322640'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Γλωσσολογία (Linguistics)', '9789605722647');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Περιβάλλον (Environment)', '9789605722647');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Διηγήματα (Short Stories)', '9789605722579');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρίλερ (Thriller)', '9786180325539');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Αστυνομική Λογοτεχνία (Crime Fiction)',
+    '9786180317701'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρησκεία (Religion)', '9786180317701');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυθιστόρημα (Novel)', '9789605722241');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θέατρο (Theater)', '9786180328257');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φαντασία (Fantasy)', '9781909550360');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Περιβάλλον (Environment)', '9786180330793');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Πολιτισμολογία (Cultural Studies)',
+    '9786180330793'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρίλερ (Thriller)', '9789601647500');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρησκεία (Religion)', '9789601647500');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ψυχολογία (Psychology)', '9789601647500');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Γλωσσολογία (Linguistics)', '9789605724948');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Πολιτισμολογία (Cultural Studies)',
+    '9789605724948'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ποίηση (Poetry)', '9789605724948');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τραγωδία (Tragedy)', '9786180313819');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Μαγικό Ρεαλισμό (Magical Realism)',
+    '9786180313819'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Πολεμική Λογοτεχνία (War Literature)',
+    '9786180313819'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Επιστημονικά (Science)', '9789939004938');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Διηγήματα (Short Stories)', '9789939004938');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φαντασία (Fantasy)', '9789939004938');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φαντασία (Fantasy)', '9786180321005');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυθιστόρημα (Novel)', '9789605724139');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Βιογραφίες (Biographies)', '9789601668062');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αυτοβιογραφία (Autobiography)', '9789601668062');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φιλοσοφία (Philosophy)', '9786180320787');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Αστυνομική Λογοτεχνία (Crime Fiction)',
+    '9786180320787'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αυτοβιογραφία (Autobiography)', '9786180329667');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Φανταστική Νεανική Λογοτεχνία (Young Adult Fantasy)',
+    '9786180337389'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αρχιτεκτονική (Architecture)', '9786180337389');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Βιογραφίες (Biographies)', '9786180337389');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Αυτοβελτίωση (Self-Improvement)',
+    '9789605723699'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ιστορία (History)', '9789605723699');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Κοινωνιολογία (Sociology)', '9786180326376');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αυτοβιογραφία (Autobiography)', '9786180323887');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Πολιτική (Politics)', '9786180323887');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ποίηση (Poetry)', '9786180326970');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Διηγήματα (Short Stories)', '9789601685427');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Παραμύθια (Fairy Tales)', '9789601645032');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τέχνη (Art)', '9789601645032');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μαγειρική (Cooking)', '9786180326550');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυστήριο (Mystery)', '9786180326550');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ποίηση (Poetry)', '9786180326550');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστημονική Διαφήμιση (Science Non-Fiction)',
+    '9789600361223'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστήμη της Υγείας (Health Science)',
+    '9789600361223'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μουσική (Music)', '9789605666477');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Πολεμική Λογοτεχνία (War Literature)',
+    '9786180327007'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Βιογραφίες (Biographies)', '9786180327007');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Οικονομία (Economics)', '9781547532742');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τέχνη (Art)', '9789600361087');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρίλερ (Thriller)', '9789600361087');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φαντασία (Fantasy)', '9789600361087');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αυτοβιογραφία (Autobiography)', '9781071526767');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αθλητισμός (Sports)', '9789600368338');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Μαγικό Ρεαλισμό (Magical Realism)',
+    '9789600368338'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Κωμωδία (Comedy)', '9781071532997');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Θρησκευτική Λογοτεχνία (Religious Literature)',
+    '9781071532997'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ρομαντικό (Romance)', '9789601656052');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Πολεμική Λογοτεχνία (War Literature)',
+    '9789601656052'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Αυτοβελτίωση (Self-Improvement)',
+    '9789601656052'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Πολεμική Λογοτεχνία (War Literature)',
+    '9786180325560'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Θρησκευτική Λογοτεχνία (Religious Literature)',
+    '9786180320091'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Οικονομία (Economics)', '9789609527750');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ποίηση (Poetry)', '9789609527750');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Βιογραφίες (Biographies)', '9781909550780');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Περιπέτεια (Adventure)', '9789605721138');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Οικονομία (Economics)', '9789601651750');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τέχνη (Art)', '9789601651750');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστήμη της Υγείας (Health Science)',
+    '9786180702408'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρίλερ (Thriller)', '9786180702408');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Εκπαίδευση (Education)', '9786180322682');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Περιβάλλον (Environment)', '9789601647470');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μουσική (Music)', '9789601647470');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ταξίδια (Travel)', '9789601647470');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θέατρο (Theater)', '9781547574667');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ποίηση (Poetry)', '9781547574667');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστημονική Φαντασία (Science Fiction)',
+    '9789600322439'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φαντασία (Fantasy)', '9789601645704');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Αστυνομική Λογοτεχνία (Crime Fiction)',
+    '9789601645704'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Εκπαίδευση (Education)', '9789601645704');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Ιστορικό Μυθιστόρημα (Historical Novel)',
+    '9786180321012'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Ιστορικό Μυθιστόρημα (Historical Novel)',
+    '9786180328981'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φιλοσοφία (Philosophy)', '9786180328981');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Φανταστική Νεανική Λογοτεχνία (Young Adult Fantasy)',
+    '9786180328981'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Βιογραφίες (Biographies)', '9781667411767');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Δικαίωμα (Law)', '9786180329292');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστήμη της Υγείας (Health Science)',
+    '9786180329292'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ψυχολογία (Psychology)', '9786180329292');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τέχνη (Art)', '9789600367645');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τραγωδία (Tragedy)', '9786180314687');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ιστορία (History)', '9789600364187');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Αυτοβελτίωση (Self-Improvement)',
+    '9789605723897'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ποίηση (Poetry)', '9786180317589');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστημονική Διαφήμιση (Science Non-Fiction)',
+    '9786180317589'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Περιπέτεια (Adventure)', '9789464447675');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ρομαντικό (Romance)', '9789464447675');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μαθηματικά (Mathematics)', '9789464447675');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μουσική (Music)', '9789600358100');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Μαγικό Ρεαλισμό (Magical Realism)',
+    '9786180322651'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Περιπέτεια (Adventure)', '9786180322651');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Διηγήματα (Short Stories)', '9786180322651');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυθιστόρημα (Novel)', '9786180317794');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Επιστημονικά (Science)', '9786180317794');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μαγειρική (Cooking)', '9786180317794');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μουσική (Music)', '9789600353990');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Κλασική Λογοτεχνία (Classic Literature)',
+    '9789600353990'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Επιστημονικά (Science)', '9781667407227');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Πολεμική Λογοτεχνία (War Literature)',
+    '9786180322309'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ψυχολογία (Psychology)', '9786180322309');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τραγωδία (Tragedy)', '9789605721695');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ιστορία (History)', '9789605721695');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φιλοσοφία (Philosophy)', '9781912322046');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Βιογραφίες (Biographies)', '9781912322046');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αρχιτεκτονική (Architecture)', '9781912322046');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Πολεμική Λογοτεχνία (War Literature)',
+    '9789604007837'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μαγειρική (Cooking)', '9781547510740');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Περιπέτεια (Adventure)', '9786180319750');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστημονική Διαφήμιση (Science Non-Fiction)',
+    '9781910714324'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Εκπαίδευση (Education)', '9789601651606');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστημονική Διαφήμιση (Science Non-Fiction)',
+    '9789601651606'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Αστυνομική Λογοτεχνία (Crime Fiction)',
+    '9789601651606'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ιστορία (History)', '9789609527637');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Κλασική Λογοτεχνία (Classic Literature)',
+    '9789609527637'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Γλωσσολογία (Linguistics)', '9789609527637');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Δικαίωμα (Law)', '9789609527200');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μουσική (Music)', '9789609527200');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Αυτοβελτίωση (Self-Improvement)',
+    '9786180322668'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Περιβάλλον (Environment)', '9786180322668');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Διηγήματα (Short Stories)', '9781667405148');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Ιστορικό Μυθιστόρημα (Historical Novel)',
+    '9781667405148'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Θρησκευτική Λογοτεχνία (Religious Literature)',
+    '9781667405148'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Παραμύθια (Fairy Tales)', '9789601657660');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυστήριο (Mystery)', '9789601657660');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Επιστημονικά (Science)', '9789601657660');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Κλασική Λογοτεχνία (Classic Literature)',
+    '9781911352709'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μαθηματικά (Mathematics)', '9781911352709');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φιλοσοφία (Philosophy)', '9781911352709');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Αυτοβελτίωση (Self-Improvement)',
+    '9789601655581'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μαθηματικά (Mathematics)', '9789601655581');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστήμη της Υγείας (Health Science)',
+    '9789600354072'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Περιπέτεια (Adventure)', '9789600354072');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ταξίδια (Travel)', '9789600354072');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Παραμύθια (Fairy Tales)', '9789605720575');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μαγειρική (Cooking)', '9789605720575');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αυτοβιογραφία (Autobiography)', '9786180329049');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Δικαίωμα (Law)', '9786180329049');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Θρησκευτική Λογοτεχνία (Religious Literature)',
+    '9789605723736'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μαθηματικά (Mathematics)', '9789600367690');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Επιστημονικά (Science)', '9789600367690');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Παιδικά βιβλία (Childrens Books)',
+    '9789601699837'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Μαγικό Ρεαλισμό (Magical Realism)',
+    '9781005226350'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ρομαντικό (Romance)', '9786180329278');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Περιπλανήσεις (Journeys)', '9786180329278');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ποίηση (Poetry)', '9786180329278');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θέατρο (Theater)', '9786180317831');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αυτοβιογραφία (Autobiography)', '9786180317831');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστημονική Φαντασία (Science Fiction)',
+    '9786180317831'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Φανταστική Νεανική Λογοτεχνία (Young Adult Fantasy)',
+    '9789600360639'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Δικαίωμα (Law)', '9786180315110');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Κλασική Λογοτεχνία (Classic Literature)',
+    '9786180315110'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Γλωσσολογία (Linguistics)', '9786180320800');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Κλασική Λογοτεχνία (Classic Literature)',
+    '9786180320800'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστήμη της Υγείας (Health Science)',
+    '9789600361407'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Γλωσσολογία (Linguistics)', '9786180322323');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Θρησκευτική Λογοτεχνία (Religious Literature)',
+    '9786180322323'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μουσική (Music)', '9786180313321');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Περιπέτεια (Adventure)', '9781329008045');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστημονική Φαντασία (Science Fiction)',
+    '9781329008045'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αθλητισμός (Sports)', '9789608869530');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Πολιτική (Politics)', '9789608869530');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ταξίδια (Travel)', '9789601645209');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μαγειρική (Cooking)', '9789601645209');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θέατρο (Theater)', '9789601655666');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Επιστημονικά (Science)', '9789601655666');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τέχνη (Art)', '9789601655666');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ρομαντικό (Romance)', '9786180328356');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Παιδικά βιβλία (Childrens Books)',
+    '9786180328356'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ποίηση (Poetry)', '9786180329087');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρησκεία (Religion)', '9789605721664');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυθολογία (Mythology)', '9789605721664');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Πολιτική (Politics)', '9786180326956');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστήμη της Υγείας (Health Science)',
+    '9786180326956'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Οικονομία (Economics)', '9789600368345');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρίλερ (Thriller)', '9786180319125');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Παιδικά βιβλία (Childrens Books)',
+    '9781632913234'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Διηγήματα (Short Stories)', '9786180332438');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ποίηση (Poetry)', '9786180332438');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Εκπαίδευση (Education)', '9789605722470');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρίλερ (Thriller)', '9789605725556');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μουσική (Music)', '9789605725556');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ποίηση (Poetry)', '9789605725556');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρίλερ (Thriller)', '9786180322385');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστήμη της Υγείας (Health Science)',
+    '9781987904185'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ρομαντικό (Romance)', '9789601647838');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τεχνολογία (Technology)', '9789601647838');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστημονική Διαφήμιση (Science Non-Fiction)',
+    '9789601647838'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Πολιτισμολογία (Cultural Studies)',
+    '9786180400557'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Εκπαίδευση (Education)', '9786180313925');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αυτοβιογραφία (Autobiography)', '9786180313925');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φαντασία (Fantasy)', '9786180324129');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αυτοβιογραφία (Autobiography)', '9781547535682');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φαντασία (Fantasy)', '9789601639406');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Παιδικά βιβλία (Childrens Books)',
+    '9789605665951'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τραγωδία (Tragedy)', '9781912322961');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Κωμωδία (Comedy)', '9781912322961');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστημονική Διαφήμιση (Science Non-Fiction)',
+    '9789605724382'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Αστυνομική Λογοτεχνία (Crime Fiction)',
+    '9781071599594'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυθολογία (Mythology)', '9781071599594');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ιστορία (History)', '9789609527101');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θρησκεία (Religion)', '9789609527101');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ρομαντικό (Romance)', '9781667432564');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Αυτοβελτίωση (Self-Improvement)',
+    '9781667432564'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φιλοσοφία (Philosophy)', '9789605722876');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ψυχολογία (Psychology)', '9789605722876');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Γλωσσολογία (Linguistics)', '9786180317770');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστήμη της Υγείας (Health Science)',
+    '9786180320329'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστημονική Διαφήμιση (Science Non-Fiction)',
+    '9786180320329'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστημονική Διαφήμιση (Science Non-Fiction)',
+    '9781071523902'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μαθηματικά (Mathematics)', '9781071523902');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυθιστόρημα (Novel)', '9781071523902');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τέχνη (Art)', '9786180329766');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θέατρο (Theater)', '9786180329766');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αρχιτεκτονική (Architecture)', '9786180329766');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Τεχνολογία (Technology)', '9789601681986');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αυτοβιογραφία (Autobiography)', '9789601681986');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Ιστορικό Μυθιστόρημα (Historical Novel)',
+    '9789601681986'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Θέατρο (Theater)', '9786180322316');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Θρησκευτική Λογοτεχνία (Religious Literature)',
+    '9785043340351'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Φαντασία (Fantasy)', '9781387567997');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Κλασική Λογοτεχνία (Classic Literature)',
+    '9789605723231'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυθιστόρημα (Novel)', '9786180319767');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Κοινωνιολογία (Sociology)', '9786180319767');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστημονική Διαφήμιση (Science Non-Fiction)',
+    '9786180322330'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αυτοβιογραφία (Autobiography)', '9781071526521');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Παραμύθια (Fairy Tales)', '9781071526521');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μουσική (Music)', '9781071526521');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Θρησκευτική Λογοτεχνία (Religious Literature)',
+    '9783966103473'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Πολιτισμολογία (Cultural Studies)',
+    '9785041512521'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αθλητισμός (Sports)', '9781507198025');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Επιστημονική Διαφήμιση (Science Non-Fiction)',
+    '9781507198025'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ιστορία (History)', '9785043797230');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Κλασική Λογοτεχνία (Classic Literature)',
+    '9781071510032'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Κοινωνιολογία (Sociology)', '9786180322736');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Παραμύθια (Fairy Tales)', '9781465549976');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Θρησκευτική Λογοτεχνία (Religious Literature)',
+    '9781465549976'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Αυτοβελτίωση (Self-Improvement)',
+    '9786180324075'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  (
+    'Πολιτισμολογία (Cultural Studies)',
+    '9786180324075'
+  );
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Μυστήριο (Mystery)', '9786180317848');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Αθλητισμός (Sports)', '9781909550513');
+INSERT INTO
+  `book_categories` (`Category`, `ISBN`)
+VALUES
+  ('Ψυχολογία (Psychology)', '9786180320121');
 
 # ------------------------------------------------------------
 # DATA DUMP FOR TABLE: book_keywords
 # ------------------------------------------------------------
 
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνικές αλλαγές', '9789605721213');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολιτισμός', '9789605721213');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγικά πλάσματα', '9789605721213');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κουζίνες του κόσμου', '9789601666587');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαίοι', '9789601666587');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγεία', '9789609527002');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παραμύθια', '9789609527002');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('οντολογία', '9789609527002');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φαντασία', '9789601651736');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ιστορία', '9786180400373');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγικά πλάσματα', '9786180400373');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνία', '9786180400373');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('περιπέτεια', '9789601645230');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('τυριά', '9786180329001');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αυτοκράτορες', '9789601667744');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φανταστικοί κόσμοι', '9789601667744');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικίνδυνα παιχνίδια', '9789601648392');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κουζίνες του κόσμου', '9789601648392');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Διανομή', '9789600358834');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κρεατικά', '9789600358834');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ιστορία', '9789600358834');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('σχολείο', '9786180324082');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φιλίες', '9786180324082');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Διανομή', '9786180313826');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγειρικές τεχνικές', '9786180313826');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγεία', '9789601646572');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μεταφυσική', '9789601646572');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('οντολογία', '9789601646572');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολυπολιτισμικότητα', '9781912322015');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολιτισμός', '9788873042204');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Διανομή', '9786180319774');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('περιπέτεια', '9786180319774');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγειρική', '9786180324440');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάγισσες', '9786180324440');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικές περιπέτειες', '9789601645858');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κέικ', '9789601645858');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαία ελλάδα', '9781909550018');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φίλοι', '9789601698359');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνικές αλλαγές', '9789601698359');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρετές', '9789605720285');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Φύση', '9789605720285');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αποκαλύψεις', '9789600359831');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('δράκοι', '9789600359831');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αυτοκράτορες', '9789600359831');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνική ανισότητα', '9789600360677');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνικές αλλαγές', '9789600360677');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('βυζάντιο', '9789600360677');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μεταφυσική', '9786180322644');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνικές σχέσεις', '9786180322644');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('σχολείο', '9786180322644');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('συμμορίες', '9781909550032');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φανταστικοί κόσμοι', '9781909550032');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κρεατικά', '9781909550032');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτισμός', '9781908362391');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ιστορία', '9789605721466');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικές περιπέτειες', '9789605721466');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('συμμορίες', '9789605721466');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνικές σχέσεις', '9786180322675');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ταξίδια', '9786180322675');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Περιηγήσεις', '9789600363524');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνία', '9789600363524');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ταξίδια', '9789600363524');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('οντολογία', '9786180317640');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παιχνίδια', '9789600367638');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολυπολιτισμικότητα', '9786180336108');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('συμμορίες', '9786180336108');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ζωάκια', '9781310259654');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('θρύλοι', '9781310259654');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('δυνατά κορίτσια', '9781310259654');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικές περιπέτειες', '9786180333190');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτική', '9786180333190');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνικές αλλαγές', '9786180333190');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('περιπέτεια', '9786180324112');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('δυνατά κορίτσια', '9786180324112');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολιτισμός', '9786180317602');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κουζίνες του κόσμου', '9789601647623');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάχες', '9789601647623');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγειρική', '9789601647623');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('εφηβικά', '9786180317879');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνιολογία', '9786180317879');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παιχνίδια', '9786180317879');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('τυριά', '9781547523986');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ιστορία', '9781547523986');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('οντολογία', '9789601667751');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κουζίνες του κόσμου', '9786180319934');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('δράκοι', '9786180319934');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικές περιπέτειες', '9786180319934');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κριτική', '9789605724924');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικίνδυνα παιχνίδια', '9789605724924');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('τέρατα', '9789609412797');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνικές σχέσεις', '9789609412797');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνική ανισότητα', '9789609412797');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κέικ', '9781909550544');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγικά πλάσματα', '9781909550544');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγειρικές τεχνικές', '9781909550544');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παραμύθι', '9781547524365');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάγισσες', '9781547524365');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγειρική', '9789601659541');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτισμός', '9789601659541');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παραμύθια', '9789601659541');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('χορτοφαγικά', '9785041658434');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('δυνατά κορίτσια', '9788873047476');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επανάσταση', '9788873047476');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επιστήμη', '9789600358896');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ιστορία', '9789600358896');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φαντασία', '9789601645322');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολέμοι', '9789601645322');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φανταστικοί κόσμοι', '9789601647883');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρετές', '9789601647883');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ταξίδια', '9789601647883');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('λογική', '9781987904215');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('δράκοι', '9789605723316');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ταξίδια', '9789605723316');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φαντασία', '9786180317695');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ζωάκια', '9786180317695');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνική ανισότητα', '9789600354713');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φιλοσοφία', '9789600354713');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαίοι', '9789600354713');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κριτική', '9781909550650');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ιστορία', '9781909550650');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('χορτοφαγικά', '9781909550650');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνικές αλλαγές', '9789600360226');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φαντασία', '9789600360226');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('θρύλοι', '9789600360226');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτισμός', '9789605721336');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πίτσες', '9789605721336');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('δυνατά κορίτσια', '9789605721336');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ερωτες', '9789600367782');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Φύση', '9789600367782');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φαντασία', '9789600357288');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαία ρώμη', '9786180322293');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολυπολιτισμικότητα', '9786180322293');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('θρύλοι', '9786180322293');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μυθιστόρημα', '9789601647371');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κουζίνες του κόσμου', '9789601647371');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παιχνίδια', '9786180327090');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ιστορία', '9786180327090');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πίτσες', '9786180327090');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αποκαλύψεις', '9786180324143');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μυθιστόρημα', '9786180324143');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνική ανισότητα', '9786180324143');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('οντολογία', '9786180320138');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαίοι', '9786180320138');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κρεατικά', '9786180320138');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγειρική', '9786180328226');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αναζήτηση του θρύλου', '9786180328226');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αυτοκράτορες', '9786180328226');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μυθιστόρημα', '9786180332421');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτισμός', '9786180332421');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επιστήμη', '9786180320114');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μεταφυσική', '9786180320114');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παραμύθι', '9786180320114');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνιολογία', '9789600367843');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολιτική φιλοσοφία', '9789600367843');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ανθρωπιστικές επιστήμες', '9789600367843');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάγισσες', '9789601660073');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Περιηγήσεις', '9786180322897');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτική', '9789601686370');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ζωάκια', '9786180327717');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγεία', '9786180327717');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('σχολείο', '9786180327717');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('βυζάντιο', '9789600360455');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνιολογία', '9786180320107');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('εφηβικά', '9786180320107');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολυπολιτισμικότητα', '9786180320107');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολιτική φιλοσοφία', '9788873047681');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Φύση', '9788873047681');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παραμύθια', '9788873047681');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κριτική', '9789600367867');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάγισσες', '9789600367867');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικίνδυνες αποστολές', '9789600368352');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγειρικές τεχνικές', '9789600368352');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μεταφυσική', '9789600368352');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παιχνίδια', '9789605722012');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικίνδυνες αποστολές', '9789605722012');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρετές', '9789605722012');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγεία', '9789601657844');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάγισσες', '9789601657844');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρετές', '9781912322886');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επιστήμη', '9781912322886');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Φύση', '9781912322886');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικές περιπέτειες', '9786180329094');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μυστήρια', '9786180329094');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ανθρωπιστικές επιστήμες', '9786180329094');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('συμμορίες', '9789606796616');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνικές αλλαγές', '9789606796616');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρετές', '9786180322798');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φανταστικοί κόσμοι', '9786180322798');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παραμύθι', '9786180322798');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Τοπία', '9786180328394');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαία ρώμη', '9786180328394');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('περιπέτεια', '9786180328134');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φαντασία', '9786180328134');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγειρική', '9789605721794');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πίτσες', '9789605721794');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτισμός', '9789605721794');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('λογική', '9781667429625');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολυπολιτισμικότητα', '9781667429625');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικές περιπέτειες', '9781667429625');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρετές', '9789600363661');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('χορτοφαγικά', '9789600363661');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('οντολογία', '9786180324853');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ανθρωπιστικές επιστήμες', '9786180324853');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αισθητική', '9786180324853');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνία', '9786180320794');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαία ελλάδα', '9786180320794');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολιτική φιλοσοφία', '9786180314694');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτισμός', '9786180314694');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('γευστικά πιάτα', '9789601673196');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγειρικές τεχνικές', '9789601673196');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολιτική φιλοσοφία', '9781912322640');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρετές', '9781912322640');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('περιπέτεια', '9781912322640');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαίοι', '9789605722647');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επανάσταση', '9789605722647');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ιστορία', '9789605722647');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολιτική φιλοσοφία', '9789605722579');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτισμός', '9789605722579');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πίτσες', '9786180325539');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ανθρωπιστικές επιστήμες', '9786180325539');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ζωάκια', '9786180325539');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγεία', '9786180317701');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αναζήτηση του θρύλου', '9786180317701');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('νεράιδες', '9786180317701');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ερωτες', '9789605722241');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Φύση', '9789605722241');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Διακοπές', '9786180328257');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολυπολιτισμικότητα', '9781909550360');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φιλίες', '9781909550360');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κέικ', '9781909550360');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('οντολογία', '9786180330793');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγεία', '9789601647500');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολιτισμός', '9789601647500');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ερωτες', '9789605724948');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μυστήρια', '9789605724948');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('συμμορίες', '9789605724948');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ηθική', '9786180313819');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαίοι', '9786180313819');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('γευστικά πιάτα', '9786180313819');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολυπολιτισμικότητα', '9789939004938');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγικά πλάσματα', '9789939004938');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φαντασία', '9789939004938');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ιστορία', '9786180321005');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επιστήμη', '9789605724139');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Φύση', '9789605724139');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγεία', '9789601668062');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πίτσες', '9789601668062');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάγισσες', '9789601668062');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Περιηγήσεις', '9786180320787');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παραμύθια', '9786180320787');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαία ελλάδα', '9786180329667');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάχες', '9786180329667');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ερωτες', '9786180329667');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Μνημεία', '9786180337389');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('δυνατά κορίτσια', '9786180337389');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαίοι', '9786180337389');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολέμοι', '9789605723699');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ανθρωπιστικές επιστήμες', '9789605723699');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('τυριά', '9789605723699');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγεία', '9786180326376');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μυθιστόρημα', '9786180326376');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάχες', '9786180326376');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('γλυκά', '9786180323887');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Διανομή', '9786180323887');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαίοι', '9786180326970');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολέμοι', '9786180326970');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φίλοι', '9786180326970');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικίνδυνα παιχνίδια', '9789601685427');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φίλοι', '9789601645032');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγικά πλάσματα', '9789601645032');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κριτική', '9786180326550');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγικά πλάσματα', '9786180326550');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικίνδυνες αποστολές', '9789600361223');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επανάσταση', '9789600361223');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μεταφυσική', '9789605666477');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ηθική', '9789605666477');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αυτοκράτορες', '9789605666477');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνικές αλλαγές', '9786180327007');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('δυνατά κορίτσια', '9786180327007');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάχες', '9781547532742');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνικές αλλαγές', '9781547532742');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('λογική', '9789600361087');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φιλοσοφία', '9781071526767');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ζωάκια', '9781071526767');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτισμός', '9781071526767');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('τέρατα', '9789600368338');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικές περιπέτειες', '9789600368338');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγικά πλάσματα', '9789600368338');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγεία', '9781071532997');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικίνδυνα παιχνίδια', '9781071532997');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ιστορία', '9781071532997');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνικές αλλαγές', '9789601656052');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κρεατικά', '9786180325560');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('θρύλοι', '9786180325560');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('τυριά', '9786180320091');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ηθική', '9789609527750');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('τέρατα', '9781909550780');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολιτική φιλοσοφία', '9781909550780');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγεία', '9789605721138');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Μνημεία', '9789605721138');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ηθική', '9789605721138');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγεία', '9789601651750');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαία ρώμη', '9789601651750');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παιχνίδια', '9786180702408');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φίλοι', '9786180322682');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επιστημονική φιλοσοφία', '9786180322682');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('συμμορίες', '9789601647470');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Μνημεία', '9789601647470');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κρεατικά', '9781547574667');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('συμμορίες', '9781547574667');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Φύση', '9781547574667');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('νεράιδες', '9789600322439');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Μνημεία', '9789600322439');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επιστήμη', '9789601645704');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μυθιστόρημα', '9789601645704');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικίνδυνα παιχνίδια', '9789601645704');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φίλοι', '9786180321012');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φιλοσοφία', '9786180321012');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάγισσες', '9786180328981');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ιστορία', '9786180328981');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επιστημονική φιλοσοφία', '9786180328981');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνιολογία', '9781667411767');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παραμύθι', '9781667411767');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρετές', '9781667411767');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('περιπέτεια', '9786180329292');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνικές αλλαγές', '9786180329292');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('τέρατα', '9786180329292');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγειρικές τεχνικές', '9789600367645');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Τοπία', '9789600367645');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('νεράιδες', '9789600367645');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγειρική', '9786180314687');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάχες', '9786180314687');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('γευστικά πιάτα', '9786180314687');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κρεατικά', '9789600364187');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κέικ', '9789605723897');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μεταφυσική', '9786180317589');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάγισσες', '9786180317589');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτική', '9786180317589');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Διακοπές', '9789464447675');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολιτική φιλοσοφία', '9789464447675');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('τέρατα', '9789600358100');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνία', '9786180322651');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κρεατικά', '9786180317794');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επιστήμη', '9786180317794');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολέμοι', '9789600353990');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικίνδυνες αποστολές', '9789600353990');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μυθιστόρημα', '9789600353990');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κριτική', '9781667407227');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('θρύλοι', '9781667407227');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αναζήτηση του θρύλου', '9781667407227');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επανάσταση', '9786180322309');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγειρική', '9786180322309');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολιτισμός', '9786180322309');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολιτική φιλοσοφία', '9789605721695');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρετές', '9789605721695');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαία ρώμη', '9789605721695');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτισμός', '9781912322046');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αισθητική', '9781912322046');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάγισσες', '9781912322046');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κέικ', '9789604007837');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Διανομή', '9789604007837');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Φύση', '9781547510740');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρετές', '9781547510740');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φιλίες', '9786180319750');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ανθρωπιστικές επιστήμες', '9781910714324');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Τοπία', '9781910714324');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολέμοι', '9781910714324');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φαντασία', '9789601651606');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επιστήμη', '9789601651606');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάχες', '9789609527637');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αισθητική', '9789609527637');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παιχνίδια', '9789609527200');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παραμύθια', '9789609527200');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μυθιστόρημα', '9786180322668');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνία', '9786180322668');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παραμύθι', '9781667405148');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαίοι', '9781667405148');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ιστορία', '9781667405148');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ιστορία', '9789601657660');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('γευστικά πιάτα', '9789601657660');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πίτσες', '9781911352709');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαία ρώμη', '9781911352709');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επανάσταση', '9781911352709');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτισμός', '9789601655581');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγικά πλάσματα', '9789601655581');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μεταφυσική', '9789601655581');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παιχνίδια', '9789600354072');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('περιπέτεια', '9789600354072');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('βυζάντιο', '9789600354072');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολιτισμός', '9789605720575');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επανάσταση', '9789605720575');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κέικ', '9786180329049');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μυστήρια', '9786180329049');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Φύση', '9786180329049');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κέικ', '9789605723736');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάγισσες', '9789605723736');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικές περιπέτειες', '9789600367690');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φιλίες', '9789600367690');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μυστήρια', '9789600367690');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάχες', '9789601699837');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολυπολιτισμικότητα', '9781005226350');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Διανομή', '9781005226350');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('χορτοφαγικά', '9786180329278');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνική ανισότητα', '9786180329278');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαία ελλάδα', '9786180329278');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('γευστικά πιάτα', '9786180317831');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγεία', '9786180317831');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνικές σχέσεις', '9786180317831');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολιτική φιλοσοφία', '9789600360639');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('δυνατά κορίτσια', '9789600360639');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολέμοι', '9789600360639');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φίλοι', '9786180315110');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγειρικές τεχνικές', '9786180315110');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κριτική', '9786180320800');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγεία', '9786180320800');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ηθική', '9786180320800');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('περιπέτεια', '9789600361407');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κέικ', '9789600361407');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('οντολογία', '9789600361407');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('δυνατά κορίτσια', '9786180322323');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επιστήμη', '9786180313321');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('χορτοφαγικά', '9786180313321');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Διακοπές', '9781329008045');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('εφηβικά', '9781329008045');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνιολογία', '9781329008045');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτική', '9789608869530');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πίτσες', '9789608869530');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('δυνατά κορίτσια', '9789601645209');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φίλοι', '9789601645209');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αναζήτηση του θρύλου', '9789601645209');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολυπολιτισμικότητα', '9789601655666');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνική ανισότητα', '9789601655666');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('χορτοφαγικά', '9789601655666');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μεταφυσική', '9786180328356');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κουζίνες του κόσμου', '9786180329087');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Μνημεία', '9789605721664');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Τοπία', '9789605721664');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάχες', '9789605721664');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Μνημεία', '9786180326956');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πίτσες', '9786180326956');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αποκαλύψεις', '9786180326956');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κουζίνες του κόσμου', '9789600368345');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαία ρώμη', '9789600368345');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('οντολογία', '9789600368345');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φιλοσοφία', '9786180319125');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγεία', '9786180319125');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('νεράιδες', '9781632913234');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαία ρώμη', '9781632913234');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('συμμορίες', '9781632913234');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πίτσες', '9786180332438');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φανταστικοί κόσμοι', '9789605722470');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ζωάκια', '9789605722470');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αισθητική', '9789605725556');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('βυζάντιο', '9786180322385');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολυπολιτισμικότητα', '9781987904185');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνικές αλλαγές', '9781987904185');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επιστημονική φιλοσοφία', '9781987904185');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φαντασία', '9789601647838');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρετές', '9789601647838');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μεταφυσική', '9789601647838');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('ιστορία', '9786180400557');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κέικ', '9786180313925');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επιστημονική φιλοσοφία', '9786180313925');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Περιηγήσεις', '9786180313925');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγεία', '9786180324129');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('δυνατά κορίτσια', '9786180324129');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρχαία ρώμη', '9781547535682');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ανακαλύψεις', '9781547535682');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πίτσες', '9781547535682');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κέικ', '9789601639406');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Τοπία', '9789601639406');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μεταφυσική', '9789605665951');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολέμοι', '9789605665951');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγεία', '9789605665951');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αναζήτηση του θρύλου', '9781912322961');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ταξίδια', '9781912322961');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτισμός', '9781912322961');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επανάσταση', '9789605724382');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κέικ', '9789605724382');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('εφηβικά', '9789605724382');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φανταστικοί κόσμοι', '9781071599594');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάχες', '9781071599594');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παραμύθι', '9789609527101');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αυτοκράτορες', '9789609527101');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτισμός', '9781667432564');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('νεράιδες', '9781667432564');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επιστήμη', '9781667432564');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτισμός', '9789605722876');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('γευστικά πιάτα', '9789605722876');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κριτική', '9789605722876');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αποκαλύψεις', '9786180317770');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('γευστικά πιάτα', '9786180317770');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επιστήμη', '9786180320329');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κουζίνες του κόσμου', '9786180320329');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('παραμύθια', '9786180320329');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('εφηβικά', '9781071523902');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ανθρωπιστικές επιστήμες', '9781071523902');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('λογική', '9786180329766');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρετές', '9786180329766');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Διακοπές', '9789601681986');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φιλοσοφία', '9789601681986');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνική ανισότητα', '9789601681986');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μυστήρια', '9786180322316');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτισμός', '9786180322316');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικίνδυνες αποστολές', '9785043340351');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('νεράιδες', '9785043340351');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κουζίνες του κόσμου', '9781387567997');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κέικ', '9781387567997');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('νεράιδες', '9781387567997');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('αρετές', '9789605723231');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Διακοπές', '9786180319767');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επιστήμη', '9786180319767');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κέικ', '9786180322330');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('σχολείο', '9786180322330');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('τέρατα', '9786180322330');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μάχες', '9781071526521');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('κουζίνες του κόσμου', '9781071526521');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φανταστικοί κόσμοι', '9783966103473');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικίνδυνες αποστολές', '9785041512521');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγικά πλάσματα', '9785041512521');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('νεράιδες', '9785041512521');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('εφηβικά', '9781507198025');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('γλυκά', '9781507198025');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγεία', '9781507198025');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επιστημονική φιλοσοφία', '9785043797230');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγειρική', '9785043797230');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτισμός', '9781071510032');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικές περιπέτειες', '9786180322736');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('δυνατά κορίτσια', '9786180322736');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('χορτοφαγικά', '9786180322736');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Φύση', '9781465549976');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Πολιτισμός', '9781465549976');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('πολιτική φιλοσοφία', '9781465549976');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ιστορία', '9786180324075');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Ταξίδια', '9786180324075');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('φίλοι', '9786180324075');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('επικίνδυνες αποστολές', '9786180317848');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Τοπία', '9786180317848');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('μαγικά πλάσματα', '9781909550513');
+INSERT INTO
+  `book_keywords` (`Keyword`, `ISBN`)
+VALUES
+  ('Κοινωνικές αλλαγές', '9786180320121');
 INSERT INTO
   `book_keywords` (`Keyword`, `ISBN`)
 VALUES
@@ -13632,6 +21682,1389 @@ INSERT INTO
   `book_writers` (`WriterName`, `ISBN`)
 VALUES
   ('[\'Karin Brynard\']', '9786180320121');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Lone Theils\']', '9789605721213');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Σπυρίδων Ζαμπέλιος\']', '9789601666587');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Camilla Lackberg\']', '9789601666587');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Karl Ove Knausgård\']', '9789609527002');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Yrsa Sigurdardottir\']', '9789609527002');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Κωνσταντίνος Θεοτόκης\']', '9789601651736');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Amanda Mariel\']', '9786180400373');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Aristophanes\']', '9789601645230');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Στήβ Βέρνον\']', '9789601645230');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Peter Beck\']', '9786180329001');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ελευθερία Κυρίμη\']', '9789601667744');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χρήστος Χωμενίδης\']', '9789601648392');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  (
+    '[\'Հովհաննես Թումանյան\', \'Hovhannes Tumanyan\']',
+    '9789600358834'
+  );
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Angeliki Darlasi\']', '9786180324082');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Hannah Kent\']', '9786180313826');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Lone Theils\']', '9789601646572');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Emily St. John Mandel\']', '9789601646572');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  (
+    '[\'Barbara Athanassiadis, Βαρβάρα-Ρίτα Αθανασι',
+    '9781912322015'
+  );
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Γρηγόρης Αζαριάδης\']', '9788873042204');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χίλντα Παπαδημητρίου\']', '9786180319774');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Jeff VanderMeer\']', '9786180324440');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'R. L. Stine\']', '9786180324440');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χριστίνα Πουλίδου\']', '9786180324440');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Αύγουστος Κορτώ\']', '9789601645858');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Νίκη Αναστασέα\']', '9789601645858');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Πάνος Καζόλης\']', '9781909550018');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'\tPamuk, Orhan\']', '9789601698359');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Jane Harper\']', '9789605720285');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'E. L. James\']', '9789605720285');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Hanya Yanagihara\']', '9789600359831');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Camilla Lackberg\']', '9789600360677');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Julian Barnes\']', '9786180322644');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ashley Audrain\']', '9781909550032');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ragnar Jónasson\']', '9781909550032');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'VD Cain\']', '9781908362391');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Owen Jones\']', '9781908362391');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Σάκης Σερέφας\']', '9789605721466');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  (
+    '[\'Μαρία Βαρσάμη - Καρακίτσιου\']',
+    '9786180322675'
+  );
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Paul Auster\']', '9786180322675');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Μάρα Μεϊμαρίδη\']', '9786180322675');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Απόστολος Δοξιάδης\']', '9789600363524');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Núria Añó\']', '9789600363524');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Christophe Noël\']', '9786180317640');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Stuart Neville\']', '9789600367638');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Christopher Bunn\']', '9786180336108');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'E. L. James\']', '9786180336108');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Owen Jones\']', '9781310259654');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ζωρζ Σαρή\']', '9786180333190');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Jane Harper\']', '9786180333190');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Carlos Zanón\']', '9786180324112');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Christophe Noël\']', '9786180317602');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ρέα Γαλανάκη\']', '9789601647623');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ζοέλ Ντικέρ\']', '9786180317879');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Danilo Clementoni\']', '9781547523986');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ted Chiang\']', '9781547523986');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Karin Brynard\']', '9789601667751');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Harald Gilbers\']', '9786180319934');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Άλκη Ζέη\']', '9786180319934');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ευτυχία Γιαννάκη\']', '9789605724924');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Camilla Lackberg\']', '9789605724924');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Camilla Lackberg\']', '9789609412797');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Henri Estienne\']', '9781909550544');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Federico Betti\']', '9781547524365');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χ.Α. Χωμενίδης\']', '9781547524365');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Στήβ Βέρνον\']', '9781547524365');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Νίκη Αναστασέα\']', '9789601659541');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Maurizio Dagradi\']', '9785041658434');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ε. Λ. Τζέιμς\']', '9785041658434');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Niklas Natt och Dag\']', '9788873047476');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ε. Λ. Τζέιμς\']', '9789600358896');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Anna Ruhe\']', '9789600358896');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ernesto Sabato\']', '9789601645322');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Yrsa Sigurdardottir\']', '9789601645322');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ashley Audrain\']', '9789601645322');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Κυριάκος Μαργαρίτης\']', '9789601647883');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Κέπλερ, Λαρς\']', '9781987904215');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Paul Beatty\']', '9781987904215');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Carlos Zanon\']', '9789605723316');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Nita Prose\']', '9789605723316');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Μάνος Κοντολέων\']', '9786180317695');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Λαρς Κέπλερ\']', '9786180317695');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Paul Bowles\']', '9789600354713');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Andre Aciman\']', '9781909550650');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Κώστας Ακρίβος\']', '9789600360226');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Lize Spit\']', '9789600360226');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Harald Gilbers\']', '9789600360226');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ζοέλ Ντικέρ\']', '9789605721336');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Annie Ernaux\']', '9789600367782');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χ.Α. Χωμενίδης\']', '9789600367782');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ντονάτο Καρρίζι\']', '9789600357288');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Julian Barnes\']', '9789600357288');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Maurizio Dagradi\']', '9789600357288');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Λουκία Δέρβη\']', '9786180322293');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'R. L. Stine\']', '9786180322293');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Δημήτρης Νόλλας\']', '9789601647371');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  (
+    '[\'Barbara Athanassiadis\', \'Βαρβάρα-Ρίτα Αθανα',
+    '9786180327090'
+  );
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ράνια Συνοδινού\']', '9786180324143');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Elaina J. Davidson\']', '9786180320138');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Αγγελική Νικολούλη\']', '9786180328226');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Βαγγέλης Ραπτόπουλος\']', '9786180328226');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Αύγουστος Κορτώ\']', '9786180332421');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Lize Spit\']', '9786180320114');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Camilla Lackberg\']', '9789600367843');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Yrsa Sigurdardottir\']', '9789601660073');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Lone Theils\']', '9786180322897');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Κώστας Ακρίβος\']', '9789601686370');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Στέλλα Σελήνη\']', '9789601686370');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Κώστας Ακρίβος\']', '9786180327717');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Kateřina Tučková\']', '9789600360455');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Carlos Zanon\']', '9786180320107');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ζωρζ Σαρή\']', '9786180320107');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Άλκη Ζέη\']', '9788873047681');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ζοέλ Ντικέρ\']', '9788873047681');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Μαρία Παπαγιάννη\']', '9789600367867');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Αγγελική Νικολούλη\']', '9789600368352');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Peter Beck\']', '9789600368352');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Αντώνης Αναστασιάδης\']', '9789605722012');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Μάρκος Κρητικός\']', '9789601657844');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Hernán Diaz\']', '9781912322886');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ράνια Συνοδινού\']', '9781912322886');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Vladimir Nabokov\']', '9786180329094');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Celeste Ng\']', '9786180329094');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Αντώνης Αναστασιάδης\']', '9786180329094');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ντονάτο Καρρίζι\']', '9789606796616');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Amy Blankenship\']', '9786180322798');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ηλίας Μαγκλίνης\']', '9786180322798');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Vladimir Nabokov\']', '9786180328394');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Νάταλι Μπακόπουλος\']', '9786180328134');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Άλκη Ζέη\']', '9786180328134');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Arne Dahl\']', '9789605721794');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ε. Λ. Τζέιμς\']', '9781667429625');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Στέφανος Τσιτσόπουλος\']', '9789600363661');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Μαριάνθη Ντεβάκη\']', '9789600363661');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Abigail Reynolds\']', '9786180324853');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Πέτρος Τατσόπουλος\']', '9786180324853');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Αύγουστος Κορτώ\']', '9786180324853');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Valeria De Luca\']', '9786180320794');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Arne Dahl\']', '9786180320794');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Georgi Gospodinov\']', '9786180314694');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  (
+    '[\'Barbara Athanassiadis, Βαρβάρα-Ρίτα Αθανασι',
+    '9789601673196'
+  );
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Μανώλης Ανδριωτάκης\']', '9789601673196');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Κική Δημουλά\']', '9781912322640');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Annie Ernaux\']', '9789605722647');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Jerzy Kosinski\']', '9789605722579');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Danilo Clementoni\']', '9789605722579');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Susie Steiner\']', '9786180325539');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'David Mitchell\']', '9786180317701');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Μαρία Παπαγιάννη\']', '9789605722241');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Celeste Ng\']', '9789605722241');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Καταρίνα Μασέττι\']', '9786180328257');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Κική Δημουλά\']', '9781909550360');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Καταρίνα Μασέττι\']', '9781909550360');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Maurizio Dagradi\']', '9786180330793');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Christopher Bunn\']', '9789601647500');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Τζέφρυ Ευγενίδης\']', '9789605724948');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Σκάι Κόργκαν\']', '9786180313819');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Paul Auster\']', '9789939004938');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Anthony Marra\']', '9789939004938');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Νάταλι Μπακόπουλος\']', '9786180321005');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Δημήτρης Καρακούσης\']', '9789605724139');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Somerset Maugham\']', '9789601668062');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Στήβ Βέρνον\']', '9786180320787');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χαν Γκανγκ\']', '9786180329667');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Jerzy Kosinski\']', '9786180337389');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χριστίνα Πουλίδου\']', '9789605723699');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Αύγουστος Κορτώ\']', '9786180326376');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ragnar Jónasson\']', '9786180323887');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ευάγγελος Βλάχος\']', '9786180326970');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χ.Α. Χωμενίδης\']', '9789601685427');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ashley Audrain\']', '9789601645032');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Paul Beatty\']', '9786180326550');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Αντώνης Αναστασιάδης\']', '9789600361223');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Camilla Lackberg\']', '9789600361223');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Marilyn Robinson\']', '9789600361223');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Αργύρης Εφταλιώτης\']', '9789605666477');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Jane Harper\']', '9786180327007');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χριστίνα Πουλίδου\']', '9786180327007');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'E. L. James\']', '9781547532742');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Jean Genet\']', '9789600361087');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Frank Schätzing\']', '9781071526767');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ευτυχία Γιαννάκη\']', '9789600368338');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Βαγγέλης Ραπτόπουλος\']', '9781071532997');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'A.G. Lombardo\']', '9789601656052');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Stendhal\']', '9786180325560');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Αντώνης Αναστασιάδης\']', '9786180325560');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Τάσος Καλούτσας\']', '9786180320091');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Paul Beatty\']', '9789609527750');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Καταρίνα Μασέττι\']', '9789609527750');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χρήστος Χωμενίδης\']', '9789609527750');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ashley Audrain\']', '9781909550780');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χίλντα Παπαδημητρίου\']', '9781909550780');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Οβίδιος\']', '9789605721138');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Αντώνης Σουρούνης\']', '9789601651750');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Julian Barnes\']', '9786180702408');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Julian Barnes\']', '9786180322682');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Στέλλα Σελήνη\']', '9786180322682');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Νάταλι Μπακόπουλος\']', '9789601647470');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Νίκος Ζ. Κομνηνός\']', '9781547574667');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Πέτρος Τατσόπουλος\']', '9781547574667');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Στέλλα Σελήνη\']', '9789600322439');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Charley Brindley\']', '9789601645704');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Emma Stonex\']', '9786180321012');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Owen Jones\']', '9786180328981');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ζωρζ Σαρή\']', '9781667411767');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Fabrice Caro\']', '9786180329292');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Abigail Reynolds\']', '9789600367645');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Σωτήρης Δημητρίου\']', '9786180314687');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Carlos Zanon\']', '9789600364187');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Κωνσταντίνος Θεοτόκης\']', '9789605723897');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Harald Gilbers\']', '9789605723897');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'A.G. Lombardo\']', '9789605723897');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  (
+    '[\'Johannes Valentinus Andreae\']',
+    '9786180317589'
+  );
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Stendhal\']', '9786180317589');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Niklas Natt och Dag\']', '9789464447675');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Lone Theils\']', '9789464447675');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Amanda Mariel\']', '9789464447675');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χ.Α. Χωμενίδης\']', '9789600358100');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Πάνος Καζόλης\']', '9786180322651');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'David Mitchell\']', '9786180317794');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Carlos Zanon\']', '9786180317794');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Charlotte McConaghy\']', '9786180317794');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Camilla Lackberg\']', '9789600353990');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ευτυχία Γιαννάκη\']', '9781667407227');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χαν Γκανγκ\']', '9781667407227');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Μοργκαν  Ραις\']', '9781667407227');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Stuart Neville\']', '9786180322309');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χρήστος Γιαννάκενας\']', '9786180322309');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Luca Ricci\']', '9789605721695');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Αύγουστος Κορτώ\']', '9781912322046');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'R. L. Stine\']', '9789604007837');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Στήβ Βέρνον\']', '9789604007837');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ηλίας Μαγκλίνης\']', '9789604007837');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Juan Gabriel Vásquez\']', '9781547510740');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'VD Cain\']', '9786180319750');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ράνια Συνοδινού\']', '9786180319750');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Don Winslow\']', '9781910714324');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Σπυρίδων Ζαμπέλιος\']', '9789601651606');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Kateřina Tučková\']', '9789609527637');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'David Mitchell\']', '9789609527200');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Harald Gilbers\']', '9786180322668');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Peter Beck\']', '9781667405148');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ντάνιελ Κέλμαν\']', '9789601657660');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Vladimir Nabokov\']', '9789601657660');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χαν Γκανγκ\']', '9781911352709');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Elaina J. Davidson\']', '9781911352709');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Άλαν Φερστ\']', '9789601655581');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'_¹____ ______\']', '9789601655581');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Δημήτρης Μπουραντάς\']', '9789600354072');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'VD Cain\']', '9789605720575');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Núria Añó\']', '9789605720575');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Κωνσταντίνος Θεοτόκης\']', '9786180329049');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Luca Ricci\']', '9789605723736');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Harald Gilbers\']', '9789600367690');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Τζώρτζης Μηλιάς\']', '9789601699837');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Paul Beatty\']', '9781005226350');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  (
+    '[\'π. Σάββας Δαυίδ Βασιλειάδης\']',
+    '9781005226350'
+  );
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Πέτρος Τατσόπουλος\']', '9781005226350');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'David Mitchell\']', '9786180329278');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ρέα Γαλανάκη\']', '9786180317831');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Μίνως Ευσταθιάδης\']', '9786180317831');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χίλντα Παπαδημητρίου\']', '9789600360639');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Αγγελική Νικολούλη\']', '9789600360639');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Στέλλα Σελήνη\']', '9786180315110');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Emily St. John Mandel\']', '9786180315110');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Στέλλα Σελήνη\']', '9786180320800');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Πάνος Καζόλης\']', '9789600361407');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Núria Añó\']', '9789600361407');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Κέπλερ, Λαρς\']', '9786180322323');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Νίκος Ζ. Κομνηνός\']', '9786180313321');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Στήβ Βέρνον\']', '9781329008045');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Μαρία Παπαγιάννη\']', '9789608869530');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Σωτήρης Δημητρίου\']', '9789608869530');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Πάνος Καζόλης\']', '9789601645209');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Guy de Maupassant\']', '9789601655666');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Οβίδιος\']', '9789601655666');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Stephen Crane\']', '9786180328356');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Στήβ Βέρνον\']', '9786180328356');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Alejandro Zambra\']', '9786180329087');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'KL Walther\']', '9789605721664');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Andre Malraux\']', '9789605721664');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Δημήτρης Μπουραντάς\']', '9786180326956');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Stuart Neville\']', '9789600368345');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Marilynne Robinson\']', '9786180319125');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Aristophanes\']', '9786180319125');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Jane Harper\']', '9781632913234');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Yrsa Sigurdardottir\']', '9786180332438');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Arne Dahl\']', '9786180332438');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Paul Auster\']', '9789605722470');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Guy de Maupassant\']', '9789605725556');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Paul Beatty\']', '9786180322385');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ragnar Jónasson\']', '9781987904185');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ragnar Jónasson\']', '9789601647838');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'David Mitchell\']', '9789601647838');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Konar, Affinity\']', '9786180400557');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Juan Gabriel Vásquez\']', '9786180313925');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'David Mitchell\']', '9786180313925');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Haylen Beck\']', '9786180324129');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Luca Ricci\']', '9781547535682');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Charlotte McConaghy\']', '9789601639406');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Jeff VanderMeer\']', '9789605665951');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Μίνως Ευσταθιάδης\']', '9781912322961');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Στέφανος Τσιτσόπουλος\']', '9789605724382');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Giselle Renarde\']', '9781071599594');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  (
+    '[\'Donatella Di Pietrantonio\']',
+    '9781071599594'
+  );
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Άλκη Ζέη\']', '9789609527101');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Konar, Affinity\']', '9781667432564');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  (
+    '[\'Johannes Valentinus Andreae\']',
+    '9789605722876'
+  );
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Βαγγέλης Ραπτόπουλος\']', '9786180317770');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Μισέλ Φάις\']', '9786180320329');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Harald Gilbers\']', '9781071523902');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Amanda Mariel\']', '9786180329766');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ευτυχία Γιαννάκη\']', '9789601681986');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Danilo Clementoni\']', '9786180322316');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Harald Gilbers\']', '9785043340351');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Christophe Noël\']', '9781387567997');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Μάρκος Κρητικός\']', '9781387567997');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Amanda Mariel\']', '9789605723231');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Λεονάρδο Παδούρα\']', '9786180319767');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Αλέξης Σταμάτης\']', '9786180322330');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Τάσος Καλούτσας\']', '9781071526521');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χίλντα Παπαδημητρίου\']', '9781071526521');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Κική Δημουλά\']', '9781071526521');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Μισέλ Φάις\']', '9783966103473');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Μίνως Ευσταθιάδης\']', '9785041512521');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Charlotte McConaghy\']', '9781507198025');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ηλίας Μαγκλίνης\']', '9785043797230');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'George Orwell\']', '9781071510032');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χρήστος Χωμενίδης\']', '9781071510032');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Κική Δημουλά\']', '9786180322736');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Stendhal\']', '9786180322736');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Jane Harper\']', '9786180322736');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Emily St. John Mandel\']', '9781465549976');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Jane Harper\']', '9786180324075');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Αντώνης Σουρούνης\']', '9786180324075');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Enrique Vila-Matas\']', '9786180317848');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Aristophanes\']', '9781909550513');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Ευτυχία Γιαννάκη\']', '9781909550513');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Χίλντα Παπαδημητρίου\']', '9786180320121');
+INSERT INTO
+  `book_writers` (`WriterName`, `ISBN`)
+VALUES
+  ('[\'Karin Brynard\']', '9786180320121');
 
 # ------------------------------------------------------------
 # DATA DUMP FOR TABLE: borrowing
@@ -14957,6 +24390,1046 @@ INSERT INTO
   `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
 VALUES
   ('2022-04-29', 'True', 50, '9786180317602');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-08-19', 'True', 72, '9786180323887');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-11-06', 'True', 60, '9789939004938');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-05-31', 'True', 110, '9789605722012');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-09', 'True', 10, '9789601656052');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-11-25', 'True', 110, '9789601699837');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-27', 'True', 63, '9781310259654');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-10-11', 'True', 91, '9781912322886');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-06-27', 'True', 5, '9789601645858');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-08-21', 'True', 72, '9786180317640');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-11-19', 'True', 42, '9789601660073');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-06-24', 'True', 58, '9789605724382');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-12-08', 'False', 5, '9789601645858');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-12-19', 'True', 63, '9789609527002');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-06-04', 'False', 80, '9786180317695');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-06-05', 'True', 80, '9786180322897');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-02-10', 'True', 5, '9786180317640');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-11', 'True', 80, '9781547523986');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-02-22', 'False', 10, '9786180323887');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-10-06', 'False', 53, '9789600367690');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-22', 'True', 10, '9786180328981');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-11-30', 'True', 27, '9781909550513');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-09-24', 'True', 63, '9781909550032');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-10', 'True', 72, '9789601647838');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-01-27', 'False', 27, '9789600367843');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-08-03', 'True', 60, '9789600367843');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-01-17', 'True', 5, '9781667432564');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-03-15', 'True', 53, '9789601647500');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-06-19', 'True', 10, '9789605721138');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-03-06', 'True', 60, '9781667407227');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-12-31', 'True', 27, '9786180319767');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-01', 'True', 5, '9786180322897');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-12-02', 'True', 53, '9786180325560');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-01-18', 'True', 104, '9786180329667');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-11-07', 'True', 104, '9781909550018');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-07-24', 'True', 9, '9781912322046');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-02-24', 'True', 98, '9789601647623');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-09-14', 'True', 9, '9789605723897');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-04-09', 'True', 39, '9781987904185');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-10-22', 'True', 39, '9786180322644');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-02-25', 'True', 75, '9789601666587');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-05-27', 'True', 75, '9789600367690');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-04-02', 'True', 23, '9786180317794');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-11-14', 'True', 39, '9789605723736');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-24', 'True', 75, '9789605724382');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-28', 'True', 9, '9785041512521');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-06-09', 'True', 75, '9789600354072');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-12-04', 'True', 75, '9789600358896');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-06-19', 'False', 75, '9789605666477');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-02-11', 'False', 9, '9789601698359');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-12-05', 'True', 103, '9781909550018');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-04-13', 'True', 77, '9786180320107');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-09-30', 'True', 48, '9789464447675');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-18', 'True', 57, '9786180321005');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-06-18', 'True', 87, '9789609412797');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-09-18', 'True', 28, '9789601647883');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-09-28', 'False', 48, '9789605722241');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-06-27', 'True', 48, '9789605724139');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-01-28', 'True', 87, '9786180315110');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-03-15', 'True', 37, '9789605723897');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-10-08', 'True', 87, '9789600368345');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-01-19', 'False', 57, '9789605723736');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-04-28', 'True', 87, '9789605722579');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-10', 'True', 48, '9786180322644');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-07-04', 'True', 37, '9786180313321');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-11-05', 'True', 87, '9786180327007');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-10-23', 'True', 48, '9786180329094');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-05-26', 'False', 37, '9786180317701');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-12-01', 'True', 87, '9781912322886');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-01-31', 'True', 28, '9786180317602');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-11-28', 'True', 106, '9786180322316');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-11-22', 'False', 6, '9789600354713');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-09-15', 'True', 29, '9786180328981');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-03-21', 'True', 105, '9786180324082');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-13', 'True', 105, '9786180328981');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-10-08', 'True', 46, '9781071523902');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-14', 'True', 106, '9789601655581');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-07-28', 'True', 106, '9789609527200');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-02-19', 'True', 59, '9786180321012');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-01-10', 'True', 46, '9789605721695');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-07-31', 'True', 13, '9786180327090');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-18', 'True', 105, '9786180329292');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-01-11', 'True', 106, '9786180328394');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-08-17', 'True', 46, '9781909550780');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-07-10', 'True', 46, '9786180313826');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-04-01', 'True', 6, '9789601660073');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-07-07', 'True', 6, '9786180322316');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-01-12', 'True', 6, '9781912322961');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-11-05', 'True', 109, '9789601647883');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-01', 'True', 31, '9783966103473');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-04-24', 'True', 52, '9781071510032');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-15', 'True', 52, '9789601645230');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-04-28', 'True', 68, '9789601645322');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-10-13', 'True', 69, '9789605722470');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-01-11', 'True', 31, '9789601667744');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-09-29', 'False', 41, '9786180337389');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-12-01', 'True', 12, '9781987904215');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-13', 'True', 12, '9781547524365');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-01-14', 'False', 12, '9781071526767');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-06-23', 'True', 41, '9789601651736');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-11-09', 'True', 12, '9789605724924');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-08-15', 'True', 31, '9789600357288');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-01-18', 'True', 12, '9781667432564');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-10-23', 'True', 22, '9789609527200');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-08-01', 'True', 3, '9789601666587');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-02-28', 'True', 31, '9781667429625');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-11-18', 'True', 15, '9789601656052');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-04-18', 'True', 14, '9786180327717');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-04-10', 'True', 15, '9786180328394');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-11-10', 'True', 99, '9781329008045');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-04-22', 'False', 15, '9786180317602');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-01-08', 'True', 66, '9789605724924');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-01-30', 'False', 66, '9786180320121');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-24', 'True', 88, '9789605722579');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-10-21', 'True', 66, '9781547524365');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-07-18', 'True', 81, '9789600360639');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-07-02', 'True', 41, '9789605722012');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-05-08', 'True', 67, '9786180337389');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-10-25', 'True', 15, '9789600359831');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-12-03', 'True', 66, '9781547574667');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-01-05', 'True', 15, '9789601667744');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-01-24', 'True', 14, '9786180329766');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-07-21', 'False', 52, '9781910714324');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-12-23', 'True', 47, '9786180322385');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-07-02', 'True', 69, '9789600367843');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-08-31', 'True', 67, '9781547524365');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-01-16', 'True', 66, '9786180324129');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-04-27', 'True', 47, '9789600361087');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-03-13', 'True', 69, '9781912322046');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-09-29', 'True', 69, '9781547523986');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-06-05', 'True', 52, '9781071526767');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-04-11', 'True', 82, '9781547523986');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-07-04', 'True', 24, '9789600367843');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-10-28', 'True', 74, '9789601645858');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-01-03', 'True', 43, '9786180322316');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-04-25', 'True', 51, '9789609527200');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-07-15', 'True', 82, '9786180328257');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-03-05', 'False', 24, '9789605723897');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-10-03', 'True', 43, '9789605721138');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-06-25', 'False', 74, '9786180333190');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-03-17', 'True', 74, '9789600361087');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-08-16', 'True', 55, '9789605723699');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-07', 'True', 74, '9789601666587');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-03-03', 'False', 55, '9781909550544');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-01-15', 'True', 74, '9789601639406');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-07-19', 'True', 24, '9789604007837');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-02-16', 'True', 73, '9786180322330');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-09-21', 'True', 24, '9781547523986');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-11-30', 'True', 73, '9786180322682');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-07-26', 'True', 51, '9789601668062');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-07-27', 'True', 17, '9786180702408');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-07-03', 'True', 30, '9789605721466');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-07-15', 'True', 40, '9781909550513');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-03-16', 'True', 34, '9786180328134');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-03-11', 'False', 30, '9789605723736');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-07-07', 'True', 34, '9789939004938');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-10-27', 'True', 107, '9789601647470');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-09-06', 'True', 84, '9789600361223');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-06-07', 'True', 40, '9781909550032');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-23', 'True', 64, '9789605723316');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-04-28', 'True', 100, '9789601647470');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-06-12', 'True', 30, '9786180317794');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-04-24', 'True', 32, '9786180337389');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-05-08', 'False', 56, '9789601685427');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-09-03', 'True', 83, '9789601645209');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-06-07', 'True', 40, '9789601685427');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-08-30', 'True', 70, '9789600360639');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-06-19', 'False', 34, '9789600364187');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-06-01', 'True', 30, '9781547535682');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-12-23', 'True', 102, '9789601685427');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-14', 'True', 17, '9786180322651');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-11-29', 'True', 32, '9781987904185');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-09-27', 'True', 102, '9781547535682');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-10-22', 'True', 17, '9786180329667');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-24', 'True', 108, '9786180322798');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-11-28', 'True', 32, '9785043340351');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-04-23', 'True', 102, '9786180322330');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-06-26', 'True', 100, '9781912322886');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-05-30', 'True', 17, '9781667411767');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-15', 'True', 40, '9781071510032');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-04-04', 'True', 17, '9786180321012');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-12-30', 'True', 32, '9789601699837');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-08-16', 'True', 17, '9786180324082');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-10-12', 'True', 102, '9785043340351');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-12', 'True', 83, '9786180332438');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-11-23', 'False', 64, '9781310259654');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-12-09', 'True', 36, '9789609527200');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-11-27', 'True', 36, '9789600361087');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-11-11', 'True', 20, '9789600354072');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-06-11', 'True', 49, '9781909550780');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-07-13', 'True', 78, '9789601651736');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-06-16', 'True', 94, '9789601647500');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-11-10', 'True', 25, '9781632913234');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-04-25', 'True', 8, '9789601685427');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-03-14', 'False', 36, '9781909550544');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-06-14', 'False', 25, '9789601686370');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-02-17', 'True', 25, '9789939004938');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-09-19', 'True', 16, '9786180324112');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-01-08', 'True', 25, '9786180313826');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-07', 'True', 16, '9786180326956');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-06-16', 'True', 89, '9789601651736');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-08-11', 'True', 49, '9786180315110');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-09-27', 'True', 90, '9786180321012');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-05-28', 'True', 90, '9789601645209');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-12-31', 'True', 90, '9786180322798');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-04-01', 'False', 20, '9789605722647');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-03-08', 'True', 36, '9786180322316');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-03-26', 'True', 90, '9789601668062');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-02-16', 'True', 16, '9786180322385');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-01-16', 'True', 20, '9781912322015');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-12-31', 'True', 20, '9786180317701');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-06-20', 'False', 49, '9786180322644');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-05-29', 'True', 25, '9786180400373');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-07-26', 'True', 16, '9789601645209');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-01-27', 'True', 54, '9789601666587');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-05-10', 'True', 71, '9786180325560');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-02-18', 'True', 7, '9789605720285');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-11-19', 'False', 18, '9789606796616');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-08-01', 'True', 38, '9786180317589');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-03-04', 'True', 35, '9789601651736');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-03-01', 'True', 35, '9786180322897');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-10-12', 'True', 35, '9786180327717');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-01-31', 'True', 18, '9789605721336');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-03-08', 'True', 71, '9789601698359');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-01-28', 'True', 7, '9786180322897');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-09-07', 'False', 71, '9789605721336');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-12-25', 'True', 18, '9781387567997');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-17', 'True', 18, '9781632913234');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-07-24', 'True', 38, '9781310259654');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-06-23', 'False', 4, '9781912322961');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-07', 'True', 33, '9786180325539');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-07-29', 'True', 1, '9786180325539');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-02-09', 'True', 21, '9786180337389');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-03-31', 'True', 50, '9786180314687');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-03-29', 'True', 21, '9781911352709');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-11-18', 'True', 65, '9786180320787');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-04-17', 'True', 65, '9786180321005');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-10-13', 'True', 76, '9789601645032');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-01-08', 'True', 50, '9786180324129');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-08-05', 'True', 11, '9789601685427');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-10-25', 'True', 11, '9789601656052');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-03-24', 'True', 76, '9789600353990');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-02-25', 'True', 50, '9786180702408');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-06-07', 'True', 65, '9786180324082');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-05-30', 'True', 45, '9786180322293');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-11-26', 'True', 45, '9786180320787');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-07-30', 'True', 26, '9785043797230');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-01-11', 'True', 45, '9789601657660');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-07-03', 'True', 4, '9786180324075');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-01-14', 'True', 65, '9789600359831');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-01-18', 'True', 1, '9786180328134');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-28', 'True', 21, '9786180317794');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-07-17', 'False', 65, '9781912322046');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-08', 'False', 44, '9781547510740');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-06-21', 'False', 1, '9786180322293');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-02-06', 'True', 65, '9781911352709');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-13', 'True', 44, '9789605720575');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-02-01', 'True', 26, '9786180314687');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-02-01', 'True', 65, '9789601656052');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2021-10-29', 'True', 26, '9789601666587');
+INSERT INTO
+  `borrowing` (`BorrowDate`, `Returned`, `IdUsers`, `ISBN`)
+VALUES
+  ('2022-04-29', 'True', 50, '9786180317602');
 
 # ------------------------------------------------------------
 # DATA DUMP FOR TABLE: generaladmin
@@ -15167,11 +25640,3743 @@ INSERT INTO
   `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
 VALUES
   ('2023-05-24', 76, '9786180314694');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-24', 27, '9786180317695');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-22', 42, '9789605722241');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-23', 23, '9789600360639');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-22', 39, '9781912322046');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-25', 28, '9786180326376');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-25', 13, '9781912322961');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-22', 59, '9789605721695');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-24', 31, '9789601647838');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-26', 66, '9786180319774');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-22', 52, '9786180328394');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-25', 51, '9789601647883');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-25', 62, '9781909550544');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-22', 55, '9789601668062');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-26', 70, '9786180322651');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-26', 30, '9786180332438');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-25', 32, '9788873047681');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-23', 25, '9786180322385');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-27', 20, '9786180321012');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-23', 8, '9786180326376');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-22', 38, '9789601639406');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-25', 18, '9781908362391');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-23', 54, '9786180320329');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-25', 50, '9786180326550');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-26', 65, '9786180326376');
+INSERT INTO
+  `reservation` (`ReservationDate`, `IdUsers`, `ISBN`)
+VALUES
+  ('2023-05-25', 21, '9786180319934');
 
 # ------------------------------------------------------------
 # DATA DUMP FOR TABLE: review
 # ------------------------------------------------------------
 
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απολαυστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    72,
+    '9786180323887'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι φανταστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'30',
+    60,
+    '9789939004938'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    110,
+    '9789605722012'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    10,
+    '9789601656052'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'31',
+    110,
+    '9789601699837'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απολαυστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    63,
+    '9781310259654'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    91,
+    '9781912322886'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    5,
+    '9789601645858'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    72,
+    '9786180317640'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    42,
+    '9789601660073'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    58,
+    '9789605724382'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    63,
+    '9789609527002'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απογοητευτικό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    80,
+    '9786180322897'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι φανταστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    5,
+    '9786180317640'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'31',
+    80,
+    '9781547523986'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    10,
+    '9786180328981'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    27,
+    '9781909550513'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απογοητευτικό. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    63,
+    '9781909550032'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    72,
+    '9789601647838'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    60,
+    '9789600367843'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    5,
+    '9781667432564'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'31',
+    53,
+    '9789601647500'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'30',
+    10,
+    '9789605721138'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    60,
+    '9781667407227'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    27,
+    '9786180319767'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    5,
+    '9786180322897'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι φανταστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    53,
+    '9786180325560'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι φανταστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    104,
+    '9786180329667'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι φανταστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    104,
+    '9781909550018'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απογοητευτικό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    9,
+    '9781912322046'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    98,
+    '9789601647623'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απογοητευτικό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    9,
+    '9789605723897'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    39,
+    '9781987904185'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    39,
+    '9786180322644'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    75,
+    '9789601666587'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    75,
+    '9789600367690'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απογοητευτικό. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    23,
+    '9786180317794'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    39,
+    '9789605723736'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    75,
+    '9789605724382'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    9,
+    '9785041512521'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι φανταστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    75,
+    '9789600354072'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    75,
+    '9789600358896'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απολαυστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    103,
+    '9781909550018'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    77,
+    '9786180320107'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    48,
+    '9789464447675'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    57,
+    '9786180321005'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απολαυστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    87,
+    '9789609412797'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    28,
+    '9789601647883'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    48,
+    '9789605724139'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'31',
+    87,
+    '9786180315110'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    37,
+    '9789605723897'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    87,
+    '9789600368345'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    87,
+    '9789605722579'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    48,
+    '9786180322644'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι φανταστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    37,
+    '9786180313321'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απολαυστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    87,
+    '9786180327007'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'31',
+    48,
+    '9786180329094'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    87,
+    '9781912322886'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    28,
+    '9786180317602'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απογοητευτικό. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    106,
+    '9786180322316'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    29,
+    '9786180328981'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    105,
+    '9786180324082'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'31',
+    105,
+    '9786180328981'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    46,
+    '9781071523902'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    106,
+    '9789601655581'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απολαυστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    106,
+    '9789609527200'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    59,
+    '9786180321012'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι φανταστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    46,
+    '9789605721695'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απολαυστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    13,
+    '9786180327090'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    105,
+    '9786180329292'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    106,
+    '9786180328394'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    46,
+    '9781909550780'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απολαυστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    46,
+    '9786180313826'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι φανταστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'30',
+    6,
+    '9789601660073'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'31',
+    6,
+    '9786180322316'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    6,
+    '9781912322961'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'30',
+    109,
+    '9789601647883'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    31,
+    '9783966103473'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    52,
+    '9781071510032'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απολαυστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'30',
+    52,
+    '9789601645230'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    68,
+    '9789601645322'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απολαυστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    69,
+    '9789605722470'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'31',
+    31,
+    '9789601667744'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    12,
+    '9781987904215'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    12,
+    '9781547524365'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    41,
+    '9789601651736'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    12,
+    '9789605724924'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    31,
+    '9789600357288'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    12,
+    '9781667432564'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'31',
+    22,
+    '9789609527200'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    3,
+    '9789601666587'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    31,
+    '9781667429625'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'31',
+    15,
+    '9789601656052'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    14,
+    '9786180327717'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    15,
+    '9786180328394'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    99,
+    '9781329008045'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    66,
+    '9789605724924'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    88,
+    '9789605722579'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απολαυστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    66,
+    '9781547524365'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι φανταστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    81,
+    '9789600360639'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    41,
+    '9789605722012'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'31',
+    67,
+    '9786180337389'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    15,
+    '9789600359831'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    66,
+    '9781547574667'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    15,
+    '9789601667744'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι φανταστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'30',
+    14,
+    '9786180329766'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'30',
+    47,
+    '9786180322385'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    69,
+    '9789600367843'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απολαυστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    67,
+    '9781547524365'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    66,
+    '9786180324129'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    47,
+    '9789600361087'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    69,
+    '9781912322046'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απολαυστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    69,
+    '9781547523986'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    52,
+    '9781071526767'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    82,
+    '9781547523986'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    24,
+    '9789600367843'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    74,
+    '9789601645858'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    43,
+    '9786180322316'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    51,
+    '9789609527200'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    82,
+    '9786180328257'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    43,
+    '9789605721138'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    74,
+    '9789600361087'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απολαυστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    55,
+    '9789605723699'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    74,
+    '9789601666587'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    74,
+    '9789601639406'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    24,
+    '9789604007837'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    73,
+    '9786180322330'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    24,
+    '9781547523986'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απογοητευτικό. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'31',
+    73,
+    '9786180322682'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    51,
+    '9789601668062'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'31',
+    17,
+    '9786180702408'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απογοητευτικό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    30,
+    '9789605721466'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    40,
+    '9781909550513'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    34,
+    '9786180328134'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    34,
+    '9789939004938'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    107,
+    '9789601647470'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    84,
+    '9789600361223'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    40,
+    '9781909550032'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    64,
+    '9789605723316'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    100,
+    '9789601647470'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    30,
+    '9786180317794'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι φανταστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    32,
+    '9786180337389'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    83,
+    '9789601645209'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    40,
+    '9789601685427'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απογοητευτικό. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    70,
+    '9789600360639'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    30,
+    '9781547535682'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απογοητευτικό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    102,
+    '9789601685427'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    17,
+    '9786180322651'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    32,
+    '9781987904185'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    102,
+    '9781547535682'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'30',
+    17,
+    '9786180329667'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    108,
+    '9786180322798'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απογοητευτικό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    32,
+    '9785043340351'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    102,
+    '9786180322330'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    100,
+    '9781912322886'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'30',
+    17,
+    '9781667411767'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    40,
+    '9781071510032'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    17,
+    '9786180321012'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    32,
+    '9789601699837'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    17,
+    '9786180324082'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    102,
+    '9785043340351'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'30',
+    83,
+    '9786180332438'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    36,
+    '9789609527200'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απολαυστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    36,
+    '9789600361087'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    20,
+    '9789600354072'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι φανταστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'30',
+    49,
+    '9781909550780'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    78,
+    '9789601651736'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απογοητευτικό. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    94,
+    '9789601647500'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    25,
+    '9781632913234'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    8,
+    '9789601685427'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    25,
+    '9789939004938'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    16,
+    '9786180324112'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    25,
+    '9786180313826'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    16,
+    '9786180326956'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    89,
+    '9789601651736'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    49,
+    '9786180315110'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απογοητευτικό. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    90,
+    '9786180321012'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    90,
+    '9789601645209'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    90,
+    '9786180322798'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'30',
+    36,
+    '9786180322316'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'31',
+    90,
+    '9789601668062'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι φανταστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    16,
+    '9786180322385'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απολαυστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    20,
+    '9781912322015'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    20,
+    '9786180317701'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    25,
+    '9786180400373'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'30',
+    16,
+    '9789601645209'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απογοητευτικό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    54,
+    '9789601666587'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'30',
+    71,
+    '9786180325560'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι φανταστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    7,
+    '9789605720285'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    38,
+    '9786180317589'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    35,
+    '9789601651736'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    35,
+    '9786180322897'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    35,
+    '9786180327717'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    18,
+    '9789605721336'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'30',
+    71,
+    '9789601698359'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    7,
+    '9786180322897'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    18,
+    '9781387567997'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    18,
+    '9781632913234'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    38,
+    '9781310259654'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απογοητευτικό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    33,
+    '9786180325539'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    1,
+    '9786180325539'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    21,
+    '9786180337389'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απογοητευτικό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    50,
+    '9786180314687'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι φανταστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    21,
+    '9781911352709'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'30',
+    65,
+    '9786180320787'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    65,
+    '9786180321005'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι φανταστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'30',
+    76,
+    '9789601645032'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    50,
+    '9786180324129'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'30',
+    11,
+    '9789601685427'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    11,
+    '9789601656052'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εκπληκτικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    76,
+    '9789600353990'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    50,
+    '9786180702408'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    65,
+    '9786180324082'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'31',
+    45,
+    '9786180322293'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι αδιάφορο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    45,
+    '9786180320787'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απογοητευτικό. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    26,
+    '9785043797230'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    45,
+    '9789601657660'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    4,
+    '9786180324075'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    65,
+    '9789600359831'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    4,
+    X'31',
+    1,
+    '9786180328134'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι εξαιρετικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    21,
+    '9786180317794'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'31',
+    65,
+    '9781911352709'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι ανούσιο. Δεν προτείνω αυτό το βιβλίο.',
+    2,
+    X'30',
+    44,
+    '9789605720575'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι συναρπαστικό! Το προτείνω ανεπιφύλακτα για όποιον ψάχνει ένα καλό ανάγνωσμα.',
+    5,
+    X'31',
+    26,
+    '9786180314687'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι βαρετό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'30',
+    65,
+    '9789601656052'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό δεν είναι κάτι ιδιαίτερο, το προτείνω μόνο εάν δεν έχετε κάτι άλλο να διαβάσετε.',
+    3,
+    X'30',
+    26,
+    '9789601666587'
+  );
+INSERT INTO
+  `review` (
+    `ReviewText`,
+    `RatingLikert`,
+    `Approval`,
+    `IdUsers`,
+    `ISBN`
+  )
+VALUES
+  (
+    'Το βιβλίο αυτό είναι απογοητευτικό. Δεν προτείνω αυτό το βιβλίο.',
+    1,
+    X'31',
+    50,
+    '9786180317602'
+  );
 INSERT INTO
   `review` (
     `ReviewText`,
@@ -19100,6 +33305,2086 @@ VALUES
     'Θεσσαλονίκη',
     'magdalene.papanota@example.com',
     '2006-10-31',
+    0,
+    1,
+    1,
+    10
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ειρηναίος Παλαιολόγος',
+    'Σιόλου',
+    88,
+    'Αθήνα',
+    'eirenaios.palaiologos@example.com',
+    '2007-06-06',
+    0,
+    0,
+    2,
+    3
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Λουλουδένια Μαρτζούκου',
+    'Αντωνάκη',
+    126,
+    'Καβάλα',
+    'louloudenia.martzoukou@example.com',
+    '2015-06-14',
+    0,
+    0,
+    3,
+    5
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Αθανασία Μποζίκη',
+    'Πάρ. Γρηγορίου',
+    228,
+    'Θεσσαλονίκη',
+    'athanasia.mpozike@example.com',
+    '2014-10-16',
+    0,
+    1,
+    4,
+    10
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Πολυχρόνιος Γαρουφαλής',
+    'Μάγειρα',
+    18,
+    'Αθήνα',
+    'polukhronios.garouphales@example.com',
+    '2013-03-28',
+    0,
+    0,
+    5,
+    1
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Χρύσανθος Μαυροειδάκος',
+    'Καπνιά',
+    211,
+    'Θεσσαλονίκη',
+    'khrusanthos.mauroeidakos@example.com',
+    '2008-10-03',
+    0,
+    2,
+    6,
+    4
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Μηλιά-Ερμιόνη Νίκα',
+    'Λεωφόρος Αγίων Παρασκιών',
+    204,
+    'Αλεξανδρούπολη',
+    'meliaermione.nika@example.com',
+    '2016-10-19',
+    0,
+    0,
+    7,
+    9
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Βαρδής Κακοσαίος',
+    'Πλατεία Μικρού Περιστερίου',
+    225,
+    'Καρδίτσα',
+    'bardes.kakosaios@example.com',
+    '2005-04-25',
+    0,
+    0,
+    8,
+    8
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Βερονίκη-Κοκκώνα Αναστασίου',
+    'Λεωφόρος Κουτσελιού',
+    15,
+    'Αθήνα',
+    'beronikekokkona.anastasiou@example.com',
+    '2006-10-17',
+    0,
+    0,
+    9,
+    2
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Φοίβος Ρόκας',
+    'Αρχάκη',
+    36,
+    'Αθήνα',
+    'phoibos.rokas@example.com',
+    '2012-09-23',
+    0,
+    2,
+    10,
+    1
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ιωνάς Στραβοσνίχης',
+    'Οθωνών',
+    231,
+    'Θεσσαλονίκη',
+    'ionas.strabosnikhes@example.com',
+    '2013-08-24',
+    2,
+    1,
+    11,
+    10
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ισίδωρος Γιαννακουδάκης',
+    'Πάροδος Γραμπιάς',
+    62,
+    'Καβάλα',
+    'isidoros.giannakoudakes@example.com',
+    '2012-09-21',
+    0,
+    2,
+    12,
+    5
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Φιλαρέτη Καρακυρίου',
+    'Καρδιτσομαγούλας',
+    84,
+    'Θεσσαλονίκη',
+    'philarete.karakuriou@example.com',
+    '2013-08-14',
+    0,
+    0,
+    13,
+    4
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ζησούλα Μαρτιάδου',
+    'Πορφυριάδου',
+    216,
+    'Καβάλα',
+    'zesoula.martiadou@example.com',
+    '2007-05-18',
+    2,
+    2,
+    14,
+    5
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Πελοπίδας Μαυρουδής',
+    'Κρικέλλου',
+    113,
+    'Καβάλα',
+    'pelopidas.mauroudes@example.com',
+    '2003-08-08',
+    0,
+    0,
+    15,
+    5
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Αρετή-Προδρομία Σπασέγκου',
+    'Σχοινούσσης',
+    101,
+    'Καρδίτσα',
+    'areteprodromia.spasegkou@example.com',
+    '2010-02-02',
+    2,
+    1,
+    16,
+    8
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Κάρολος Σφύρλας',
+    'Τραχειάς',
+    26,
+    'Παλλήνη',
+    'karolos.sphurlas@example.com',
+    '2013-02-15',
+    2,
+    2,
+    17,
+    7
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ντανιέλα Κουθούρη',
+    'Χρονοπούλου',
+    60,
+    'Αλεξανδρούπολη',
+    'ntaniela.kouthoure@example.com',
+    '2003-10-04',
+    0,
+    0,
+    18,
+    9
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Πολυχρόνιος-Ορέστης Φωκάς',
+    'Κερίου',
+    195,
+    'Θεσσαλονίκη',
+    'polukhroniosorestes.phokas@example.com',
+    '2010-06-12',
+    0,
+    0,
+    19,
+    4
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Πύρρος Ευαγγελάτος',
+    'Παλαιομοναστήρου',
+    171,
+    'Καρδίτσα',
+    'purros.euaggelatos@example.com',
+    '2012-09-29',
+    0,
+    0,
+    20,
+    8
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ζαφείριος Δημόπουλος',
+    'Δριμίσκου',
+    186,
+    'Θεσσαλονίκη',
+    'zapheirios.demopoulos@example.com',
+    '2013-03-10',
+    0,
+    0,
+    21,
+    10
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Λουλουδένια Πολέμη',
+    'Πάροδος Αμπελικού',
+    167,
+    'Καβάλα',
+    'louloudenia.poleme@example.com',
+    '2017-04-02',
+    2,
+    0,
+    22,
+    5
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Αιμίλιος Πιπεράκης',
+    'Γραμμούσης',
+    223,
+    'Αθήνα',
+    'aimilios.piperakes@example.com',
+    '2017-02-22',
+    0,
+    0,
+    23,
+    2
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Αντύπας Χουλιάρας',
+    'Κωστοπούλου',
+    8,
+    'Ιωάννινα',
+    'antupas.khouliaras@example.com',
+    '2009-02-25',
+    0,
+    0,
+    24,
+    6
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Σωτήριος Ασημόπουλος',
+    'Πολυνέρου',
+    148,
+    'Καρδίτσα',
+    'soterios.asemopoulos@example.com',
+    '2011-12-02',
+    0,
+    0,
+    25,
+    8
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Στεργιαννώ Κοφινάκη',
+    'Καμαριώτου',
+    72,
+    'Θεσσαλονίκη',
+    'stergianno.kophinake@example.com',
+    '2016-02-12',
+    2,
+    2,
+    26,
+    10
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Στέφανος Θεολόγος',
+    'Οινουσσών',
+    231,
+    'Αθήνα',
+    'stephanos.theologos@example.com',
+    '2008-07-21',
+    0,
+    0,
+    27,
+    1
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Χρυσάνθη Τουλούπη',
+    'Λεωφ. Κολλινών',
+    202,
+    'Αθήνα',
+    'khrusanthe.touloupe@example.com',
+    '2016-07-16',
+    2,
+    0,
+    28,
+    3
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Βαλεντίνος Αγαλιώτης',
+    'Πλατεία Δωρικού',
+    125,
+    'Θεσσαλονίκη',
+    'balentinos.agaliotes@example.com',
+    '2016-06-17',
+    0,
+    2,
+    29,
+    4
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ξενοφών Δόβας',
+    'Ανωγείου',
+    71,
+    'Παλλήνη',
+    'xenophon.dobas@example.com',
+    '2017-05-24',
+    0,
+    0,
+    30,
+    7
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Βενιαμίν Μποτσώλης',
+    'Ραΐκου',
+    6,
+    'Καβάλα',
+    'beniamin.mpotsoles@example.com',
+    '2011-05-13',
+    0,
+    0,
+    31,
+    5
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ελισσαίος Νταβάς',
+    'Υψηλής Ράχης',
+    145,
+    'Παλλήνη',
+    'elissaios.ntabas@example.com',
+    '2004-06-13',
+    0,
+    0,
+    32,
+    7
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Καλλιρόη Δαγλή',
+    'Παπαθωμά',
+    13,
+    'Θεσσαλονίκη',
+    'kalliroe.dagle@example.com',
+    '2005-05-27',
+    2,
+    2,
+    33,
+    10
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Γιολάντα Τρίκα',
+    'Αποικίων',
+    168,
+    'Παλλήνη',
+    'giolanta.trika@example.com',
+    '2011-10-20',
+    0,
+    2,
+    34,
+    7
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Στέλλιος Κουλίδης',
+    'Θρακομακεδόνων',
+    24,
+    'Αλεξανδρούπολη',
+    'stellios.koulides@example.com',
+    '2006-07-05',
+    0,
+    0,
+    35,
+    9
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Σαράντης Ιντζές',
+    'Πάρ. Απροβάτου',
+    90,
+    'Καρδίτσα',
+    'sarantes.intzes@example.com',
+    '2010-03-16',
+    0,
+    0,
+    36,
+    8
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Σαββούλα Ευαγγελίδη',
+    'Πάρ. Αγίας Μαρίνης',
+    27,
+    'Αθήνα',
+    'sabboula.euaggelide@example.com',
+    '2008-04-09',
+    0,
+    0,
+    37,
+    3
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Παράσχος Κοκορδέλης',
+    'Θυμιανών',
+    173,
+    'Αλεξανδρούπολη',
+    'paraskhos.kokordeles@example.com',
+    '2008-03-25',
+    2,
+    0,
+    38,
+    9
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Φλώρα Γαβριηλίδη',
+    'Πάροδος Μεταμορφώσεως',
+    29,
+    'Αθήνα',
+    'phlora.gabrielide@example.com',
+    '2008-03-01',
+    2,
+    0,
+    39,
+    2
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ανθούλης Κεχαγιάς',
+    'Λεωφόρος Λυρκείας',
+    188,
+    'Παλλήνη',
+    'anthoules.kekhagias@example.com',
+    '2009-09-19',
+    2,
+    1,
+    40,
+    7
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Γλυκερία Θεοδοσίου',
+    'Κανταρελή',
+    197,
+    'Καβάλα',
+    'glukeria.theodosiou@example.com',
+    '2008-04-21',
+    0,
+    1,
+    41,
+    5
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Αμφιθέα Αντωνίου',
+    'Δοξάτου',
+    90,
+    'Αθήνα',
+    'amphithea.antoniou@example.com',
+    '2009-08-10',
+    0,
+    0,
+    42,
+    1
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Δάφνη Τριφτανίδου',
+    'Βαβουρίου',
+    140,
+    'Ιωάννινα',
+    'daphne.triphtanidou@example.com',
+    '2003-11-26',
+    0,
+    0,
+    43,
+    6
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Περσεφόνη Γαβριήλ',
+    'Μποζικά',
+    168,
+    'Θεσσαλονίκη',
+    'persephone.gabriel@example.com',
+    '2011-05-24',
+    0,
+    0,
+    44,
+    10
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Καλλίνικη Φασουλίδου',
+    'Οβριάς',
+    201,
+    'Θεσσαλονίκη',
+    'kallinike.phasoulidou@example.com',
+    '2016-02-21',
+    0,
+    2,
+    45,
+    10
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Χαράλαμπος Λαφατζής',
+    'Αντιμαχείας',
+    235,
+    'Θεσσαλονίκη',
+    'kharalampos.laphatzes@example.com',
+    '2011-10-30',
+    2,
+    1,
+    46,
+    4
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Βεατρίκη-Στυλιανή Τζιρατούδη',
+    'Αγιοφύλλου',
+    152,
+    'Καβάλα',
+    'beatrikestuliane.tziratoude@example.com',
+    '2005-03-25',
+    2,
+    2,
+    47,
+    5
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ζαχαρίας Δερμιτζάκης',
+    'Λαμπαίνης',
+    166,
+    'Αθήνα',
+    'zakharias.dermitzakes@example.com',
+    '2016-01-06',
+    0,
+    0,
+    48,
+    3
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Αθηνά Κωνσταντινίδου',
+    'Αρκαδικού',
+    34,
+    'Καρδίτσα',
+    'athena.konstantinidou@example.com',
+    '2015-08-23',
+    0,
+    2,
+    49,
+    8
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ασημούλα Πάντου',
+    'Υμηττού',
+    81,
+    'Θεσσαλονίκη',
+    'asemoula.pantou@example.com',
+    '2004-01-26',
+    2,
+    0,
+    50,
+    10
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ασημάκης Δουλγεράκης',
+    'Χρωμίου',
+    77,
+    'Ιωάννινα',
+    'asemakes.doulgerakes@example.com',
+    '2008-11-22',
+    2,
+    0,
+    51,
+    6
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Μάρθα Τσούρα',
+    'Θερμών',
+    228,
+    'Καβάλα',
+    'martha.tsoura@example.com',
+    '2007-12-07',
+    0,
+    0,
+    52,
+    5
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ιερόθεος Κουρκουτάς',
+    'Σπαθαραίων',
+    41,
+    'Αθήνα',
+    'ierotheos.kourkoutas@example.com',
+    '2014-05-21',
+    0,
+    1,
+    53,
+    1
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Άρης Κωνσταντόπουλος',
+    'Αλατόπετρας',
+    157,
+    'Αλεξανδρούπολη',
+    'ares.konstantopoulos@example.com',
+    '2006-04-11',
+    2,
+    0,
+    54,
+    9
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ερατώ Μασίκα',
+    'Αρχαγγέλου',
+    29,
+    'Ιωάννινα',
+    'erato.masika@example.com',
+    '2016-01-30',
+    0,
+    0,
+    55,
+    6
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Βαρδής Βλαχονικολέας',
+    'Χανίων',
+    67,
+    'Παλλήνη',
+    'bardes.blakhonikoleas@example.com',
+    '2015-01-08',
+    0,
+    2,
+    56,
+    7
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ρούσα Ντριβαλά',
+    'Αγίου Αδριανού',
+    163,
+    'Αθήνα',
+    'rousa.ntribala@example.com',
+    '2007-09-02',
+    0,
+    0,
+    57,
+    3
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Έλλη-Εριέτα Σταυρίδου',
+    'Λεωφ. Γαλατσάδων',
+    221,
+    'Αθήνα',
+    'elleerieta.stauridou@example.com',
+    '2007-03-25',
+    0,
+    0,
+    58,
+    1
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Δημούλα Μπιμπίρη',
+    'Σταφιδοκάμπου',
+    24,
+    'Θεσσαλονίκη',
+    'demoula.mpimpire@example.com',
+    '2003-07-10',
+    0,
+    0,
+    59,
+    4
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Φρίξος Καρτάς',
+    'Χατζηδάκη',
+    49,
+    'Αθήνα',
+    'phrixos.kartas@example.com',
+    '2011-02-04',
+    2,
+    1,
+    60,
+    1
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Κομνηνή Διαμαντοπούλου',
+    'Καλλυντήριον',
+    188,
+    'Αθήνα',
+    'komnene.diamantopoulou@example.com',
+    '2008-09-07',
+    0,
+    0,
+    61,
+    3
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Διονύσιος Σαλίχος',
+    'Τσουκαλαιίκων',
+    103,
+    'Ιωάννινα',
+    'dionusios.salikhos@example.com',
+    '2011-07-30',
+    0,
+    0,
+    62,
+    6
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Σπυρίδων Λεντζίου',
+    'Καστανώνος Ζαγορίου',
+    38,
+    'Αθήνα',
+    'spuridon.lentziou@example.com',
+    '2010-02-25',
+    2,
+    1,
+    63,
+    1
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Βασίλειος-Θεοδόσης Σοφιανός',
+    'Αδάμ',
+    34,
+    'Παλλήνη',
+    'basileiostheodoses.sophianos@example.com',
+    '2014-11-06',
+    0,
+    0,
+    64,
+    7
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Αυγέρης Καρανίκας',
+    'Τζάγκα',
+    182,
+    'Θεσσαλονίκη',
+    'augeres.karanikas@example.com',
+    '2013-04-16',
+    0,
+    0,
+    65,
+    10
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Φωκάς-Φανούριος Χρονόπουλος',
+    'Πογωνίας',
+    107,
+    'Καβάλα',
+    'phokasphanourios.khronopoulos@example.com',
+    '2004-03-22',
+    0,
+    0,
+    66,
+    5
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ρεβέκα Τσούρα',
+    'Λεωφόρος Σιλάτων',
+    132,
+    'Καβάλα',
+    'rebeka.tsoura@example.com',
+    '2009-09-06',
+    2,
+    2,
+    67,
+    5
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Φραγκίσκος Μακρυγιάννης',
+    'Μεγαλοβρύσου',
+    152,
+    'Καβάλα',
+    'phragkiskos.makrugiannes@example.com',
+    '2006-01-22',
+    0,
+    0,
+    68,
+    5
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Σπυράννα Σίββα',
+    'Περουλάδων',
+    22,
+    'Καβάλα',
+    'spuranna.sibba@example.com',
+    '2011-03-20',
+    2,
+    1,
+    69,
+    5
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Χρυσή Παλιούρα',
+    'Μουζακαίων',
+    2,
+    'Παλλήνη',
+    'khruse.palioura@example.com',
+    '2012-03-02',
+    2,
+    0,
+    70,
+    7
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Χρυσοβαλάντου Μασαούτη',
+    'Μωραΐτη',
+    250,
+    'Αλεξανδρούπολη',
+    'khrusobalantou.masaoute@example.com',
+    '2008-05-17',
+    0,
+    0,
+    71,
+    9
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Τηλεμαχος Σμπονιάς',
+    'Πάροδος Παλαιοχούνης',
+    231,
+    'Αθήνα',
+    'telemakhos.smponias@example.com',
+    '2006-08-01',
+    2,
+    2,
+    72,
+    1
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ραλλία Μαυρίδου',
+    'Καλλιμασιάς',
+    223,
+    'Ιωάννινα',
+    'rallia.mauridou@example.com',
+    '2007-03-25',
+    2,
+    0,
+    73,
+    6
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ευστράτιος Λάτσκος',
+    'Πάροδος Χρυσαυγής',
+    41,
+    'Ιωάννινα',
+    'eustratios.latskos@example.com',
+    '2012-12-09',
+    0,
+    1,
+    74,
+    6
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ζηνοβία Προύβα',
+    'Αραχναίου',
+    234,
+    'Αθήνα',
+    'zenobia.prouba@example.com',
+    '2016-08-07',
+    0,
+    0,
+    75,
+    2
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Αντύπας Ροϊδούλης',
+    'Λεοντίου',
+    221,
+    'Θεσσαλονίκη',
+    'antupas.roidoules@example.com',
+    '2013-02-25',
+    0,
+    0,
+    76,
+    10
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Άρτεμις Καζαντζή',
+    'Αρήνης',
+    205,
+    'Αθήνα',
+    'artemis.kazantze@example.com',
+    '2006-03-13',
+    0,
+    2,
+    77,
+    3
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Μαύρα Χωριανοπούλου',
+    'Ανεμοδουρίου',
+    218,
+    'Καρδίτσα',
+    'maura.khorianopoulou@example.com',
+    '2015-12-26',
+    2,
+    2,
+    78,
+    8
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Αντύπας Τσιτούρας',
+    'Πρασιών',
+    41,
+    'Αλεξανδρούπολη',
+    'antupas.tsitouras@example.com',
+    '2015-08-20',
+    0,
+    1,
+    79,
+    9
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Λουκία Σακκή',
+    'Ακρίων',
+    107,
+    'Αθήνα',
+    'loukia.sakke@example.com',
+    '2014-02-27',
+    0,
+    0,
+    80,
+    1
+  );
+INSERT INTO
+  `student` (
+    `StudentName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `StudentEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Μαγδαληνή Παπανώτα',
+    'Σπηλαίων',
+    29,
+    'Θεσσαλονίκη',
+    'magdalene.papanota@example.com',
+    '2006-10-31',
     1,
     1,
     1,
@@ -21944,6 +38229,786 @@ VALUES
     110,
     1
   );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Εύα Σκυλογιάννη',
+    'Πετρωτών',
+    66,
+    'Καβάλα',
+    'eua.skulogianne@example.com',
+    '1964-10-12',
+    0,
+    1,
+    81,
+    5
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Φαίδρα Ταυλαρίδου',
+    'Σαρακηνάδου',
+    98,
+    'Ιωάννινα',
+    'phaidra.taularidou@example.com',
+    '1988-11-21',
+    0,
+    1,
+    82,
+    6
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Βασίλειος Κατσίφος',
+    'Αμελάντων',
+    226,
+    'Παλλήνη',
+    'basileios.katsiphos@example.com',
+    '1969-06-19',
+    1,
+    0,
+    83,
+    7
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ηλίας Ξανθάκης',
+    'Λεωφ. Αράχου',
+    36,
+    'Παλλήνη',
+    'elias.xanthakes@example.com',
+    '1965-01-06',
+    0,
+    0,
+    84,
+    7
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Γλυκερία Κοντογιάννη',
+    'Καλλιανού',
+    46,
+    'Θεσσαλονίκη',
+    'glukeria.kontogianne@example.com',
+    '1982-10-18',
+    0,
+    0,
+    85,
+    4
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Τίτος Βολικάκης',
+    'Λεωφόρος Δουμενών',
+    88,
+    'Αθήνα',
+    'titos.bolikakes@example.com',
+    '1987-06-07',
+    0,
+    0,
+    86,
+    1
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Θεμιστόκλεια Βαλιάκα',
+    'Βουνιχώρας',
+    161,
+    'Αθήνα',
+    'themistokleia.baliaka@example.com',
+    '1967-07-19',
+    1,
+    0,
+    87,
+    3
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Νεφέλη Κουκουθάκη',
+    'Κούφης',
+    236,
+    'Καβάλα',
+    'nephele.koukouthake@example.com',
+    '1996-08-17',
+    0,
+    1,
+    88,
+    5
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Γεωργία Κανελή',
+    'Καλουτά',
+    171,
+    'Καρδίτσα',
+    'georgia.kanele@example.com',
+    '1994-05-22',
+    1,
+    0,
+    89,
+    8
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Χαρίλαος Μυλωνάς',
+    'Πλατεία Φιλύρας',
+    114,
+    'Καρδίτσα',
+    'kharilaos.mulonas@example.com',
+    '1980-06-27',
+    0,
+    0,
+    90,
+    8
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ρωμανός Πίσσιος',
+    'Λεωφ. Λεβεντοχωρίου',
+    50,
+    'Αθήνα',
+    'romanos.pissios@example.com',
+    '1998-04-18',
+    0,
+    0,
+    91,
+    1
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Λαυρεντία-Διαλεκτή Προύβα',
+    'Πλεμενιανών',
+    24,
+    'Θεσσαλονίκη',
+    'laurentiadialekte.prouba@example.com',
+    '1978-01-01',
+    0,
+    1,
+    92,
+    10
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Σεβαστιανή Μπαλανίκα',
+    'Γιαννιτσίου',
+    97,
+    'Καρδίτσα',
+    'sebastiane.mpalanika@example.com',
+    '1976-09-24',
+    0,
+    0,
+    93,
+    8
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Λέανδρος Αγγελής',
+    'Τυχερού',
+    142,
+    'Καρδίτσα',
+    'leandros.aggeles@example.com',
+    '1981-08-28',
+    0,
+    0,
+    94,
+    8
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Σταμάτιος-Αθηνόδωρος Ζούνης',
+    'Πραιτωρίων',
+    118,
+    'Καβάλα',
+    'stamatiosathenodoros.zounes@example.com',
+    '1980-06-03',
+    0,
+    1,
+    95,
+    5
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ευσταθία Βαϊραμίδου',
+    'Κριμηνίου',
+    114,
+    'Θεσσαλονίκη',
+    'eustathia.bairamidou@example.com',
+    '1992-09-30',
+    1,
+    0,
+    96,
+    10
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ίων Ριζούλης',
+    'Λαλαούνη',
+    248,
+    'Αθήνα',
+    'ion.rizoules@example.com',
+    '1957-12-31',
+    0,
+    0,
+    97,
+    2
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ολύμπια-Ποθητή Καρκαλέτση',
+    'Περιβολίου Δομοκού',
+    130,
+    'Αθήνα',
+    'olumpiapothete.karkaletse@example.com',
+    '1966-11-02',
+    0,
+    0,
+    98,
+    2
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ζαχαρίας Ταχτσίδης',
+    'Βρούτση',
+    171,
+    'Καβάλα',
+    'zakharias.takhtsides@example.com',
+    '1968-09-16',
+    0,
+    1,
+    99,
+    5
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ανδροκλής Ζευγίτης',
+    'Λιόντη',
+    83,
+    'Παλλήνη',
+    'androkles.zeugites@example.com',
+    '1983-09-14',
+    1,
+    1,
+    100,
+    7
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Κυβέλη Βουλγαρίδου',
+    'Καπνιά',
+    198,
+    'Θεσσαλονίκη',
+    'kubele.boulgaridou@example.com',
+    '1996-01-16',
+    0,
+    1,
+    101,
+    4
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Ευτέρπη Σκασίλα',
+    'Βαλκάνου',
+    112,
+    'Παλλήνη',
+    'euterpe.skasila@example.com',
+    '1991-04-21',
+    0,
+    0,
+    102,
+    7
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Βερόνικα Μαλλή',
+    'Καρών Κισσάμου',
+    126,
+    'Αθήνα',
+    'beronika.malle@example.com',
+    '1977-05-10',
+    0,
+    1,
+    103,
+    3
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Γεώργιος Μπλανάς',
+    'Πλ. Βρουχά',
+    12,
+    'Αθήνα',
+    'georgios.mplanas@example.com',
+    '1996-08-10',
+    1,
+    0,
+    104,
+    2
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Χαράλαμπος Βουτσάς',
+    'Μαλετιάνων',
+    97,
+    'Θεσσαλονίκη',
+    'kharalampos.boutsas@example.com',
+    '1959-09-07',
+    0,
+    0,
+    105,
+    4
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Βλαδίμηρος Σταμέλος',
+    'Λαδά',
+    28,
+    'Θεσσαλονίκη',
+    'bladimeros.stamelos@example.com',
+    '1996-01-17',
+    0,
+    0,
+    106,
+    4
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Φωκάς Αργυρόπουλος',
+    'Κατωγής',
+    152,
+    'Παλλήνη',
+    'phokas.arguropoulos@example.com',
+    '1985-07-03',
+    0,
+    0,
+    107,
+    7
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Λαζαρία-Καλλίνικη Τζιόβα',
+    'Μεσελέρων',
+    154,
+    'Παλλήνη',
+    'lazariakallinike.tzioba@example.com',
+    '1976-12-07',
+    0,
+    1,
+    108,
+    7
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Τριανταφυλλιά Μιχαλάρου',
+    'Δώρη',
+    87,
+    'Καβάλα',
+    'triantaphullia.mikhalarou@example.com',
+    '1958-11-14',
+    0,
+    1,
+    109,
+    5
+  );
+INSERT INTO
+  `teacher` (
+    `TeacherName`,
+    `Adress_street`,
+    `Adress_number`,
+    `Adress_city`,
+    `TeacherEmail`,
+    `BirthDate`,
+    `BooksToBorrow`,
+    `BooksToReserve`,
+    `IdUsers`,
+    `IdSchool`
+  )
+VALUES
+  (
+    'Μενέλαος Παληός',
+    'Φιλαδελφείας',
+    135,
+    'Αθήνα',
+    'menelaos.paleos@example.com',
+    '1993-04-07',
+    0,
+    0,
+    110,
+    1
+  );
 
 # ------------------------------------------------------------
 # DATA DUMP FOR TABLE: telephone
@@ -22005,11 +39070,627 @@ INSERT INTO
   `telephone` (`IdSchool`, `PhoneNumber`)
 VALUES
   (4, '6962 642 752');
+INSERT INTO
+  `telephone` (`IdSchool`, `PhoneNumber`)
+VALUES
+  (1, '2870792272');
+INSERT INTO
+  `telephone` (`IdSchool`, `PhoneNumber`)
+VALUES
+  (2, '+302369988189');
+INSERT INTO
+  `telephone` (`IdSchool`, `PhoneNumber`)
+VALUES
+  (3, '2103842680');
+INSERT INTO
+  `telephone` (`IdSchool`, `PhoneNumber`)
+VALUES
+  (4, '22740 92 991');
+INSERT INTO
+  `telephone` (`IdSchool`, `PhoneNumber`)
+VALUES
+  (5, '6978 702845');
+INSERT INTO
+  `telephone` (`IdSchool`, `PhoneNumber`)
+VALUES
+  (6, '+30 2383 235901');
+INSERT INTO
+  `telephone` (`IdSchool`, `PhoneNumber`)
+VALUES
+  (7, '(+30) 2820 570808');
+INSERT INTO
+  `telephone` (`IdSchool`, `PhoneNumber`)
+VALUES
+  (8, '210 3699297');
+INSERT INTO
+  `telephone` (`IdSchool`, `PhoneNumber`)
+VALUES
+  (9, '+30 6981 059221');
+INSERT INTO
+  `telephone` (`IdSchool`, `PhoneNumber`)
+VALUES
+  (10, '2150038010');
+INSERT INTO
+  `telephone` (`IdSchool`, `PhoneNumber`)
+VALUES
+  (1, '+306947441402');
+INSERT INTO
+  `telephone` (`IdSchool`, `PhoneNumber`)
+VALUES
+  (2, '+302226484792');
+INSERT INTO
+  `telephone` (`IdSchool`, `PhoneNumber`)
+VALUES
+  (3, '2080393813');
+INSERT INTO
+  `telephone` (`IdSchool`, `PhoneNumber`)
+VALUES
+  (4, '6962 642 752');
 
 # ------------------------------------------------------------
 # DATA DUMP FOR TABLE: telephoneuser
 # ------------------------------------------------------------
 
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (1, '+30 6924 967733');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (2, '(+30) 2501 821040');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (3, '20890 13 733');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (4, '210 1513381');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (5, '2903005561');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (6, '2750960909');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (7, '6970830022');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (8, '+30 6915 731200');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (9, '210 976 8167');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (10, '210 819 2369');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (11, '+30 2119 682573');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (12, '+30 6944 206269');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (13, '2101367902');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (14, '2870273830');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (15, '2065016588');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (16, '(+30) 2472 076516');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (17, '+30 2362 130047');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (18, '6950693636');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (19, '(+30) 2058 787589');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (20, '2728068038');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (21, '+302631109747');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (22, '24870 87 198');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (23, '2860369283');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (24, '6983 670 073');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (25, '(+30) 2256 169577');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (26, '6942 170 918');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (27, '6965 943187');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (28, '+30 2702 907329');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (29, '+30 6980 729073');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (30, '210 7633176');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (31, '2706038793');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (32, '+306980790333');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (33, '27770 22 984');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (34, '(+30) 6967 606758');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (35, '+302183300861');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (36, '6943 386699');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (37, '2750 980 133');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (38, '28660 51 333');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (39, '2473065639');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (40, '210 355 7077');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (41, '2103524009');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (42, '+30 2751 987144');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (43, '2610 654 512');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (44, '2996088508');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (45, '6965 976 053');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (46, '2031012965');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (47, '6905 077046');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (48, '210 9441832');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (49, '+30 2746 510663');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (50, '2830 848 544');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (51, '+30 6965 379273');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (52, '6962 735964');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (53, '2930573874');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (54, '210 633 6463');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (55, '210 286 3719');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (56, '2540138291');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (57, '2670 770 690');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (58, '+302310825235');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (59, '2480 285 610');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (60, '2103672902');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (61, '+302193400253');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (62, '2680 331 725');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (63, '+30 6951 812897');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (64, '6957 632 005');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (65, '210 0881339');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (66, '2380 394275');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (67, '2590 265 896');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (68, '2106808138');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (69, '2920 037 699');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (70, '210 269 2603');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (71, '+306979504920');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (72, '2104467667');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (73, '6994763455');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (74, '2103156300');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (75, '2350 156 640');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (76, '6912 070 096');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (77, '6928 273937');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (78, '2230 282174');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (79, '+30 2011 668517');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (80, '2980 678721');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (81, '+30 2532 676715');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (82, '6986 847910');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (83, '+30 6928 004277');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (84, '210 8482143');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (85, '25060 96 652');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (86, '6988 220760');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (87, '(+30) 6962 361401');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (88, '+30 2103 561493');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (89, '6976 036 356');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (90, '2035014838');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (91, '20890 48 597');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (92, '6971 555 528');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (93, '6958 506272');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (94, '+30 2680 113984');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (95, '2800 241567');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (96, '20370 60 586');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (97, '+30 6925 476925');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (98, '2104505387');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (99, '210 526 8784');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (100, '6972 449057');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (101, '2340687684');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (102, '21300 14 661');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (103, '+302818766338');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (104, '2467078694');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (105, '(+30) 2473 031023');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (106, '2104379053');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (107, '6942 514 579');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (108, '+30 2814 354064');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (109, '2850 308842');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (110, '2350787959');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (111, '+306907134065');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (112, '210 6766609');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (113, '+302256346831');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (114, '210 084 9242');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (115, '2350472825');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (116, '6930 241 216');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (117, '2780 796 212');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (118, '2901068315');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (119, '210 0193325');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (120, '+302906376288');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (21, '2920 880857');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (59, '2041026682');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (27, '2107392440');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (113, '+302484138675');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (46, '2350 605881');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (7, '25090 74 626');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (55, '2104194973');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (43, '210 471 9235');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (71, '2070759341');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (72, '210 2430800');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (119, '6998 886236');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (6, '6926 950514');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (105, '(+30) 2973 823950');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (30, '2109824194');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (85, '6976649282');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (23, '2160146808');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (66, '6979343414');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (6, '(+30) 6988 319386');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (98, '2124063688');
+INSERT INTO
+  `telephoneuser` (`IdUsers`, `PhoneNumber`)
+VALUES
+  (43, '+30 6927 891544');
 INSERT INTO
   `telephoneuser` (`IdUsers`, `PhoneNumber`)
 VALUES
@@ -23655,6 +41336,308 @@ VALUES
     'v6Y%_Fa6+v',
     X'31'
   );
+
+# ------------------------------------------------------------
+# TRIGGER DUMP FOR: calculate_teacher_books_left
+# ------------------------------------------------------------
+
+DROP TRIGGER IF EXISTS calculate_teacher_books_left;
+DELIMITER ;;
+CREATE TRIGGER calculate_teacher_books_left
+AFTER INSERT ON Borrowing
+FOR EACH ROW
+BEGIN
+    DECLARE user_id INT;
+    DECLARE total_borrowed INT;
+    DECLARE books_left INT;
+
+    -- Get the user ID of the borrower from the inserted row
+    SET user_id = NEW.IdUsers;
+
+    -- Calculate the total number of books borrowed by the user
+    SELECT COUNT(*) INTO total_borrowed
+    FROM Borrowing
+    WHERE (user_id = IdUsers
+      AND Returned = 'False');
+
+    -- Calculate the number of books left to borrow
+    SET books_left = 1 - total_borrowed;
+
+    -- Update the "books_left" column in the "users" table
+    UPDATE Teacher SET BooksToBorrow = books_left WHERE IdUsers = user_id;
+END;;
+DELIMITER ;
+
+# ------------------------------------------------------------
+# TRIGGER DUMP FOR: calculate_student_books_left
+# ------------------------------------------------------------
+
+DROP TRIGGER IF EXISTS calculate_student_books_left;
+DELIMITER ;;
+CREATE TRIGGER calculate_student_books_left
+AFTER INSERT ON Borrowing
+FOR EACH ROW
+BEGIN
+    DECLARE user_id INT;
+    DECLARE total_borrowed INT;
+    DECLARE books_left INT;
+
+    -- Get the user ID of the borrower from the inserted row
+    SET user_id = NEW.IdUsers;
+
+    -- Calculate the total number of books borrowed by the user
+    SELECT COUNT(*) INTO total_borrowed
+    FROM Borrowing
+    WHERE (user_id = IdUsers
+      AND Returned = 'False');
+
+    -- Calculate the number of books left to borrow
+    SET books_left = 2 - total_borrowed;
+
+    -- Update the "books_left" column in the "users" table
+    UPDATE Student SET BooksToBorrow = books_left WHERE IdUsers = user_id;
+END;;
+DELIMITER ;
+
+# ------------------------------------------------------------
+# TRIGGER DUMP FOR: calculate_teacher_books_left_1
+# ------------------------------------------------------------
+
+DROP TRIGGER IF EXISTS calculate_teacher_books_left_1;
+DELIMITER ;;
+CREATE TRIGGER calculate_teacher_books_left_1
+AFTER UPDATE ON Borrowing
+FOR EACH ROW
+BEGIN
+    DECLARE user_id INT;
+    DECLARE total_borrowed INT;
+    DECLARE books_left INT;
+
+    -- Get the user ID of the borrower from the inserted row
+    SET user_id = NEW.IdUsers;
+
+    -- Calculate the total number of books borrowed by the user
+    SELECT COUNT(*) INTO total_borrowed
+    FROM Borrowing
+    WHERE (user_id = IdUsers
+      AND Returned = 'False');
+
+    -- Calculate the number of books left to borrow
+    SET books_left = 1 - total_borrowed;
+
+    -- Update the "books_left" column in the "users" table
+    UPDATE Teacher SET BooksToBorrow = books_left WHERE IdUsers = user_id;
+END;;
+DELIMITER ;
+
+# ------------------------------------------------------------
+# TRIGGER DUMP FOR: calculate_student_books_left_1
+# ------------------------------------------------------------
+
+DROP TRIGGER IF EXISTS calculate_student_books_left_1;
+DELIMITER ;;
+CREATE TRIGGER calculate_student_books_left_1
+AFTER UPDATE ON Borrowing
+FOR EACH ROW
+BEGIN
+    DECLARE user_id INT;
+    DECLARE total_borrowed INT;
+    DECLARE books_left INT;
+
+    -- Get the user ID of the borrower from the inserted row
+    SET user_id = NEW.IdUsers;
+
+    -- Calculate the total number of books borrowed by the user
+    SELECT COUNT(*) INTO total_borrowed
+    FROM Borrowing
+    WHERE user_id = IdUsers
+      AND Returned = 'False';
+
+    -- Calculate the number of books left to borrow
+    SET books_left = 2 - total_borrowed;
+
+    -- Update the "books_left" column in the "users" table
+    UPDATE Student SET BooksToBorrow = books_left WHERE IdUsers = user_id;
+END;;
+DELIMITER ;
+
+# ------------------------------------------------------------
+# TRIGGER DUMP FOR: calculate_teacher_reservations_left
+# ------------------------------------------------------------
+
+DROP TRIGGER IF EXISTS calculate_teacher_reservations_left;
+DELIMITER ;;
+CREATE TRIGGER calculate_teacher_reservations_left
+AFTER INSERT ON Reservation
+FOR EACH ROW
+BEGIN
+    DECLARE user_id INT;
+    DECLARE total_reserved INT;
+    DECLARE reservations_left INT;
+
+    -- Get the user ID of the borrower from the inserted row
+    SET user_id = NEW.IdUsers;
+
+    -- Calculate the total number of books borrowed by the user
+    SELECT COUNT(*) INTO total_reserved
+    FROM Reservation
+    WHERE user_id = IdUsers;
+
+    -- Calculate the number of books left to borrow
+    SET reservations_left = 1 - total_reserved;
+
+    -- Update the "books_left" column in the "users" table
+    UPDATE Teacher SET BooksToReserve = reservations_left WHERE IdUsers = user_id;
+END;;
+DELIMITER ;
+
+# ------------------------------------------------------------
+# TRIGGER DUMP FOR: calculate_student_reservations_left
+# ------------------------------------------------------------
+
+DROP TRIGGER IF EXISTS calculate_student_reservations_left;
+DELIMITER ;;
+CREATE TRIGGER calculate_student_reservations_left
+AFTER INSERT ON Reservation
+FOR EACH ROW
+BEGIN
+    DECLARE user_id INT;
+    DECLARE total_reserved INT;
+    DECLARE reservations_left INT;
+
+    -- Get the user ID of the borrower from the inserted row
+    SET user_id = NEW.IdUsers;
+
+    -- Calculate the total number of books borrowed by the user
+    SELECT COUNT(*) INTO total_reserved
+    FROM Reservation
+    WHERE user_id = IdUsers;
+
+    -- Calculate the number of books left to borrow
+    SET reservations_left = 2 - total_reserved;
+
+    -- Update the "books_left" column in the "users" table
+    UPDATE Student SET BooksToReserve = reservations_left WHERE IdUsers = user_id;
+END;;
+DELIMITER ;
+
+# ------------------------------------------------------------
+# TRIGGER DUMP FOR: calculate_teacher_reservations_left_1
+# ------------------------------------------------------------
+
+DROP TRIGGER IF EXISTS calculate_teacher_reservations_left_1;
+DELIMITER ;;
+CREATE TRIGGER calculate_teacher_reservations_left_1
+AFTER UPDATE ON Reservation
+FOR EACH ROW
+BEGIN
+    DECLARE user_id INT;
+    DECLARE total_reserved INT;
+    DECLARE reservations_left INT;
+
+    -- Get the user ID of the borrower from the inserted row
+    SET user_id = NEW.IdUsers;
+
+    -- Calculate the total number of books borrowed by the user
+    SELECT COUNT(*) INTO total_reserved
+    FROM Reservation
+    WHERE user_id = IdUsers;
+
+    -- Calculate the number of books left to borrow
+    SET reservations_left = 1 - total_reserved;
+
+    -- Update the "books_left" column in the "users" table
+    UPDATE Teacher SET BooksToReserve = reservations_left WHERE IdUsers = user_id;
+END;;
+DELIMITER ;
+
+# ------------------------------------------------------------
+# TRIGGER DUMP FOR: calculate_student_reservations_left_1
+# ------------------------------------------------------------
+
+DROP TRIGGER IF EXISTS calculate_student_reservations_left_1;
+DELIMITER ;;
+CREATE TRIGGER calculate_student_reservations_left_1
+AFTER UPDATE ON Reservation
+FOR EACH ROW
+BEGIN
+    DECLARE user_id INT;
+    DECLARE total_reserved INT;
+    DECLARE reservations_left INT;
+
+    -- Get the user ID of the borrower from the inserted row
+    SET user_id = NEW.IdUsers;
+
+    -- Calculate the total number of books borrowed by the user
+    SELECT COUNT(*) INTO total_reserved
+    FROM Reservation
+    WHERE user_id = IdUsers;
+
+    -- Calculate the number of books left to borrow
+    SET reservations_left = 2 - total_reserved;
+
+    -- Update the "books_left" column in the "users" table
+    UPDATE Student SET BooksToReserve = reservations_left WHERE IdUsers = user_id;
+END;;
+DELIMITER ;
+
+# ------------------------------------------------------------
+# TRIGGER DUMP FOR: create_book_rating
+# ------------------------------------------------------------
+
+DROP TRIGGER IF EXISTS create_book_rating;
+DELIMITER ;;
+CREATE TRIGGER create_book_rating
+AFTER INSERT ON `libq`.`Review`
+FOR EACH ROW
+BEGIN
+  DECLARE avg_rating DECIMAL(3, 2);
+
+  SELECT AVG(RatingLikert) INTO avg_rating
+  FROM `libq`.`Review`
+  WHERE ISBN = NEW.ISBN;
+
+  UPDATE `libq`.`Book`
+  SET Rating = avg_rating
+  WHERE ISBN = NEW.ISBN;
+END;;
+DELIMITER ;
+
+# ------------------------------------------------------------
+# TRIGGER DUMP FOR: check_student_age_constraint
+# ------------------------------------------------------------
+
+DROP TRIGGER IF EXISTS check_student_age_constraint;
+DELIMITER ;;
+CREATE TRIGGER check_student_age_constraint
+BEFORE INSERT ON Student
+FOR EACH ROW
+BEGIN
+  DECLARE age INT;
+  SET age = YEAR(CURDATE()) - YEAR(NEW.`BirthDate`);
+  IF age < 6 OR age > 20 THEN
+    SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Age constraint violation: Users must be between 6 and 20 years old.';
+  END IF;
+END;;
+DELIMITER ;
+
+# ------------------------------------------------------------
+# TRIGGER DUMP FOR: check_teacher_age_constraint
+# ------------------------------------------------------------
+
+DROP TRIGGER IF EXISTS check_teacher_age_constraint;
+DELIMITER ;;
+CREATE TRIGGER check_teacher_age_constraint
+BEFORE INSERT ON Teacher
+FOR EACH ROW
+BEGIN
+  DECLARE age INT;
+  SET age = YEAR(CURDATE()) - YEAR(NEW.`BirthDate`);
+  IF age < 25 OR age > 67 THEN
+    SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Age constraint violation: Teachers must be between 25 and 67 years old.';
+  END IF;
+END;;
+DELIMITER ;
 
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

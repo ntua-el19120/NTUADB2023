@@ -30,6 +30,10 @@ app.get('/libq', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/login.html'));
 });
 
+app.get('/libq/signup', function (req, res) {
+  res.sendFile(path.join(__dirname, '../frontend/signup.html'));
+});
+
 app.get('/libq/generaladmin', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/GeneralAdmin.html'));
 });
@@ -62,8 +66,13 @@ app.get('/libq/generaladmin/updateschool/:id', function (req, res) {
 
 
 // Serve the login page
+
+
 const login = require('./login');
 app.use('/libq/login', login);
+
+const signup = require('./signup');
+app.use('/libq/signup', signup);
 
 const backupRouter = require('./GeneralAdmin/backup.js');
 app.use('/libq/backup', backupRouter);
@@ -72,11 +81,11 @@ const viewSchools = require('./GeneralAdmin/viewschools.js');
 app.use('/libq/generaladmin/viewschools', viewSchools);
 
 
-
-
 const createSchool = require('./GeneralAdmin/createschool.js');
 app.use('/libq/generaladmin/createdschool', createSchool);
 
+const schools = require('./schools.js'); 
+app.use('/libq/schools', schools);
 
 const RestoreRouter = require('./GeneralAdmin/restore.js');
 app.use('/libq/restore', RestoreRouter);
