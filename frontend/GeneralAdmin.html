@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>General Admin Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        hr {
+            border: none;
+            border-top: 3px solid #333;
+            margin: 20px 0;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+            padding: 5px 10px;
+            display: inline-block;
+            border-radius: 5px;
+            background-color: #eee;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #ccc;
+        }
+
+        .logout-link {
+            color: #fff;
+            background-color: #f00;
+        }
+
+        .logout-link:hover {
+            background-color: #d00;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome General Admin!</h1>
+
+    <hr>
+
+    <h2>What would you like to do today?</h2>
+    <ul>
+        <li><h3><a href="http://localhost:9103/libq/generaladmin/viewschools">View School Units (CRUD operations)</a></h3></li>
+        <li><h3><a href="http://localhost:9103/libq/backup">Create a backup copy of the entire database</a></h3></li>
+        <li><h3><a href="http://localhost:9103/libq/restore">Restore the system from your saved backup copy (Don't press me if you don't have a backup file &lt;3)</a></h3></li>
+        <li><h3><a href="http://localhost:9103/libq/generaladmin/borrowings1">Watch the list with the total number of loans per school</a></h3></li>
+        <li><h3><a href="http://localhost:9103/libq/generaladmin/givenbookcategory1">For a given book category, find which authors belong to it and which teachers have borrowed books from that category in the last year</a></h3></li>
+        <li><h3><a href="http://localhost:9103/libq/generaladmin/youngteachers">Check which young teachers have borrowed the most books</a></h3></li>
+        <li><h3><a href="http://localhost:9103/libq/generaladmin/unluckywriters">Check which are the unlucky authors whose books have not been borrowed</a></h3></li>
+        <li><h3><a href="http://localhost:9103/libq/generaladmin/top3categories">Check the top-3 pairs of book categories that appeared most in borrowings</a></h3></li>
+        <li><h3><a href="http://localhost:9103/libq/generaladmin/busywriters">Check which authors have written at least 5 books less than the author with the most books</a></h3></li>
+        <li><h3><a href="http://localhost:9103/libq/generaladmin/borrowingsperyear">Find out which School Admins have loaned the same number of books in a year with more than 20 loans</a></h3></li>
+        <li><h3><a href="http://localhost:9103/libq/generaladmin/SaApplications">See the pending School Admin application</a></h3></li>
+    </ul>
+    <h3><a href="http://localhost:9103/libq" class="logout-link">Logout</a></h3>
+
+
+</body>
+</html>
