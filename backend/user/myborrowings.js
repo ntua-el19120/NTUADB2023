@@ -20,14 +20,26 @@ router.get('/', function (req, res) {
       }
 
       const idlogged = results[0].idlogged;
+      let b=[];
+      b.push(idlogged);
+      b.push(idlogged);
+
 
       let query2 = `
-      SELECT DISTINCT B.Title as Title, B.ISBN as ISBN, B.RATING as RATING, A.ReviewText AS ReviewText, A.RatingLikert AS RatingLikert
-      FROM book_combined_view AS B, NewTable AS A
-        WHERE PersonId = ? AND A.ISBN = B.ISBN
+      SELECT DISTINCT A.Title as Title, A.ISBN as ISBN, A.rating as Rating, R.ReviewText as RatingText, R.RatingLikert as RatingLikert
+      FROM (
+          SELECT BOR.ISBN as ISBN, B.Title as Title, B.rating as rating, bor.Idusers as id
+          FROM borrowing BOR
+          JOIN book B ON BOR.ISBN = B.ISBN
+          WHERE bor.idusers = ?
+      ) A
+      LEFT JOIN review R ON A.ISBN = R.ISBN AND R.Idusers = ?;
+      
+      
+      
       `;
 
-      connection.query(query2, [idlogged], (err, results) => {
+      connection.query(query2, b, (err, results) => {
         if (err) {
           console.error('Error executing query:', err);
           res.status(500).json({ error: 'An error occurred while executing the query' });
@@ -110,24 +122,59 @@ let htmlTable = `
               <th>Review Text</th>
               <th>Rating Likert</th>
               <th>Edit</th>
+              <th>Delete</th>
+
             </tr>
           </thead>
           <tbody>
 `;
 
+// ...
+
+// Append rows to the HTML table
 // Append rows to the HTML table
 for (const row of results) {
+  let textColorClass = row.approval === 1 ? 'approved-text' : 'not-approved-text';
+  let ratingText = row.Rating || '<span class="null-value">N/A</span>';
+  let reviewText = row.RatingText || '<span class="null-value">N/A</span>';
+  let ratingLikertText = row.RatingLikert || '<span class="null-value">N/A</span>';
   htmlTable += `
     <tr>
       <td>${row.Title}</td>
       <td>${row.ISBN}</td>
-      <td>${row.RATING}</td>
-      <td contenteditable="true" data-field="ReviewText">${row.ReviewText}</td>
-      <td contenteditable="true" data-field="RatingLikert">${row.RatingLikert}</td>
-      <td><a href="/user/updatereview/${idlogged}/${row.ISBN}" class="edit-link">Edit Review</a></td>
+      <td>${row.Rating}</td>
+      <td contenteditable="true" data-field="ReviewText" class="${textColorClass}">${reviewText}</td>
+      <td contenteditable="true" data-field="RatingLikert" class="${textColorClass}">${ratingLikertText}</td>
+      <td><a href="/libq/user/updatereview/${idlogged}/${row.ISBN}" class="edit-link">Edit Review</a></td>
+      <td><a href="#" onclick="deleteReview('${idlogged}', '${row.ISBN}')" class="edit-link">Delete Review</a></td>
     </tr>
   `;
 }
+
+htmlTable += `
+  <script>
+    function deleteReview(userId, isbn) {
+      if (confirm('Are you sure you want to delete the review?')) {
+        fetch('/libq/user/myborrowings/deletereview/' + userId + '/' + isbn, { method: 'DELETE' })
+          .then(response => {
+            if (response.ok) {
+              // Reload the page after successful deletion
+              location.reload();
+            } else {
+              console.error('Error deleting review:', response.statusText);
+              alert('An error occurred while deleting the review. Please try again.');
+            }
+          })
+          .catch(error => {
+            console.error('Error deleting review:', error);
+            alert('An error occurred while deleting the review. Please try again.');
+          });
+      }
+    }
+  </script>
+`;
+
+// ...
 
 // Complete the HTML table
 htmlTable += `
@@ -135,7 +182,19 @@ htmlTable += `
         </table>
       </div>
     </body>
-    <h3><a href="http://localhost:9103/libq/generaladmin">Back to the homepage</a></h3></li>
+    <style>
+      .not-approved-text {
+        color: red;
+      }
+      .approved-text {
+        color: black;
+      }
+      .null-value {
+        color: green;
+      }
+    </style>
+    <h3>if your review is red it means it is not approved (yet) :)</h3>
+    <h3><a href="http://localhost:9103/libq/generaladmin">Back to the homepage</a></h3>
   </html>
 `;
 
@@ -148,5 +207,46 @@ htmlTable += `
     });
   });
 });
+
+
+
+
+
+  router.delete('/deletereview/:userId/:isbn', function (req, res) {
+    const userId = req.params.userId;
+    const isbn = req.params.isbn;
+  
+    pool.getConnection(function (err, connection) {
+      if (err) {
+        console.error('Error getting database connection:', err);
+        res.status(500).json({ error: 'An error occurred while getting a database connection' });
+        return;
+      }
+  
+      let query = 'DELETE FROM review WHERE Idusers = ? AND ISBN = ?';
+  
+      connection.query(query, [userId, isbn], (err, results) => {
+        if (err) {
+          console.error('Error executing query:', err);
+          res.status(500).json({ error: 'An error occurred while executing the query' });
+          return;
+        }
+  
+        // Check if any rows were affected by the delete operation
+        if (results.affectedRows > 0) {
+          res.sendStatus(200); // Send a success status code
+        } else {
+          res.sendStatus(404); // Send a not found status code if the review was not found
+        }
+  
+        connection.release();
+      });
+    });
+  });
+
+
+
+
+
 
 module.exports = router;

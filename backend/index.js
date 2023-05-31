@@ -133,11 +133,21 @@ app.use('/libq/schooladmin/lateborrowings', lateBorrowings);
 const reviewAverages = require('./SchoolAdmin/ReviewAverages.js');
 app.use('/libq/schooladmin/reviewaverages', reviewAverages);
 
+
+app.get('/libq/user/updatereview/:idlogged/:ISBN', function (req, res) {
+  res.sendFile(path.join(__dirname, '../frontend/updatereview.html'));
+});
+
 const checkbooks = require('./user/checkbooks.js');
 app.use('/libq/user/checkbooks', checkbooks);
 
 const myBorrowings = require('./user/myborrowings.js');
 app.use('/libq/user/myborrowings', myBorrowings);
+
+
+const updatereview = require('./user/updatereview.js');
+app.use('/libq/user/updatereview', updatereview);
+
 
 
 
