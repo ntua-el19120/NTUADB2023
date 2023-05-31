@@ -12,43 +12,61 @@ router.get('/', function (req, res) {
       return;
     }
 
-    const studentQuery = `
-      SELECT DISTINCT s.IdUsers, SUBSTRING_INDEX(s.StudentName, ' ', 1) AS Name, SUBSTRING_INDEX(s.StudentName, ' ', -1) AS Surname, DATEDIFF(CURDATE(), b.BorrowDate) AS DaysLate
-      FROM Student s
-      JOIN Borrowing b ON b.IdUsers = s.IdUsers
-      JOIN SchoolAdmin sa ON sa.IdUsers = 111
-      WHERE s.IdSchool = sa.IdSchool
-        AND b.Returned = "False"
-        AND DATE_ADD(b.BorrowDate, INTERVAL 14 DAY) < CURDATE()
-      ORDER BY s.StudentName ASC;
+    const loggedUserQuery = `
+      SELECT IdLogged
+      FROM LoggedUser
+      ORDER BY IdLogged DESC
+      LIMIT 1;
     `;
 
-    const teacherQuery = `
-      SELECT DISTINCT t.IdUsers, SUBSTRING_INDEX(t.TeacherName, ' ', 1) AS Name, SUBSTRING_INDEX(t.TeacherName, ' ', -1) AS Surname, DATEDIFF(CURDATE(), b.BorrowDate) AS DaysLate
-      FROM Teacher t
-      JOIN Borrowing b ON b.IdUsers = t.IdUsers
-      JOIN SchoolAdmin sa ON sa.IdUsers = 111
-      WHERE t.IdSchool = sa.IdSchool
-        AND b.Returned = "False"
-        AND DATE_ADD(b.BorrowDate, INTERVAL 14 DAY) < CURDATE()
-      ORDER BY t.TeacherName ASC;
-    `;
-
-    connection.query(studentQuery, function (studentErr, studentResults) {
-      if (studentErr) {
-        console.error('Error executing student query:', studentErr);
-        res.status(500).json({ error: 'An error occurred while executing the student query' });
+    connection.query(loggedUserQuery, function (loggedUserErr, loggedUserResults) {
+      if (loggedUserErr) {
+        console.error('Error executing logged user query:', loggedUserErr);
+        res.status(500).json({ error: 'An error occurred while executing the logged user query' });
+        connection.release();
         return;
       }
 
-      connection.query(teacherQuery, function (teacherErr, teacherResults) {
-        connection.release();
+      const loggedUserId = loggedUserResults[0].IdLogged;
 
-        if (teacherErr) {
-          console.error('Error executing teacher query:', teacherErr);
-          res.status(500).json({ error: 'An error occurred while executing the teacher query' });
+      const studentQuery = `
+        SELECT DISTINCT s.IdUsers, SUBSTRING_INDEX(s.StudentName, ' ', 1) AS Name, SUBSTRING_INDEX(s.StudentName, ' ', -1) AS Surname, DATEDIFF(CURDATE(), b.BorrowDate) AS DaysLate
+        FROM Student s
+        JOIN Borrowing b ON b.IdUsers = s.IdUsers
+        JOIN SchoolAdmin sa ON sa.IdUsers = ${loggedUserId}
+        WHERE s.IdSchool = sa.IdSchool
+          AND b.Returned = "False"
+          AND DATE_ADD(b.BorrowDate, INTERVAL 14 DAY) < CURDATE()
+        ORDER BY s.StudentName ASC;
+      `;
+
+      const teacherQuery = `
+        SELECT DISTINCT t.IdUsers, SUBSTRING_INDEX(t.TeacherName, ' ', 1) AS Name, SUBSTRING_INDEX(t.TeacherName, ' ', -1) AS Surname, DATEDIFF(CURDATE(), b.BorrowDate) AS DaysLate
+        FROM Teacher t
+        JOIN Borrowing b ON b.IdUsers = t.IdUsers
+        JOIN SchoolAdmin sa ON sa.IdUsers = ${loggedUserId}
+        WHERE t.IdSchool = sa.IdSchool
+          AND b.Returned = "False"
+          AND DATE_ADD(b.BorrowDate, INTERVAL 14 DAY) < CURDATE()
+        ORDER BY t.TeacherName ASC;
+      `;
+
+      connection.query(studentQuery, function (studentErr, studentResults) {
+        if (studentErr) {
+          console.error('Error executing student query:', studentErr);
+          res.status(500).json({ error: 'An error occurred while executing the student query' });
+          connection.release();
           return;
         }
+
+        connection.query(teacherQuery, function (teacherErr, teacherResults) {
+          connection.release();
+
+          if (teacherErr) {
+            console.error('Error executing teacher query:', teacherErr);
+            res.status(500).json({ error: 'An error occurred while executing the teacher query' });
+            return;
+          }
 
         let html = `
           <html>
@@ -216,6 +234,7 @@ router.get('/', function (req, res) {
       });
     });
   });
+});
 });
 
 module.exports = router;
