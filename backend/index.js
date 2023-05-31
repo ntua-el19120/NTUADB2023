@@ -42,7 +42,6 @@ app.get('/libq/generaladmin', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/GeneralAdmin.html'));
 });
 
-
 app.get('/libq/generaladmin/borrowings1', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/Borrowrings.html'));
 });
@@ -124,6 +123,8 @@ app.use('/libq/generaladmin/borrowingsperyear', bpy);
 const SaApplication= require('./GeneralAdmin/SaApplications.js');
 app.use('/libq/generaladmin/SaApplications', SaApplication);
 
+const lateBorrowings = require('./SchoolAdmin/lateborrowings.js');
+app.use('/libq/schooladmin/lateborrowings', lateBorrowings);
 
 const checkbooks = require('./user/checkbooks.js');
 app.use('/libq/user/checkbooks', checkbooks);
