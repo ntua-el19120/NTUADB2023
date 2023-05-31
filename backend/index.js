@@ -126,6 +126,9 @@ app.use('/libq/generaladmin/SaApplications', SaApplication);
 const lateBorrowings = require('./SchoolAdmin/lateBorrowings.js');
 app.use('/libq/schooladmin/lateborrowings', lateBorrowings);
 
+const reviewAverages = require('./SchoolAdmin/ReviewAverages.js');
+app.use('/libq/schooladmin/reviewaverages', reviewAverages);
+
 const checkbooks = require('./user/checkbooks.js');
 app.use('/libq/user/checkbooks', checkbooks);
 

@@ -125,17 +125,20 @@ router.get('/', function (req, res) {
                   background-color: #808285;
                   color: #fff;
                 }
-
                 .back-button {
                   display: inline-block;
                   padding: 8px 16px;
                   font-size: 14px;
                   font-weight: bold;
                   text-decoration: none;
-                  background-color: #00F076;
+                  background-color: #4CAF50;
                   color: #fff;
                   border: none;
                   border-radius: 4px;
+                }
+                .back-button::before {
+                  content: '←';
+                  margin-right: 5px;
                 }
               </style>
               <script>
