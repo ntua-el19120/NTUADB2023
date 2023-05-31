@@ -34,6 +34,10 @@ app.get('/libq/signup', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/signup.html'));
 });
 
+app.get('/libq/user/checkbooks1', (req, res) => {
+  res.sendFile(path.join(__dirname, '../frontend/checkbooks.html'));
+});
+
 app.get('/libq/generaladmin', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/GeneralAdmin.html'));
 });
@@ -168,6 +172,13 @@ app.post('/libq/generaladmin/approve', (req, res) => {
     res.redirect('/libq/generaladmin/SaApplications');
   });
 });
+
+const checkbooks = require('./user/checkbooks.js');
+app.use('/libq/user/checkbooks', checkbooks);
+
+const myBorrowings = require('./user/myborrowings.js');
+app.use('/libq/user/myborrowings', myBorrowings);
+
 
 
 app.listen(PORT, () => {
