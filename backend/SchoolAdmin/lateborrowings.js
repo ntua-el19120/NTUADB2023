@@ -68,7 +68,7 @@ router.get('/', function (req, res) {
             return;
           }
 
-        let html = `
+          let html = `
           <html>
             <head>
               <meta charset="utf-8">
@@ -192,17 +192,17 @@ router.get('/', function (req, res) {
                   </tr>
         `;
 
-        studentResults.forEach(function(student) {
-          html += `
+          studentResults.forEach(function (student) {
+            html += `
             <tr class="tableRow">
               <td class="name">${student.Name}</td>
               <td class="surname">${student.Surname}</td>
               <td class="daysLate">${student.DaysLate}</td>
             </tr>
           `;
-        });
+          });
 
-        html += `
+          html += `
                 </table>
                 <h2>Teachers</h2>
                 <table>
@@ -213,17 +213,17 @@ router.get('/', function (req, res) {
                   </tr>
         `;
 
-        teacherResults.forEach(function(teacher) {
-          html += `
+          teacherResults.forEach(function (teacher) {
+            html += `
             <tr class="tableRow">
               <td class="name">${teacher.Name}</td>
               <td class="surname">${teacher.Surname}</td>
               <td class="daysLate">${teacher.DaysLate}</td>
             </tr>
           `;
-        });
+          });
 
-        html += `
+          html += `
                 </table>
                 <div style="text-align: center; margin-top: 20px;">
                   <a href="/libq/schooladmin" class="back-button">Back to Home Page</a>
@@ -233,11 +233,11 @@ router.get('/', function (req, res) {
           </html>
         `;
 
-        res.send(html);
+          res.send(html);
+        });
       });
     });
   });
-});
 });
 
 module.exports = router;

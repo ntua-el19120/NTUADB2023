@@ -161,7 +161,8 @@ router.get('/', function (req, res) {
                 }
 
                 .search-bar {
-                  width: 300px;b
+                  height: 25px;
+                  width: 300px;
                   margin-bottom: 10px;
                 }
 

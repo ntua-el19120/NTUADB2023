@@ -65,6 +65,10 @@ app.get('/libq/generaladmin/updateschool/:id', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/updateschool.html'));
 });
 
+app.get('/libq/schooladmin', function (req, res) {
+  res.sendFile(path.join(__dirname, '../frontend/SchoolAdmin.html'));
+});
+
 
 
 
