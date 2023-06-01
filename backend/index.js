@@ -138,6 +138,14 @@ app.get('/libq/user/updatereview/:idlogged/:ISBN', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/updatereview.html'));
 });
 
+app.get('/libq/user/changepassword/:idlogged/', function (req, res) {
+  res.sendFile(path.join(__dirname, '../frontend/changepassword.html'));
+});
+
+app.get('/libq/user/updatedata/:idlogged/', function (req, res) {
+  res.sendFile(path.join(__dirname, '../frontend/updatedata.html'));
+});
+
 const checkbooks = require('./user/checkbooks.js');
 app.use('/libq/user/checkbooks', checkbooks);
 
@@ -147,6 +155,18 @@ app.use('/libq/user/myborrowings', myBorrowings);
 
 const updatereview = require('./user/updatereview.js');
 app.use('/libq/user/updatereview', updatereview);
+
+
+const password = require('./user/changepassword.js');
+app.use('/libq/user/changepassword',password);
+
+const updatedata = require('./user/updatedata.js');
+app.use('/libq/user/updatedata',updatedata);
+
+
+const viewdata = require('./user/viewdata.js');
+app.use('/libq/user/viewdata', viewdata);
+
 
 
 
