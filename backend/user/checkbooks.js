@@ -30,26 +30,6 @@ router.get('/', function (req, res) {
       return;
     }
 
-  
-    // SELECT persons_per_school_view.IdSchool
-    // FROM persons_per_school_view
-    // JOIN LoggedUSer ON persons_per_school_view.PersonId = LoggedUSer.IdLogged;
-    //        SELECT DISTINCT
-    //       ISBN,
-    //       Title,
-    //       Publisher,
-    //       PageNumber,
-    //       Summary,
-    //       Picture,
-    //       Language,
-    //       Rating,
-    //       AvailableCopies,
-    //       Categories
-    //     FROM
-    //       book_combined_view
-    //     WHERE
-    //       IdSchool = 4
-
 
     let query0='DROP VIEW IF EXISTS Persons_Per_School_View'
     connection.query(query0, (err, results) => {
