@@ -13,13 +13,12 @@ router.get('/', function (req, res) {
     }
 
     let query = `
-    SELECT WriterName
-    FROM book_writers as bw
-    EXCEPT
-    SELECT DISTINCT bw.WriterName
-    FROM book_writers as bw
-    INNER JOIN Borrowing ON bw.ISBN = Borrowing.ISBN;
-
+      SELECT WriterName
+      FROM book_writers as bw
+      EXCEPT
+      SELECT DISTINCT bw.WriterName
+      FROM book_writers as bw
+      INNER JOIN Borrowing ON bw.ISBN = Borrowing.ISBN;
     `;
 
     connection.query(query, (err, results) => {
@@ -34,31 +33,63 @@ router.get('/', function (req, res) {
         <!DOCTYPE html>
         <html>
         <head>
-          <title>Unlucky Authors</title>
+          <title>Authors with 0 Rentals</title>
           <style>
-            /* CSS for the table and scrolling */
-            #results-table {
-              width: 100%;
+            body {
+              font-family: Arial, sans-serif;
+              background-color: #f4f4f4;
+            }
+            
+            h1, h2 {
+              text-align: center;
+              color: #333;
+            }
+
+            .container {
+              max-width: 800px;
+              margin: 0 auto;
+              padding: 20px;
+            }
+
+            table {
               border-collapse: collapse;
-              table-layout: fixed;
+              width: 100%;
+              margin-bottom: 20px;
             }
-          
-            #results-table th,
-            #results-table td {
-              padding: 8px;
+
+            th, td {
               border: 1px solid #ddd;
+              padding: 8px;
+              text-align: left;
             }
-          
-            #results-container {
-              max-height: 300px;
-              overflow-y: scroll;
+
+            th {
+              background-color: #808285;
+              color: #fff;
+            }
+            
+            .back-button {
+              display: inline-block;
+              padding: 8px 16px;
+              font-size: 14px;
+              font-weight: bold;
+              text-decoration: none;
+              background-color: #4CAF50;
+              color: #fff;
+              border: none;
+              border-radius: 4px;
+            }
+            
+            .back-button::before {
+              content: '←';
+              margin-right: 5px;
             }
           </style>
         </head>
         <body>
-          <h1>Teacher Borrowings</h1>
-          <div id="results-container">
-            <table id="results-table">
+          <div class="container">
+            <h1>Unlucky Authors</h1>
+            <table>
               <thead>
                 <tr>
                   <th>Author Name</th>
@@ -80,9 +111,9 @@ router.get('/', function (req, res) {
       htmlTable += `
               </tbody>
             </table>
+            <h3><a href="http://localhost:9103/libq/generaladmin" class="back-button">Back to the homepage</a></h3>
           </div>
         </body>
-        <h3><a href="http://localhost:9103/libq/generaladmin">Back to the homepage</a></h3></li>
         </html>
       `;
 

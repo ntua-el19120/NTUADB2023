@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>3.1.5 query</title>
+  <title>Query Results</title>
   <style>
-    /* CSS for the table and scrolling */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    #results-container {
+      max-height: 300px;
+      overflow-y: scroll;
+    }
+
     #results-table {
       width: 100%;
       border-collapse: collapse;
@@ -16,9 +28,22 @@
       border: 1px solid #ddd;
     }
 
-    #results-container {
-      max-height: 300px;
-      overflow-y: scroll;
+    #results-table th {
+      background-color: #808285;
+      color: #fff;
+    }
+
+    #results-table th:first-child {
+      width: 40%;
+    }
+
+    #results-table th:nth-child(2) {
+      width: 60%;
+    }
+
+    .back-link {
+      text-align: center;
+      margin-top: 20px;
     }
   </style>
 </head>
@@ -31,7 +56,6 @@
         <tr>
           <th>Number of Borrowed Books</th>
           <th>List of School Admins</th>
-
         </tr>
       </thead>
       <tbody id="results"></tbody>
@@ -39,7 +63,11 @@
   </div>
 
   <script>
+    const resultsContainer = document.getElementById('results');
 
+    async function fetchData() {
+      try {
+        // Fetch the search results from the server
         const response = await fetch(`/libq/generaladmin/borrowingsperyear`);
         const data = await response.json();
 
@@ -55,8 +83,17 @@
           `;
           resultsContainer.appendChild(row);
         }
+      } catch (error) {
+        console.error(error);
+      }
+    }
 
+    // Call the fetchData function to retrieve and display the data
+    fetchData();
   </script>
+
+  <div class="back-link">
+    <a href="http://localhost:9103/libq/generaladmin">Back to the homepage</a>
+  </div>
 </body>
-<h3><a href="http://localhost:9103/libq/generaladmin">Back to the homepage</a></h3></li>
 </html>

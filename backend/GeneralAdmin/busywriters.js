@@ -12,39 +12,38 @@ router.get('/', function (req, res) {
       return;
     }
 
-    let query =`
-    
-    SELECT
-  BW.WriterName AS WriterName,
-  BW.TotalBooks,
-  MaxTotalBooks.MaxTotal AS MaxTotalBooks
-FROM (
-  SELECT
-    WriterName,
-    COUNT(ISBN) AS TotalBooks
-  FROM
-    Book_Writers
-  GROUP BY
-    WriterName
-) AS BW
-CROSS JOIN (
-  SELECT
-    MAX(TotalBooks) AS MaxTotal
-  FROM
-    (
+    let query = `
       SELECT
-        WriterName,
-        COUNT(ISBN) AS TotalBooks
-      FROM
-        Book_Writers
-      GROUP BY
-        WriterName
-    ) AS MaxBooks
-) AS MaxTotalBooks
-WHERE
-  BW.TotalBooks <= MaxTotalBooks.MaxTotal - 5
-  order by BW.TotalBooks desc
-    
+        BW.WriterName AS WriterName,
+        BW.TotalBooks,
+        MaxTotalBooks.MaxTotal AS MaxTotalBooks
+      FROM (
+        SELECT
+          WriterName,
+          COUNT(ISBN) AS TotalBooks
+        FROM
+          Book_Writers
+        GROUP BY
+          WriterName
+      ) AS BW
+      CROSS JOIN (
+        SELECT
+          MAX(TotalBooks) AS MaxTotal
+        FROM
+          (
+            SELECT
+              WriterName,
+              COUNT(ISBN) AS TotalBooks
+            FROM
+              Book_Writers
+            GROUP BY
+              WriterName
+          ) AS MaxBooks
+      ) AS MaxTotalBooks
+      WHERE
+        BW.TotalBooks <= MaxTotalBooks.MaxTotal - 5
+      ORDER BY
+        BW.TotalBooks DESC
     `;
 
     connection.query(query, (err, results) => {
@@ -55,69 +54,98 @@ WHERE
       }
 
       // Generate HTML table
-// ...
+      let htmlTable = `
+        <!DOCTYPE html>
+        <html>
+          <head>
+            <title>3.1.7 Query</title>
+            <style>
+              body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 20px;
+              }
+              
+              h1, h2 {
+                text-align: center;
+                color: #333;
+              }
 
-// Generate HTML table
-let htmlTable = `
-  <!DOCTYPE html>
-  <html>
-  <head>
-    <title>3.1.7 Query</title>
-    <style>
-      /* CSS for the table and scrolling */
-      #results-table {
-        width: 100%;
-        border-collapse: collapse;
-        table-layout: fixed;
-      }
-    
-      #results-table th,
-      #results-table td {
-        padding: 8px;
-        border: 1px solid #ddd;
-      }
-    
-      #results-container {
-        max-height: 300px;
-        overflow-y: scroll;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>3.1.7 query</h1>
-    <div id="results-container">
-      <table id="results-table">
-        <thead>
+              .container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+              }
+
+              table {
+                border-collapse: collapse;
+                width: 100%;
+                margin-bottom: 20px;
+              }
+
+              th, td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: left;
+              }
+
+              th {
+                background-color: #808285;
+                color: #fff;
+              }
+              
+              .back-button {
+                display: inline-block;
+                padding: 8px 16px;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: none;
+                background-color: #4CAF50;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+              }
+              
+              .back-button::before {
+                content: '←';
+                margin-right: 5px;
+              }
+            </style>
+          </head>
+          <body>
+            <div class="container">
+              <h1>Authors with Few Books</h1>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Author Name</th>
+                    <th>Total Books</th>
+                    <th>Max Total Books</th>
+                  </tr>
+                </thead>
+                <tbody>
+      `;
+
+      // Append rows to the HTML table
+      for (const row of results) {
+        htmlTable += `
           <tr>
-            <th>Author Name</th>
-            <th>Total Books</th>
-            <th>Max Total Books</th>
+            <td>${row.WriterName}</td>
+            <td>${row.TotalBooks}</td>
+            <td>${row.MaxTotalBooks}</td>
           </tr>
-        </thead>
-        <tbody>
-`;
+        `;
+      }
 
-// Append rows to the HTML table
-for (const row of results) {
-  htmlTable += `
-    <tr>
-      <td>${row.WriterName}</td>
-      <td>${row.TotalBooks}</td>
-      <td>${row.MaxTotalBooks}</td>
-    </tr>
-  `;
-}
-
-// Complete the HTML table
-htmlTable += `
-        </tbody>
-      </table>
-    </div>
-  </body>
-  <h3><a href="http://localhost:9103/libq/generaladmin">Back to the homepage</a></h3></li>
-  </html>
-`;
-
+      // Complete the HTML table
+      htmlTable += `
+                </tbody>
+              </table>
+              <h3><a class="back-button" href="http://localhost:9103/libq/generaladmin">Back to the homepage</a></h3>
+            </div>
+          </body>
+        </html>
+      `;
 
       // Send the HTML response
       res.send(htmlTable);
@@ -128,4 +156,3 @@ htmlTable += `
 });
 
 module.exports = router;
-

@@ -28,20 +28,72 @@ router.get('/', function (req, res) {
         <!DOCTYPE html>
         <html>
         <head>
+            <meta charset="utf-8">
             <title>School Units</title>
             <style>
+                body {
+                  font-family: Arial, sans-serif;
+                  background-color: #f4f4f4;
+                }
+
+                .container {
+                  max-width: 1200px;
+                  margin: 0 auto;
+                  padding: 20px;
+                }
+
+                h1 {
+                  text-align: center;
+                  color: #333;
+                }
+
                 table {
-                    border-collapse: collapse;
-                    width: 100%;
+                  border-collapse: collapse;
+                  width: 100%;
+                  margin-bottom: 20px;
+                  margin-left: auto;
+                  margin-right: auto;
                 }
-                
+
                 th, td {
-                    padding: 8px;
-                    text-align: left;
+                  border: 1px solid #ddd;
+                  padding: 8px;
+                  text-align: left;
                 }
-                
+
                 th {
-                    background-color: #f2f2f2;
+                  background-color: #808285;
+                  color: #fff;
+                }
+
+                .btn-container {
+                  display: flex;
+                  justify-content: flex-start; /* Changed to align buttons to the left */
+                  margin-bottom: 20px;
+                }
+
+                .btn-container a {
+                  display: inline-block;
+                  padding: 8px 16px;
+                  font-size: 14px;
+                  font-weight: bold;
+                  text-decoration: none;
+                  background-color: #ff3d3d;
+                  color: #fff;
+                  border: none;
+                  border-radius: 4px;
+                }
+
+                .btn-container button {
+                  display: inline-block;
+                  padding: 8px 16px;
+                  font-size: 14px;
+                  font-weight: bold;
+                  text-decoration: none;
+                  background-color: #4CAF50;
+                  color: #fff;
+                  border: none;
+                  border-radius: 4px;
                 }
             </style>
             <script>
@@ -72,27 +124,30 @@ router.get('/', function (req, res) {
             </script>
         </head>
         <body>
-            <h1>School Units</h1>
-            <table>
-                <tr>
-                    <th>ID</th>
-                    <th>Name</th>
-                    <th>Address street</th>
-                    <th>Address Number</th>
-                    <th>City</th>
-                    <th>Email</th>
-                    <th>School Principle</th>
-                    <th>School Admin</th>
-                    <th>Edit</th>
-                    <th>Delete</th>
-                </tr>
-                ${schoolsHtml}
-            </table>
-            <ul style="list-style-type: none; font-size: 16px; margin-top: 20px;">
-    <li style="margin-bottom: 10px;"><h3><a href="http://localhost:9103/libq/generaladmin/createschool">Create a new schoolUnit</a></h3></li>
-    <li style="margin-bottom: 10px;"><h3><a href="http://localhost:9103/libq/generaladmin">Back to the homepage</a></h3></li>
-</ul>
-
+            <div class="container">
+                <h1>School Units</h1>
+                <div class="btn-container">
+                    <a href="http://localhost:9103/libq/generaladmin/createschool">Add New School Unit</a>
+                </div>
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Address street</th>
+                        <th>Address Number</th>
+                        <th>City</th>
+                        <th>Email</th>
+                        <th>School Principle</th>
+                        <th>School Admin</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                    ${schoolsHtml}
+                </table>
+                <div class="btn-container">
+                <button onclick="window.history.back()">← Back to homepage</button>
+            </div>
+            </div>
         </body>
         </html>
       `;

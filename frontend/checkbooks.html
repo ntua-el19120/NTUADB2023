@@ -1,46 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>3.3.1 Query</title>
+  <title>Book Search</title>
   <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
     /* CSS for the table and scrolling */
     #results-table {
       width: 100%;
       border-collapse: collapse;
       table-layout: fixed;
-    }
-
-/* CSS for the Actions column */
-#results-table th.actions-header,
-#results-table td.actions-cell {
-  border: none;
-  padding: 0;
-  text-align: center;
-  line-height: 0;
-}
-
-
-    #results-table th,
-    #results-table td {
-      padding: 8px;
-      border: 1px solid #ddd;
-    }
-
-    #results-container {
-      height: 60vh; /* Set the table height to 60% of the viewport height */
-      overflow-y: auto; /* Enable vertical scrolling if needed */
-    }
-
-
-    /* CSS for wrapping text */
-    .wrap-text {
-      white-space: normal;
-      word-wrap: break-word;
-    }
-
-    /* CSS for smaller font size */
-    .small-text {
-      font-size: 12px;
     }
 
     /* CSS for narrower columns */
@@ -53,6 +28,17 @@
       width: 300px; /* Adjust the width as desired */
     }
 
+    /* CSS for wrapping text */
+    .wrap-text {
+      white-space: normal;
+      word-wrap: break-word;
+    }
+
+    /* CSS for smaller font size */
+    .small-text {
+      font-size: 12px;
+    }
+
     /* CSS for larger book images */
     .book-image {
       max-width: 200px; /* Adjust the width as desired */
@@ -60,13 +46,12 @@
     }
 
     /* CSS for the "Choose" button */
-.choose-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
+    .choose-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
   </style>
 </head>
 <body>
@@ -80,25 +65,23 @@
 
   <div id="results-container">
     <table id="results-table">
-        <thead>
-            <tr>
-              <th class="narrow-column">ISBN</th>
-              <th>Title</th>
-              <th>Publisher</th>
-              <th class="narrow-column">No. of Pages</th>
-              <th class="wide-summary">Summary</th>
-              <th>Where you can see the picture</th>
-              <th class="narrow-column small-text">Language</th>
-              <th class="narrow-column small-text">Rating</th>
-              <th class="narrow-column small-text">Available Copies</th>
-              <th>Categories</th>
-              <th class="actions-header"></th>
-            </tr>
-          </thead>
-          
-        <tbody id="results"></tbody>
-      </table>
-    
+      <thead>
+        <tr>
+          <th class="narrow-column">ISBN</th>
+          <th>Title</th>
+          <th>Publisher</th>
+          <th class="narrow-column">No. of Pages</th>
+          <th class="wide-summary">Summary</th>
+          <th>Book Image</th>
+          <th class="narrow-column small-text">Language</th>
+          <th class="narrow-column small-text">Rating</th>
+          <th class="narrow-column small-text">Available Copies</th>
+          <th>Categories</th>
+          <th class="actions-header"></th>
+        </tr>
+      </thead>
+      <tbody id="results"></tbody>
+    </table>
   </div>
 
   <script>
@@ -112,7 +95,6 @@
       const Category = form.Category.value;
       const Title = form.Title.value;
       const Publisher = form.Publisher.value;
-
 
       // Build the query string with search parameters
       const queryParams = new URLSearchParams();
@@ -136,32 +118,31 @@
             <td>${item['Title']}</td>
             <td>${item['Publisher']}</td>
             <td class="small-text narrow-column">${item['PageNumber']}</td>
-            <td class="truncate">${item['Summary']}</td>
+            <td class="wrap-text">${item['Summary']}</td>
             <td><img src="${item['Picture']}" alt="Book Image" class="book-image"></td>
             <td class="small-text narrow-column">${item['Language']}</td>
-            <td>${item['Rating']}</td>
-            <td>${item['AvailableCopies']}</td>
+            <td class="small-text narrow-column">${item['Rating']}</td>
+            <td class="small-text narrow-column">${item['AvailableCopies']}</td>
             <td class="wrap-text">${item['Categories']}</td>
           `;
+
           const chooseButton = document.createElement('button');
-chooseButton.textContent = 'Choose';
-chooseButton.classList.add('choose-button');
-chooseButton.addEventListener('click', () => {
-  chooseBook(item['ISBN']); // Call the chooseBook function with the ISBN parameter
-});
+          chooseButton.textContent = 'Choose';
+          chooseButton.classList.add('choose-button');
+          chooseButton.addEventListener('click', () => {
+            chooseBook(item['ISBN']); // Call the chooseBook function with the ISBN parameter
+          });
 
-  // Create a table cell for the button and append the button to it
-const actionCell = document.createElement('td');
-actionCell.classList.add('actions-cell');
-actionCell.appendChild(chooseButton);
+          // Create a table cell for the button and append the button to it
+          const actionCell = document.createElement('td');
+          actionCell.classList.add('actions-cell');
+          actionCell.appendChild(chooseButton);
 
+          // Append the action cell to the table row
+          row.appendChild(actionCell);
 
-
-  // Append the action cell to the table row
-  row.appendChild(actionCell);
-
-  // Append the row to the results container
-  resultsContainer.appendChild(row);
+          // Append the row to the results container
+          resultsContainer.appendChild(row);
         }
       } catch (error) {
         console.error(error);
@@ -169,10 +150,11 @@ actionCell.appendChild(chooseButton);
     });
 
     function chooseBook(ISBN) {
-  // Redirect to the chosenbook route with the appropriate ISBN parameter
-  window.location.href = `/libq/user/chosenbook/${ISBN}`;
-}
+      // Redirect to the chosenbook route with the appropriate ISBN parameter
+      window.location.href = `/libq/user/chosenbook/${ISBN}`;
+    }
   </script>
+
   <h3><a href="http://localhost:9103/libq/user">Back to the homepage</a></h3>
 </body>
 </html>

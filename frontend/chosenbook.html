@@ -2,6 +2,59 @@
 <html>
 <head>
   <title>Book Details</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background-color: #4285F4;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    #results-container {
+      margin-top: 20px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    a {
+      color: #4285F4;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
   <h1>More Book Details</h1>
@@ -31,12 +84,13 @@
 
       try {
         const url = window.location.href;
-        const ISBN = url.split('/').pop(); // Assumes the school ID is at the end of the UR
+        const ISBN = url.split('/').pop(); // Assumes the school ID is at the end of the URL
         // Fetch the search results from the server
         const response = await fetch(`/libq/user/seeratings?${ISBN}`);
         const data = await response.json();
 
         // Clear previous results
+        const resultsContainer = document.getElementById('results');
         resultsContainer.innerHTML = '';
 
         // Display the search results in the table
@@ -54,99 +108,6 @@
     });
   </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <script src="../backend/GeneralAdmin/updateschool.js"></script>
-  <script>
-    // Extract the school ID from the URL
-    // Extract the school ID from the URL
-    const url = window.location.href;
-    const schoolId = url.split('/').pop(); // Assumes the school ID is at the end of the URL
-
-    // Fetch the school unit data from the server
-    fetch(`/libq/generaladmin/updateschool/pika/${schoolId}`)
-      .then(response => response.json())
-      .then(data => {
-        // Populate the form fields with the existing values
-        document.getElementById('name').value = data.schoolUnit.Name;
-        document.getElementById('Adress_street').value = data.schoolUnit.Adress_street;
-        document.getElementById('Adress_number').value = data.schoolUnit.Adress_number;
-        document.getElementById('Adress_city').value = data.schoolUnit.Adress_city;
-        document.getElementById('email').value = data.schoolUnit.Email;
-        document.getElementById('principal').value = data.schoolUnit.SchoolPrinciple;
-        document.getElementById('admin').value = data.schoolUnit.SchoolAdmin;
-
-        // Set the "required" attribute dynamically for the School Principal field
-        const principalInput = document.getElementById('principal');
-        principalInput.setAttribute('required', true);
-      })
-      .catch(error => {
-        console.error('Error fetching school unit data:', error);
-      });
-
-    // Set the form action dynamically with the correct school ID
-    const updateForm = document.getElementById('updateForm');
-    updateForm.action = `/libq/generaladmin/updateschool/${schoolId}`;
-  </script>
-  
   <h3><a href="http://localhost:9103/libq/generaladmin">Back to the homepage</a></h3>
 </body>
 </html>
-
-
-
-
-<!-- <body>
-
-      <script>
-      const form = document.getElementById('search-form');
-      const resultsContainer = document.getElementById('results');
-  
-      form.addEventListener('submit', async (e) => {
-        e.preventDefault();
-  
-        // Get the form inputs
-        const Category = form.Category.value;
-  
-        // Build the query string with search parameters
-        const queryParams = new URLSearchParams();
-        queryParams.append('Category', Category);
-  
-        try {
-          // Fetch the search results from the server
-          const response = await fetch(`/libq/generaladmin/givenbookcategory?${queryParams.toString()}`);
-          const data = await response.json();
-  
-          // Clear previous results
-          resultsContainer.innerHTML = '';
-  
-          // Display the search results in the table
-          for (const item of data) {
-            const row = document.createElement('tr');
-            row.innerHTML = `
-              <td>${item['WriterName']}</td>
-              <td>${item['TeacherName']}</td>
-            `;
-            resultsContainer.appendChild(row);
-          }
-        } catch (error) {
-          console.error(error);
-        }
-      });
-    </script>
-      <h3><a href="http://localhost:9103/libq/generaladmin">Back to the homepage</a></h3></li>
-  
-  </body>
-  </html>
-   -->

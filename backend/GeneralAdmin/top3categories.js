@@ -3,7 +3,6 @@ const router = express.Router();
 const pool = require('../connect');
 
 router.get('/', function (req, res) {
-
   pool.getConnection(function (err, connection) {
     if (err) {
       console.error('Error getting database connection:', err);
@@ -12,16 +11,16 @@ router.get('/', function (req, res) {
     }
 
     let query = `
-    SELECT category1, category2, COUNT(*) AS count
-    FROM (
+      SELECT category1, category2, COUNT(*) AS count
+      FROM (
         SELECT b1.ISBN, b1.Category AS category1, b2.Category AS category2
         FROM Book_Categories as b1
         JOIN Book_Categories as b2 ON b1.ISBN = b2.ISBN AND b1.Category < b2.Category
         JOIN borrowing bor ON b1.ISBN = bor.ISBN
-    ) AS book3_categories
-    GROUP BY category1, category2
-    ORDER BY count DESC
-    LIMIT 3;
+      ) AS book3_categories
+      GROUP BY category1, category2
+      ORDER BY count DESC
+      LIMIT 3;
     `;
 
     connection.query(query, (err, results) => {
@@ -36,37 +35,69 @@ router.get('/', function (req, res) {
         <!DOCTYPE html>
         <html>
         <head>
-          <title>3.1.6 Query</title>
+          <title>Top 3 Pairs of Categories</title>
           <style>
-            /* CSS for the table and scrolling */
-            #results-table {
-              width: 100%;
+            body {
+              font-family: Arial, sans-serif;
+              background-color: #f4f4f4;
+              margin: 20px;
+            }
+            
+            h1 {
+              text-align: center;
+              color: #333;
+            }
+
+            .container {
+              max-width: 800px;
+              margin: 0 auto;
+              padding: 20px;
+            }
+
+            table {
               border-collapse: collapse;
-              table-layout: fixed;
+              width: 100%;
+              margin-bottom: 20px;
             }
-          
-            #results-table th,
-            #results-table td {
-              padding: 8px;
+
+            th, td {
               border: 1px solid #ddd;
+              padding: 8px;
+              text-align: left;
             }
-          
-            #results-container {
-              max-height: 300px;
-              overflow-y: scroll;
+
+            th {
+              background-color: #808285;
+              color: #fff;
+            }
+            
+            .back-button {
+              display: inline-block;
+              padding: 8px 16px;
+              font-size: 14px;
+              font-weight: bold;
+              text-decoration: none;
+              background-color: #4CAF50;
+              color: #fff;
+              border: none;
+              border-radius: 4px;
+            }
+            
+            .back-button::before {
+              content: '←';
+              margin-right: 5px;
             }
           </style>
         </head>
         <body>
-          <h1>Top 3 pairs!</h1>
-          <div id="results-container">
-            <table id="results-table">
+          <div class="container">
+            <h1>Top 3 Pairs of Categories</h1>
+            <table>
               <thead>
                 <tr>
                   <th>Category 1</th>
                   <th>Category 2</th>
-                  <th>Number of Borrowings</th>
-
+                  <th>Number of Rentals</th>
                 </tr>
               </thead>
               <tbody>
@@ -79,8 +110,6 @@ router.get('/', function (req, res) {
             <td>${row.category1}</td>
             <td>${row.category2}</td>
             <td>${row.count}</td>
-
-
           </tr>
         `;
       }
@@ -89,9 +118,9 @@ router.get('/', function (req, res) {
       htmlTable += `
               </tbody>
             </table>
+            <h3><a href="http://localhost:9103/libq/generaladmin" class="back-button">Back to the homepage</a></h3>
           </div>
         </body>
-        <h3><a href="http://localhost:9103/libq/generaladmin">Back to the homepage</a></h3></li>
         </html>
       `;
 
@@ -104,7 +133,3 @@ router.get('/', function (req, res) {
 });
 
 module.exports = router;
-
-
-
-
