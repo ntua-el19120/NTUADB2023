@@ -159,6 +159,8 @@ app.use('/libq/schooladmin/lateborrowings', lateBorrowings);
 const reviewAverages = require('./SchoolAdmin/ReviewAverages.js');
 app.use('/libq/schooladmin/reviewaverages', reviewAverages);
 
+const approveReservations = require('./SchoolAdmin/approveReservations.js');
+app.use('/libq/schooladmin/approvereservations', approveReservations);
 
 
 app.get('/libq/user/changepassword/:idlogged/', function (req, res) {
@@ -189,18 +191,24 @@ app.get('/libq/user/updatereview/:idlogged/:ISBN', function (req, res) {
 const edit = require('./SchoolAdmin/editbook.js');
 app.use('/libq/schooladmin/editbook', edit);
 
+const approveRes =  require('./SchoolAdmin/approveRes.js');
+app.use('/libq/schooladmin/approveres', approveRes);
+
+const deleteres =  require('./SchoolAdmin/deleteres.js');
+app.use('/libq/schooladmin/deleteres', deleteres);
+
 app.get('/libq/schooladmin/editbook/:ISBN', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/editbook.html'));
 });
 
-app.get('/libq/schooladmin/createbook', function (req, res) {
+/*app.get('/libq/schooladmin/createbook', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/createbook.html'));
 });
 
 
 const createbook = require('./SchoolAdmin/createbook.js');
 app.use('/libq/createbook',createbook);
-
+*/
 
 
 
