@@ -1,105 +1,112 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Create Book</title>
   <style>
-    /* Add your custom styles here */
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    #carousel-container {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      margin: 0 -10px;
+    }
+
+    .carousel-item {
+      flex: 0 0 auto;
+      margin: 0 10px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .carousel-item h2,
+    .carousel-item p {
+      margin: 5px 0;
+    }
+
+    .carousel-item img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .add-button {
+      padding: 8px 16px;
+      font-size: 12px;
+      font-weight: bold;
+      text-decoration: none;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 10px;
+    }
+
+    .add-button:hover {
+      background-color: #45a049;
+    }
   </style>
 </head>
 <body>
-  <h1>Create a New Book</h1>
-  <form id="create-book-form">
-    <input type="text" name="ISBN" placeholder="ISBN" required>
-    <input type="text" name="Title" placeholder="Title" required>
-    <input type="text" name="Publisher" placeholder="Publisher" required>
-    <input type="number" name="PageNumber" placeholder="Page Number" required>
-    <textarea name="Summary" placeholder="Summary" required></textarea>
-    <input type="text" name="Picture" placeholder="Picture URL" required>
-    <input type="text" name="Language" placeholder="Language" required>
-    <button type="submit">Create Book</button>
-  </form>
+  <h1>Do you want to add one of these books in your School library? </h1>
 
-  <script >
-    document.addEventListener('DOMContentLoaded', () => {
-  const createBookForm = document.getElementById('create-book-form');
-  createBookForm.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    createBook();
-  });
+  <div id="carousel-container"></div>
 
-  async function createBook() {
-    // Get the form inputs
-    const ISBN = createBookForm.ISBN.value;
-    const Title = createBookForm.Title.value;
-    const Publisher = createBookForm.Publisher.value;
-    const PageNumber = createBookForm.PageNumber.value;
-    const Summary = createBookForm.Summary.value;
-    const Picture = createBookForm.Picture.value;
-    const Language = createBookForm.Language.value;
+  <script>
+    const carouselContainer = document.getElementById('carousel-container');
 
-    try {
-      // Create the book in the book table
-      const createBookResponse = await fetch('/libq/schooladmin/createbook', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          ISBN,
-          Title,
-          Publisher,
-          PageNumber,
-          Summary,
-          Picture,
-          Language,
-        }),
+    fetch('/libq/createbook') // Replace with your server endpoint
+      .then(response => response.json())
+      .then(data => {
+        // Loop through the data and create carousel items
+        data.forEach(book => {
+          const carouselItem = document.createElement('div');
+          carouselItem.classList.add('carousel-item');
+          carouselItem.innerHTML = `
+            <img src="${book.Picture}" alt="Book Image">
+            <h2>${book.Title}</h2>
+            <p>${book.ISBN}</p>
+            <p>${book.Publisher}</p>
+            <p>${book.PageNumber}</p>
+            <p>${book.Language}</p>
+            <button class="add-button" onclick="addBook('${book.ISBN}')">Add Book</button>
+          `;
+
+          carouselContainer.appendChild(carouselItem);
+        });
+      })
+      .catch(error => {
+        console.error(error);
       });
 
-      if (!createBookResponse.ok) {
-        throw new Error('Failed to create book');
-      }
-
-      // Get the new book ID
-      const bookData = await createBookResponse.json();
-      const newBookId = bookData.bookId;
-
-      // Retrieve the specific idSchool from the query
-      const idSchoolResponse = await fetch('/libq/schooladmin/getidschool');
-      if (!idSchoolResponse.ok) {
-        throw new Error('Failed to retrieve idSchool');
-      }
-
-      const idSchoolData = await idSchoolResponse.json();
-      const idSchool = idSchoolData.idSchool;
-
-      // Create the availability for the new book in the availability table
-      const createAvailabilityResponse = await fetch('/libq/schooladmin/createavailability', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          Copies: 0, // Set initial copies as 0
-          IdSchool: idSchool, // Use the retrieved idSchool
-          ISBN: newBookId, // Use the new book ID
-        }),
-      });
-
-      if (!createAvailabilityResponse.ok) {
-        throw new Error('Failed to create availability');
-      }
-
-      // Book and availability created successfully
-      alert('Book created successfully');
-      createBookForm.reset(); // Reset the form
-      // You can redirect to a new page or update the UI as needed
-    } catch (error) {
-      console.error(error);
-      alert('Failed to create book');
+    function addBook(isbn) {
+      // Redirect to the add book page with the appropriate ISBN parameter
+      window.location.href = `/libq/createbook/addbook/${isbn}`;
     }
-  }
-});
 
+    
+    function create(isbn) {
+      // Redirect to the add book page with the appropriate ISBN parameter
+      window.location.href = `/libq/createbook/create/${isbn}`;
+    }
   </script>
+        <h2>The book you wanted to add doesn't exist?Create the entity! </h2>
+        <button class="add-button" onclick="create('${book.ISBN}')">create</button>
 </body>
 </html>
