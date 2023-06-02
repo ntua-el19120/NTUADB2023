@@ -38,6 +38,10 @@ app.get('/libq/user/checkbooks1', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/checkbooks.html'));
 });
 
+app.get('/libq/schooladmin/viewbooks1', (req, res) => {
+  res.sendFile(path.join(__dirname, '../frontend/viewbooks.html'));
+});
+
 app.get('/libq/generaladmin', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/GeneralAdmin.html'));
 });
@@ -59,6 +63,8 @@ app.get('/libq/generaladmin/busywriters1', (req, res) => {
 app.get('/libq/generaladmin/createschool', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/createschool.html'));
 });
+
+
 
 app.get('/libq/generaladmin/updateschool/:id', function (req, res) {
   const schoolId = req.params.id;
@@ -124,6 +130,9 @@ app.use('/libq/generaladmin/borrowingsperyear', bpy);
 
 
 
+
+
+
 const SaApplication= require('./GeneralAdmin/SaApplications.js');
 app.use('/libq/generaladmin/SaApplications', SaApplication);
 
@@ -133,10 +142,6 @@ app.use('/libq/schooladmin/lateborrowings', lateBorrowings);
 const reviewAverages = require('./SchoolAdmin/ReviewAverages.js');
 app.use('/libq/schooladmin/reviewaverages', reviewAverages);
 
-
-app.get('/libq/user/updatereview/:idlogged/:ISBN', function (req, res) {
-  res.sendFile(path.join(__dirname, '../frontend/updatereview.html'));
-});
 
 app.get('/libq/user/changepassword/:idlogged/', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/changepassword.html'));
@@ -149,12 +154,29 @@ app.get('/libq/user/updatedata/:idlogged/', function (req, res) {
 const checkbooks = require('./user/checkbooks.js');
 app.use('/libq/user/checkbooks', checkbooks);
 
+const viewbooks = require('./SchoolAdmin/viewbooks.js');
+app.use('/libq/schooladmin/viewbooks', viewbooks);
+
 const myBorrowings = require('./user/myborrowings.js');
 app.use('/libq/user/myborrowings', myBorrowings);
 
 
 const updatereview = require('./user/updatereview.js');
 app.use('/libq/user/updatereview', updatereview);
+
+app.get('/libq/user/updatereview/:idlogged/:ISBN', function (req, res) {
+  res.sendFile(path.join(__dirname, '../frontend/updatereview.html'));
+});
+
+const edit = require('./SchoolAdmin/editbook.js');
+app.use('/libq/schooladmin/editbook', edit);
+
+app.get('/libq/schooladmin/editbook/:ISBN', function (req, res) {
+  res.sendFile(path.join(__dirname, '../frontend/editbook.html'));
+});
+
+
+
 
 
 const password = require('./user/changepassword.js');
@@ -166,7 +188,6 @@ app.use('/libq/user/updatedata',updatedata);
 
 const viewdata = require('./user/viewdata.js');
 app.use('/libq/user/viewdata', viewdata);
-
 
 
 

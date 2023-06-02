@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Book</title>
+  <style>
+    /* Add your custom styles here */
+  </style>
+</head>
+<body>
+  <h1>Create a New Book</h1>
+  <form id="create-book-form">
+    <input type="text" name="ISBN" placeholder="ISBN" required>
+    <input type="text" name="Title" placeholder="Title" required>
+    <input type="text" name="Publisher" placeholder="Publisher" required>
+    <input type="number" name="PageNumber" placeholder="Page Number" required>
+    <textarea name="Summary" placeholder="Summary" required></textarea>
+    <input type="text" name="Picture" placeholder="Picture URL" required>
+    <input type="text" name="Language" placeholder="Language" required>
+    <button type="submit">Create Book</button>
+  </form>
+
+  <script >
+    document.addEventListener('DOMContentLoaded', () => {
+  const createBookForm = document.getElementById('create-book-form');
+  createBookForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    createBook();
+  });
+
+  async function createBook() {
+    // Get the form inputs
+    const ISBN = createBookForm.ISBN.value;
+    const Title = createBookForm.Title.value;
+    const Publisher = createBookForm.Publisher.value;
+    const PageNumber = createBookForm.PageNumber.value;
+    const Summary = createBookForm.Summary.value;
+    const Picture = createBookForm.Picture.value;
+    const Language = createBookForm.Language.value;
+
+    try {
+      // Create the book in the book table
+      const createBookResponse = await fetch('/libq/schooladmin/createbook', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          ISBN,
+          Title,
+          Publisher,
+          PageNumber,
+          Summary,
+          Picture,
+          Language,
+        }),
+      });
+
+      if (!createBookResponse.ok) {
+        throw new Error('Failed to create book');
+      }
+
+      // Get the new book ID
+      const bookData = await createBookResponse.json();
+      const newBookId = bookData.bookId;
+
+      // Retrieve the specific idSchool from the query
+      const idSchoolResponse = await fetch('/libq/schooladmin/getidschool');
+      if (!idSchoolResponse.ok) {
+        throw new Error('Failed to retrieve idSchool');
+      }
+
+      const idSchoolData = await idSchoolResponse.json();
+      const idSchool = idSchoolData.idSchool;
+
+      // Create the availability for the new book in the availability table
+      const createAvailabilityResponse = await fetch('/libq/schooladmin/createavailability', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          Copies: 0, // Set initial copies as 0
+          IdSchool: idSchool, // Use the retrieved idSchool
+          ISBN: newBookId, // Use the new book ID
+        }),
+      });
+
+      if (!createAvailabilityResponse.ok) {
+        throw new Error('Failed to create availability');
+      }
+
+      // Book and availability created successfully
+      alert('Book created successfully');
+      createBookForm.reset(); // Reset the form
+      // You can redirect to a new page or update the UI as needed
+    } catch (error) {
+      console.error(error);
+      alert('Failed to create book');
+    }
+  }
+});
+
+  </script>
+</body>
+</html>
