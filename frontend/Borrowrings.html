@@ -30,7 +30,7 @@
       font-weight: bold;
     }
 
-    .search-container input[type="text"] {
+    .search-container select {
       padding: 8px;
       font-size: 14px;
       border: 1px solid #ccc;
@@ -77,11 +77,33 @@
   <div class="container">
     <h1>Borrowings Search</h1>
     <div class="search-container">
-      <label for="YEAR">YEAR:</label>
-      <input type="text" name="YEAR" placeholder="YEAR">
-      <label for="MONTH">MONTH:</label>
-      <input type="text" name="MONTH" placeholder="MONTH">        
-      <button type="submit">Search</button>
+      <form id="search-form">
+        <label for="YEAR">YEAR:</label>
+        <select name="YEAR">
+          <option value=""></option>
+          <option value="2023">2023</option>
+          <option value="2022">2022</option>
+          <option value="2021">2021</option>
+        </select>
+        <label for="MONTH">MONTH:</label>
+        <select name="MONTH">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+
+        </select>      
+        <button type="submit">Search</button>
+      </form>
     </div>
 
     <table>
@@ -103,13 +125,7 @@
     const form = document.getElementById('search-form');
     const resultsContainer = document.getElementById('results');
 
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
-
-      // Get the form inputs
-      const YEAR = form.YEAR.value;
-      const MONTH = form.MONTH.value;
-
+    const search = async (YEAR, MONTH) => {
       // Build the query string with search parameters
       const queryParams = new URLSearchParams({
         YEAR,
@@ -136,7 +152,20 @@
       } catch (error) {
         console.error(error);
       }
+    };
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      // Get the form inputs
+      const YEAR = form.YEAR.value;
+      const MONTH = form.MONTH.value;
+
+      search(YEAR, MONTH);
     });
+
+    // Trigger the search on page load
+    search('', '');
   </script>
 </body>
 </html>

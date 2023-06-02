@@ -54,6 +54,16 @@ app.get('/libq/generaladmin/givenbookcategory1', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/givenbookcategory.html'));
 });
 
+app.get('/libq/generaladmin/changepassword1', (req, res) => {
+  res.sendFile(path.join(__dirname, './GeneralAdmin/changepassword.html'));
+});
+
+app.get('/libq/schooladmin/changepassword1', (req, res) => {
+  res.sendFile(path.join(__dirname, './SchoolAdmin/changepassword.html'));
+});
+
+
+
 
 app.get('/libq/generaladmin/busywriters1', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/busywriters.html'));
@@ -83,6 +93,13 @@ app.get('/libq/schooladmin', function (req, res) {
 
 const login = require('./login');
 app.use('/libq/login', login);
+
+
+const chgpaswd = require('./GeneralAdmin/changepassword.js');
+app.use('/libq/generaladmin/changepassword', chgpaswd);
+
+const chgpaswd1 = require('./SchoolAdmin/changepassword.js');
+app.use('/libq/SchoolAdmin/changepassword', chgpaswd1);
 
 const signup = require('./signup');
 app.use('/libq/signup', signup);
@@ -143,6 +160,7 @@ const reviewAverages = require('./SchoolAdmin/ReviewAverages.js');
 app.use('/libq/schooladmin/reviewaverages', reviewAverages);
 
 
+
 app.get('/libq/user/changepassword/:idlogged/', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/changepassword.html'));
 });
@@ -174,6 +192,14 @@ app.use('/libq/schooladmin/editbook', edit);
 app.get('/libq/schooladmin/editbook/:ISBN', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/editbook.html'));
 });
+
+app.get('/libq/schooladmin/createbook', function (req, res) {
+  res.sendFile(path.join(__dirname, '../frontend/createbook.html'));
+});
+
+
+const createbook = require('./SchoolAdmin/createbook.js');
+app.use('/libq/createbook',createbook);
 
 
 
