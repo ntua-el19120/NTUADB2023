@@ -87,7 +87,6 @@ router.post('/', function (req, res) {
         }
 
         const idLogged = results[0].IdLogged;
-
         // Perform the first query to check available copies
   const checkQuery = `
   SELECT DISTINCT a.AvailableCopies
@@ -118,6 +117,7 @@ const insertQuery = `
 `;
         // Perform the first query to check available copies
         connection.query(checkQuery, [ISBN, idLogged], function (err, results) {
+          console.log(results);
           if (err) {
             console.error('Error executing query', err);
             rollbackAndReleaseConnection(connection, res, err.message);

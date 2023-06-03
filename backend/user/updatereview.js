@@ -77,66 +77,63 @@ router.post('/:idlogged/:ISBN', function (req, res) {
                 // Check if any rows were affected by the update query
                 if (results.affectedRows > 0) {
                   const goBackURL = '/libq/user/myborrowings'; // Specify the URL to go back to
-                  const message = 'Review updated successfully';
-
-                  // Generate HTML response with the "Go Back" button and the message
+                  const message = 'Review created successfully';
+                
+                  // Generate HTML response with the specified style
                   const htmlResponse = `
                     <!DOCTYPE html>
                     <html>
                       <head>
-                        <title>Review Updated</title>
+                        <meta charset="utf-8">
+                        <title>Review Created</title>
+                        <style>
+                          body {
+                            font-family: Arial, sans-serif;
+                            background-color: #f4f4f4;
+                          }
+                
+                          h2 {
+                            text-align: center;
+                            color: #333;
+                            margin-top: 20px;
+                          }
+                
+                          .container {
+                            max-width: 800px;
+                            margin: 0 auto;
+                            padding: 20px;
+                          }
+                
+                          .back-button {
+                            display: inline-block;
+                            padding: 8px 16px;
+                            font-size: 14px;
+                            font-weight: bold;
+                            text-decoration: none;
+                            background-color: #4CAF50;
+                            color: #fff;
+                            border: none;
+                            border-radius: 4px;
+                            margin-top: 20px;
+                          }
+                          .back-button::before {
+                            content: '←';
+                            margin-right: 5px;
+                          }
+                        </style>
                       </head>
                       <body>
-                        <h1>${message}</h1>
-                        <button onclick="location.href='${goBackURL}'">Go Back</button>
+                        <div class="container">
+                          <h2>${message}</h2>
+                          <button class="back-button" onclick="location.href='${goBackURL}'">Go Back</button>
+                        </div>
                       </body>
                     </html>
                   `;
-
+                
                   // Send the HTML response
                   res.send(htmlResponse);
-                } else {
-                  res.status(404).json({ error: 'Review not found' });
-                }
-              }
-              connection.release();
-            }
-          );
-        } else {
-          // Review doesn't exist, create a new row
-          const insertQuery = `
-            INSERT INTO review (IdUsers, ISBN, ReviewText, RatingLikert, Approval)
-            VALUES (?, ?, ?, ?, 0)
-          `;
-
-          connection.query(
-            insertQuery,
-            [userId, isbn, ReviewText, RatingLikert],
-            (error, results) => {
-              if (error) {
-                console.error('Error creating review:', error);
-                res.status(500).json({ error: 'An error occurred while creating the review' });
-              } else {
-                const goBackURL = '/libq/user/myborrowings'; // Specify the URL to go back to
-                const message = 'Review created successfully';
-
-                // Generate HTML response with the "Go Back" button and the message
-                const htmlResponse = `
-                  <!DOCTYPE html>
-                  <html>
-                    <head>
-                      <title>Review Created</title>
-                    </head>
-                    <body>
-                      <h1>${message}</h1>
-                      <button onclick="location.href='${goBackURL}'">Go Back</button>
-                    </body>
-                  </html>
-                `;
-
-                // Send the HTML response
-                res.send(htmlResponse);
-              }
+                              }              }
               connection.release();
             }
           );

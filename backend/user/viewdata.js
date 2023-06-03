@@ -73,51 +73,72 @@ router.get('/', function (req, res) {
             let htmlContent = `
             <!DOCTYPE html>
             <html>
-            <style>
-h1 {text-align: center;}
-</style>
-              <head>
-                <title>User Data</title>
-                <style>
-                  /* CSS for the cards */
-                  .card {
-                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-                    transition: 0.3s;
-                    width: 40%;
-                    margin: auto;
-                    margin-bottom: 20px;
-                  }
-
-                  .card:hover {
-                    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-                  }
-
-                  .container {
-                    padding: 2px 16px;
-                  }
-
-                  .edit-link {
-                    display: inline-block;
-                    padding: 5px 10px;
-                    background-color: #4CAF50;
-                    color: white;
-                    text-decoration: none;
-                    border-radius: 4px;
-                    transition: background-color 0.3s;
-                  }
-
-                  .edit-link:hover {
-                    background-color: #45a049;
-                  }
-
-                  .edit-link:active {
-                    background-color: #3e8e41;
-                  }
-                </style>
-              </head>
+              <style>
+                body {
+                  font-family: Arial, sans-serif;
+                  background-color: #f4f4f4;
+                }
+      
+                h1 {
+                  text-align: center;
+                }
+      
+                .back-button {
+                  display: inline-block;
+                  padding: 8px 16px;
+                  font-size: 14px;
+                  font-weight: bold;
+                  text-decoration: none;
+                  background-color: #4CAF50;
+                  color: #fff;
+                  border: none;
+                  border-radius: 4px;
+                  margin-bottom: 20px;
+                }
+      
+                .back-button::before {
+                  content: '←';
+                  margin-right: 5px;
+                }
+      
+                /* CSS for the cards */
+                .card {
+                  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                  transition: 0.3s;
+                  width: 40%;
+                  margin: auto;
+                  margin-bottom: 20px;
+                }
+      
+                .card:hover {
+                  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+                }
+      
+                .container {
+                  padding: 2px 16px;
+                }
+      
+                .edit-link {
+                  display: inline-block;
+                  padding: 5px 10px;
+                  background-color: #4CAF50;
+                  color: white;
+                  text-decoration: none;
+                  border-radius: 4px;
+                  transition: background-color 0.3s;
+                }
+      
+                .edit-link:hover {
+                  background-color: #45a049;
+                }
+      
+                .edit-link:active {
+                  background-color: #3e8e41;
+                }
+              </style>
               <body>
                 <h1>My Data</h1>
-            `;
+          `;
 
             // Append cards for each user
 // Append cards for each user
@@ -141,6 +162,9 @@ for (const row of results) {
   }
   htmlContent += `
       </div>
+    </div>
+    <div>
+    <a href="/libq/user">Back to the homepage</a>
     </div>
   `;
 }

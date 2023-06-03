@@ -129,7 +129,7 @@ connection.query(query0100, (err, results) => {
 
       // Assuming the query returns a single row with the `IdSchool` column
       const idSchool = results1[0].IdSchool;
-
+      console.log(idSchool);
       let query = `
         SELECT DISTINCT
           ISBN,
