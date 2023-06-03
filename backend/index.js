@@ -172,6 +172,8 @@ app.use('/libq/schooladmin/approvereservations', approveReservations);
 
 const submitReturns = require('./SchoolAdmin/submitReturns.js');
 app.use('/libq/schooladmin/submitreturns', submitReturns);
+const approveReservations = require('./SchoolAdmin/approveReservations.js');
+app.use('/libq/schooladmin/approvereservations', approveReservations);
 
 const confirmReturn = require('./SchoolAdmin/confirmReturn.js');
 app.use('/libq/schooladmin/confirmreturn', confirmReturn);
