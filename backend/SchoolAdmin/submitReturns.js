@@ -145,7 +145,7 @@ router.get('/', function (req, res) {
                 </tr>
                 ${tableRows.join('')}
               </table>
-              <a href="/libq/schooladmin" class="back-button">Go back to homepage</a>
+              <a href="/libq/schooladmin" class="back-button">Back to the homepage</a>
             </div>
           </body>
         </html>
