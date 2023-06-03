@@ -47,6 +47,23 @@ router.get('/', function (req, res) {
             text-align: center;
           }
 
+          .back-button {
+            display: inline-block;
+            padding: 8px 16px;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+          }
+
+          .back-button::before {
+            content: '←';
+            margin-right: 5px;
+          }
+
           .rent-button {
             display: inline-block;
             padding: 8px 16px;
@@ -75,6 +92,7 @@ router.get('/', function (req, res) {
             <div class="button-container">
               <button type="submit" class="rent-button">Make Rental</button>
             </div>
+            <a class="back-button" href="/libq/schooladmin">Back to the homepage</a>
           </form>
         </div>
       </body>
