@@ -162,6 +162,11 @@ app.use('/libq/schooladmin/reviewaverages', reviewAverages);
 const approveReservations = require('./SchoolAdmin/approveReservations.js');
 app.use('/libq/schooladmin/approvereservations', approveReservations);
 
+const submitReturns = require('./SchoolAdmin/submitReturns.js');
+app.use('/libq/schooladmin/submitreturns', submitReturns);
+
+const confirmReturn = require('./SchoolAdmin/confirmReturn.js');
+app.use('/libq/schooladmin/confirmreturn', confirmReturn);
 
 app.get('/libq/user/changepassword/:idlogged/', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/changepassword.html'));

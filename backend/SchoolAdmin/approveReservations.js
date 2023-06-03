@@ -129,8 +129,8 @@ router.get('/', function (req, res) {
       tableHTML += `
                 </tbody>
               </table>
-              <a class="back-button" href="/libq/schooladmin">Back to the homepage</a>
-            </div>
+              <a href="/libq/schooladmin/submitreturns" class="back-button" style="display: block; text-align: center;">Back</a>
+              </div>
           </body>
         </html>
       `;

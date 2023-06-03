@@ -56,7 +56,7 @@ router.post('/', function (req, res) {
           <body>
             <div class="container">
                 <h1>Request Discarded</h1>
-                <a href="/libq/schooladmin/approvereservations">Go back</a>
+                <a href="/libq/schooladmin/approvereservations" class="back-button" style="display: block; text-align: center;">Back</a>
             </div>
           </body>
         </html>
