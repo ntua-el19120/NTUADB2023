@@ -99,6 +99,8 @@ app.get('/libq/schooladmin/addbook1/:ISBN', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/addbook.html'));
 });
 
+
+
 app.get('/libq/createbook/create', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/createbook2.html'));
 });
@@ -175,6 +177,9 @@ app.use('/libq/generaladmin/SaApplications', SaApplication);
 const lateBorrowings = require('./SchoolAdmin/lateBorrowings.js');
 app.use('/libq/schooladmin/lateborrowings', lateBorrowings);
 
+const apprreview = require('./SchoolAdmin/approvereviews.js');
+app.use('/libq/schooladmin/approvereview', apprreview);
+
 const reviewAverages = require('./SchoolAdmin/ReviewAverages.js');
 app.use('/libq/schooladmin/reviewaverages', reviewAverages);
 
@@ -237,8 +242,6 @@ const create2book = require('./SchoolAdmin/createbook2.js');
 app.use('/libq/createbook2',create2book);
 
 
-
-
 const password = require('./user/changepassword.js');
 app.use('/libq/user/changepassword',password);
 
@@ -249,6 +252,11 @@ app.use('/libq/user/updatedata',updatedata);
 const viewdata = require('./user/viewdata.js');
 app.use('/libq/user/viewdata', viewdata);
 
+const approveUser = require('./SchoolAdmin/approveUser.js');
+app.use('/libq/schooladmin/approveuser', approveUser);
+
+const confirmApprove = require('./SchoolAdmin/confirmapprove.js');
+app.use('/libq/schooladmin/approve', confirmApprove);
 
 
 
