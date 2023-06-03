@@ -80,6 +80,31 @@ router.get('/', function (req, res) {
             return;
           }
 
+
+
+          let query000001 = `
+          CREATE or replace VIEW book_categories_view AS
+          SELECT
+            b.ISBN,
+            b.Title,
+            GROUP_CONCAT(DISTINCT bc.Category) AS Categories
+          FROM
+            book b
+          JOIN book_categories bc ON b.ISBN = bc.ISBN
+          GROUP BY b.ISBN, b.Title;
+          
+        `;
+
+        connection.query(query000001, (err, results) => {
+          if (err) {
+            console.error('Error executing query:', err);
+            res.status(500).json({ error: 'An error occurred while executing the query' });
+            connection.release();
+            return;
+          }
+
+
+
           let query10 = 'DROP VIEW IF EXISTS book_combined_view';
 
           connection.query(query10, (err, results) => {
@@ -202,5 +227,5 @@ router.delete('/deletebook/:ISBN', function (req, res) {
     });
   });
 });
-
+});
 module.exports = router;
