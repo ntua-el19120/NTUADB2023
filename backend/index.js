@@ -50,6 +50,7 @@ app.get('/libq/generaladmin/borrowings1', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/Borrowrings.html'));
 });
 
+
 app.get('/libq/generaladmin/givenbookcategory1', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/givenbookcategory.html'));
 });
@@ -150,8 +151,8 @@ app.use('/libq/generaladmin/top3categories', top3categories);
 const busyWriters = require('./GeneralAdmin/busywriters.js');
 app.use('/libq/generaladmin/busywriters', busyWriters);
 
-const bpy = require('./GeneralAdmin/borrowingsperyear.js');
-app.use('/libq/generaladmin/borrowingsperyear', bpy);
+const miki = require('./GeneralAdmin/borrowingsperyear.js');
+app.use('/libq/generaladmin/borrowingsperyear', miki);
 
 
 
@@ -167,8 +168,6 @@ app.use('/libq/schooladmin/lateborrowings', lateBorrowings);
 const reviewAverages = require('./SchoolAdmin/ReviewAverages.js');
 app.use('/libq/schooladmin/reviewaverages', reviewAverages);
 
-const approveReservations = require('./SchoolAdmin/approveReservations.js');
-app.use('/libq/schooladmin/approvereservations', approveReservations);
 
 const submitReturns = require('./SchoolAdmin/submitReturns.js');
 app.use('/libq/schooladmin/submitreturns', submitReturns);
