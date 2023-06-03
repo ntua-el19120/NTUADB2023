@@ -48,7 +48,7 @@ router.get('/', function (req, res) {
        SELECT sa.IdUsers IdSchoolAdmin, sa.Name as SchoolAdminName ,s.IdSchool, 'Teacher' AS PersonType, t.IdUsers AS PersonId, t.TeacherName AS PersonName, t.TeacherEmail AS PersonEmail
        FROM Teacher t
        JOIN SchoolAdmin sa ON t.IdSchool = sa.IdSchool
-       JOIN SchoolUnit s ON sa.IdSchool = s.IdSchool; `
+       JOIN SchoolUnit s ON sa.IdSchool = s.IdSchool; `;
 
        connection.query(query01, (err, results) => {
         if (err) {
@@ -56,6 +56,62 @@ router.get('/', function (req, res) {
           res.status(500).json({ error: 'An error occurred while executing the query' });
           return;
         }
+
+
+
+
+
+let query0010=`
+ CREATE or replace VIEW book_view AS
+ SELECT book.*, book_categories.Category
+ FROM book
+JOIN book_categories ON book.ISBN = book_categories.ISBN; `;
+
+connection.query(query0010, (err, results) => {
+ if (err) {
+   console.error('Error executing query:', err);
+   res.status(500).json({ error: 'An error occurred while executing the query' });
+   return;
+ }
+
+
+
+
+ let query0011=`
+ CREATE or replace VIEW book_categories_view AS
+SELECT
+  b.ISBN,
+  b.Title,
+  GROUP_CONCAT(DISTINCT bc.Category) AS Categories
+FROM
+  book b
+JOIN book_categories bc ON b.ISBN = bc.ISBN
+GROUP BY b.ISBN, b.Title; `;
+
+connection.query(query0011, (err, results) => {
+ if (err) {
+   console.error('Error executing query:', err);
+   res.status(500).json({ error: 'An error occurred while executing the query' });
+   return;
+ }
+
+
+
+
+ let query0100=`
+ CREATE or replace VIEW book_combined_view AS
+ SELECT book_view.*, availability.Copies, availability.AvailableCopies, availability.IdSchool, book_categories_view.Categories
+ FROM book_view
+ JOIN availability ON book_view.ISBN = availability.ISBN
+ JOIN book_categories_view ON book_view.ISBN = book_categories_view.ISBN; `;
+
+connection.query(query0100, (err, results) => {
+ if (err) {
+   console.error('Error executing query:', err);
+   res.status(500).json({ error: 'An error occurred while executing the query' });
+   return;
+ }
+
   
 
     let query1 = `
@@ -64,7 +120,7 @@ router.get('/', function (req, res) {
     JOIN LoggedUSer ON persons_per_school_view.PersonId = LoggedUSer.IdLogged;
     `;
 
-    connection.query(query1, (err, results) => {
+    connection.query(query1, (err, results1) => {
       if (err) {
         console.error('Error executing query:', err);
         res.status(500).json({ error: 'An error occurred while executing the query' });
@@ -72,7 +128,7 @@ router.get('/', function (req, res) {
       }
 
       // Assuming the query returns a single row with the `IdSchool` column
-      const idSchool = results[0].IdSchool;
+      const idSchool = results1[0].IdSchool;
 
       let query = `
         SELECT DISTINCT
@@ -110,6 +166,9 @@ router.get('/', function (req, res) {
   });
 });
   });
+});
+});
+});
 });
 
 module.exports = router;
