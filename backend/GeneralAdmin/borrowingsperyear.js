@@ -3,7 +3,6 @@ const router = express.Router();
 const pool = require('../connect');
 
 router.get('/', function (req, res) {
-  const { Category } = req.query;
 
   pool.getConnection(function (err, connection) {
     if (err) {
@@ -11,6 +10,29 @@ router.get('/', function (req, res) {
       res.status(500).json({ error: 'An error occurred while getting a database connection' });
       return;
     }
+
+
+
+
+    const query0 = `
+    CREATE OR REPLACE VIEW Persons_Per_School_View AS
+    SELECT sa.IdUsers as IdSchoolAdmin, sa.Name as SchoolAdminName, s.IdSchool, 'Student' AS PersonType, st.IdUsers AS PersonId, st.StudentName AS PersonName, st.StudentEmail AS PersonEmail
+    FROM Student st
+    JOIN SchoolAdmin sa ON st.IdSchool = sa.IdSchool
+    JOIN SchoolUnit s ON sa.IdSchool = s.IdSchool
+    UNION ALL
+    SELECT sa.IdUsers IdSchoolAdmin, sa.Name as SchoolAdminName,s.IdSchool, 'Teacher' AS PersonType, t.IdUsers AS PersonId, t.TeacherName AS PersonName, t.TeacherEmail AS PersonEmail
+    FROM Teacher t
+    JOIN SchoolAdmin sa ON t.IdSchool = sa.IdSchool
+    JOIN SchoolUnit s ON sa.IdSchool = s.IdSchool;
+    `;
+
+    connection.query(query0, (err, results) => {
+      if (err) {
+        console.error('Error executing query:', err);
+        res.status(500).json({ error: 'An error occurred while executing the query' });
+        return;
+      }
 
     const query = `
       SELECT NumBorrowedBooks, GROUP_CONCAT(DISTINCT SchoolAdminName) AS SchoolAdminList
@@ -135,4 +157,5 @@ router.get('/', function (req, res) {
   });
 });
 
+});
 module.exports = router;
