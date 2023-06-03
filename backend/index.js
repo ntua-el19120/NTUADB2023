@@ -75,6 +75,15 @@ app.get('/libq/generaladmin/createschool', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/createschool.html'));
 });
 
+app.get('/libq/user', function (req, res) {
+  res.sendFile(path.join(__dirname, '../frontend/user.html'));
+});
+
+const inputRental =  require('./SchoolAdmin/inputRental.js');
+app.use('/libq/schooladmin/inputrental', inputRental);
+
+const makeRental =  require('./SchoolAdmin/makeRental.js');
+app.use('/libq/schooladmin/makerental', makeRental);
 
 
 app.get('/libq/generaladmin/updateschool/:id', function (req, res) {
