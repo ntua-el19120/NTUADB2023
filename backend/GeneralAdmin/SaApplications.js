@@ -10,6 +10,30 @@ router.get('/', function (req, res) {
       return;
     }
 
+
+
+    const query = `
+    CREATE OR REPLACE VIEW schooladminsapplications AS
+    select
+      sa.Name AS name
+    from
+      (
+      schooladmin sa
+      join users u on(sa.IdUsers = u.IdUsers)
+      )
+    where
+      u.Approved = 0;
+    `;
+
+    connection.query(query, (err, results) => {
+      if (err) {
+        console.error('Error executing query:', err);
+        res.status(500).json({ error: 'An error occurred while executing the query' });
+        return;
+      }
+
+
+
     const query = 'SELECT DISTINCT * FROM SchoolAdminsApplications';
 
     connection.query(query, (err, results) => {
@@ -186,6 +210,7 @@ router.post('/delete', (req, res) => {
       res.redirect('/libq/generaladmin/SaApplications');
     });
   });
+});
 });
 
 module.exports = router;
