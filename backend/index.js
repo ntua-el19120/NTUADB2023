@@ -85,7 +85,13 @@ app.get('/libq/schooladmin', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/SchoolAdmin.html'));
 });
 
+app.get('/libq/schooladmin/addbook1/:ISBN', function (req, res) {
+  res.sendFile(path.join(__dirname, '../frontend/addbook.html'));
+});
 
+app.get('/libq/createbook/create', function (req, res) {
+  res.sendFile(path.join(__dirname, '../frontend/createbook2.html'));
+});
 
 
 // Serve the login page
@@ -94,6 +100,8 @@ app.get('/libq/schooladmin', function (req, res) {
 const login = require('./login');
 app.use('/libq/login', login);
 
+const addbook = require('./SchoolAdmin/addbook.js');
+app.use('/libq/addbook', addbook);
 
 const chgpaswd = require('./GeneralAdmin/changepassword.js');
 app.use('/libq/generaladmin/changepassword', chgpaswd);
@@ -162,6 +170,11 @@ app.use('/libq/schooladmin/reviewaverages', reviewAverages);
 const approveReservations = require('./SchoolAdmin/approveReservations.js');
 app.use('/libq/schooladmin/approvereservations', approveReservations);
 
+const submitReturns = require('./SchoolAdmin/submitReturns.js');
+app.use('/libq/schooladmin/submitreturns', submitReturns);
+
+const confirmReturn = require('./SchoolAdmin/confirmReturn.js');
+app.use('/libq/schooladmin/confirmreturn', confirmReturn);
 
 app.get('/libq/user/changepassword/:idlogged/', function (req, res) {
   res.sendFile(path.join(__dirname, '../frontend/changepassword.html'));
@@ -209,6 +222,8 @@ app.get('/libq/schooladmin/createbook1', function (req, res) {
 const createbook = require('./SchoolAdmin/createbook.js');
 app.use('/libq/createbook',createbook);
 
+const create2book = require('./SchoolAdmin/createbook2.js');
+app.use('/libq/createbook2',create2book);
 
 
 

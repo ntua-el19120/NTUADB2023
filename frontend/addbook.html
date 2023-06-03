@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- CSS styles and other code -->
+</head>
+<body>
+  <h1>Add Book Copies</h1>
+
+  <form id="addBookForm" action="/libq/addbook/:ISBN" method="post">
+    <label for="copies">Number of Copies:</label>
+    <input type="number" id="copies" name="Copies" required>
+
+    <button type="submit">Add Copies</button>
+  </form>
+
+  <script>
+    // Get the current URL
+    const url = window.location.href;
+    // Extract the ISBN value from the URL
+    const isbn = url.split('/').pop();
+    // Set the ISBN value as the action of the form
+    const addBookForm = document.getElementById('addBookForm');
+    addBookForm.action = `/libq/addbook/${isbn}`;
+  </script>
+</body>
+</html>

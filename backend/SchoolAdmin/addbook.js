@@ -3,45 +3,70 @@ const router = express.Router();
 const pool = require('../connect');
 
 
-router.get('/', function (req, res) {
+  
+   router.post('/:ISBN', function (req, res) {
 
-    pool.getConnection(function (err, connection) {
-            if (err) {
-              console.error('Error getting database connection:', err);
-              res.status(500).json({ error: 'An error occurred while getting a database connection' });
-              return;
+      
+       let ISBN = req.params.ISBN;
+  
+       const { Copies } = req.body;
+    
+       pool.getConnection(function (err, connection) {
+         if (err) {
+           console.error('Error getting database connection:', err);
+           res.status(500).json({ error: 'An error occurred while getting a database connection' });
+           return;
+         }
+    
+         let query = 'SELECT s.idSchool as idSchool FROM schooladmin s, loggeduser l WHERE s.idusers=l.idlogged';
+    
+         connection.query(query, (error, results) => {
+           if (error) {
+             console.error('Error retrieving school unit:', error);
+             res.status(500).json({ error: 'An error occurred while retrieving the school unit' });
+             return;
+           }
+    
+           const School = results[0].idSchool; // Assign the retrieved school ID to the School variable
+    
+           const updateBookQuery = `
+           INSERT INTO Availability 
+           (Copies, AvailableCopies, IdSchool, ISBN)
+           VALUES (?, ?, ?, ?)
+         `;
+             
+          connection.query(
+            updateBookQuery,
+            [Copies, Copies, School, ISBN],
+            (error, bookUpdateResults) => {
+              if (error) {
+                console.error('Error updating book:', error);
+                res.status(500).json({ error: 'An error occurred while updating the book' });
+                return;
+              }
+                     
+                      if (
+                        bookUpdateResults.affectedRows > 0
+                      ) {
+                        res.redirect('/libq/schooladmin/viewbooks1');
+                      } else {
+                        res.status(404).json({ error: 'Book not found' });
+                      }
+                    }
+                  );
+                }
+              );
             }
-        
-          const query2 = 'SELECT s.idSchool as idSchool FROM schooladmin s, loggeduser l WHERE s.idusers=l.idlogged';
-
-      connection.query(query2, (error, results) => {
-        if (error) {
-          console.error('Error retrieving school unit:', error);
-          res.status(500).json({ error: 'An error occurred while retrieving the school unit' });
-          return;
-        }
-
-        const idSchool = results[0].idSchool; // Assign the retrieved school ID to the School variable
+          );
+        });
+  
 
 
-        query000=`SELECT b.* 
-        FROM book AS b
-        LEFT JOIN availability AS a ON b.ISBN = a.ISBN AND a.Idschool = 1
-        WHERE a.ISBN IS NULL order by b.Title`
 
-        
-        connection.query(query000, [idSchool], (err, results) => {
-            if (err) {
-              console.error('Error executing query:', err);
-              res.status(500).json({ error: 'An error occurred while executing the query' });
-              connection.release();
-              return;
-            }
 
-            res.json(results);
-        
 
-});});});});
+
+
 
 
 
