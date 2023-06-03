@@ -73,6 +73,9 @@ router.get('/', function (req, res) {
             let htmlContent = `
             <!DOCTYPE html>
             <html>
+            <style>
+h1 {text-align: center;}
+</style>
               <head>
                 <title>User Data</title>
                 <style>
@@ -145,7 +148,6 @@ for (const row of results) {
 
             // Complete the HTML content
             htmlContent += `
-                <h3><a href="http://localhost:9103/libq/generaladmin">Back to the homepage</a></h3>
               </body>
             </html>
             `;
