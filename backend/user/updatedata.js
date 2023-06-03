@@ -107,7 +107,7 @@ router.post('/:idlogged', function (req, res) {
                 // Check if any rows were affected by the update query
                 if (results.affectedRows > 0) {
                   const goBackURL = '/libq/user/viewdata'; // Specify the URL to go back to
-                  const message = 'user data updated successfully';
+                  const message = 'User data updated successfully.';
 
                   // Generate HTML response with the "Go Back" button and the message
                   const htmlResponse = `
