@@ -4,7 +4,11 @@ const pool = require('../connect');
 
 // Route to fetch all school units
 router.get('/', function (req, res) {
-  const query = 'SELECT * FROM SchoolUnit';
+  const query = `
+  SELECT S.*
+  FROM SchoolUnit S , SCHOOLADMIN A, USERS U
+  WHERE S.SchoolAdmin = A.NAME AND A.IDUSERS= U.IDUSERS AND U.APPROVED=1;
+  `;
 
   pool.getConnection(function (err, connection) {
     if (err) {
