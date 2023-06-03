@@ -207,7 +207,7 @@ htmlTable += `
     }
   </style>
     <h3>if your review is red it means it is not approved (yet) :)</h3>
-    <h3><a href="http://localhost:9103/libq/generaladmin">Back to the homepage</a></h3>
+    <h3><a href="http://localhost:9103/libq/user">Back to the homepage</a></h3>
   </html>
 `;
 
