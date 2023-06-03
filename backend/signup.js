@@ -80,7 +80,7 @@ router.post('/', (req, res) => {
               return res.status(500).send('Internal Server Error');
             }
 
-            res.redirect('/libq/student');
+            res.redirect('/libq/user');
           });
         } else if (userType === 'teacher') {
           // Process teacher registration
@@ -105,7 +105,7 @@ router.post('/', (req, res) => {
               return res.status(500).send('Internal Server Error');
             }
 
-            res.redirect('/libq/teacher');
+            res.redirect('/libq/user');
           });
         } else {
           connection.release();
