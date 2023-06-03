@@ -3,6 +3,42 @@
 <head>
   <title>Pecaboooooooooo</title>
   <style>
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  max-width: 500px;
+  width: 90%;
+}
+
+.popup-content {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #888;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.popup-close:hover {
+  color: #555;
+}
+
+
     body {
       font-family: 'Roboto', sans-serif;
       background-color: #f0f0f0;
@@ -279,8 +315,10 @@
                 <strong>Categories:</strong>
                 ${item['Categories'].split(',').map(category => `<span class="category">${category}</span>`).join('')}
             </div>
-            <a class="choose-button" href="/libq/user/choosebook/${item['ISBN']}">Choose</a>
-          `;
+            <form method="POST" action="/libq/user/choosebook">
+                <input type="hidden" name="ISBN" value="${item['ISBN']}">
+                <button type="submit" style="padding: 6px 6px; font-size: 12px; font-weight: bold; text-decoration: none; background-color: #4CAF50; color: #fff; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s ease; vertical-align: top; width: 50px; margin-left: 10px; box-sizing: content-box;">Choose</button>
+            </form>          `;
 
           resultsContainer.appendChild(card);
         }
@@ -292,11 +330,38 @@
     // Trigger the search when the page loads
     searchBooks();
 
-    function toggleSummary(image) {
-      const card = image.parentNode;
-      const summary = card.querySelector('.summary');
-      summary.style.display = summary.style.display === 'none' ? 'block' : 'none';
-    }
+// Declare a variable to store the reference to the popup element
+let popup = null;
+
+function toggleSummary(image) {
+  const card = image.parentNode;
+  const summary = card.querySelector('.summary');
+
+  // Check if the popup is already open
+  if (popup) {
+    // If the popup is open, close it
+    closePopup();
+  } else {
+    // If the popup is not open, create and display it
+    popup = document.createElement('div');
+    popup.classList.add('popup');
+    const content = document.createElement('div');
+    content.classList.add('popup-content');
+    content.innerHTML = `
+      <span class="popup-close" onclick="closePopup()">&times;</span>
+      <p>${summary.innerText}</p>
+    `;
+    popup.appendChild(content);
+    document.body.appendChild(popup);
+  }
+}
+
+function closePopup() {
+  // Remove the popup element from the DOM and reset the variable
+  popup.remove();
+  popup = null;
+}
+
 
   </script>
   <h3><a href="http://localhost:9103/libq/user">Back to the homepage</a></h3>
